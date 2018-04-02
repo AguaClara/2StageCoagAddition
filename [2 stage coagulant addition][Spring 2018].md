@@ -51,7 +51,16 @@ Combine these four sections into one paragraph. An abstract needs to be cohesive
 
 </div>
 
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+
+>>>>>>> 2ff1d7344685cdca410138a665f777ccc37b73c9
+>>>>>>> 7949f7706c15424eacd2228f8b67c5e3d36178de
 **Up-to-date abstract:** In the past, AguaClara built a predictive model by studying the effect of humic acid, clay and PAC coagulant on flocculation. Based on the modelling result and the study of bonding mechanism, it was hypothesized that two-stage coagulant addition, namely a separate coagulant addition, would increase the particle removal efficiency  while maintaining the coagulant dosage. During the first stage, coagulant was added to offset the effect of humic acid in water, then the second stream of coagulant can aggregate clay. The nano-aggregate formed in the first stage and small particles join to form big flocs. Last semester, our group designed and fabricated the experimental apparatus. This semester, using the same apparatus, our group conducted experiment for both one stage and two stage coagulant addition to. Our group will keep generating experimental data to compare the efficiency of different coagulant addition method and try to close the debate of one stage versus two stage.
 
 **Apr 2 updated abstract:**
