@@ -58,33 +58,23 @@ Outline of the remaining report present and easily understandable
 **the logic**: first give the background of NOM effect on flocculation and point out the problem: NOM reduce flocculation efficiency. then explain why we want to study its effect-want to optimize operation condition. then discuss what we learned in the past research-mainly the model and its result. then develop the hypothesis-two stage can save coagulant. after that our experiment test the particle removal efficiency of both 1stage and 2stage addition. so that we can validate our hypothesis: whether 2stage is more efficient. then out line, in the following report we would break down our experiment, from theoretical basis to apparatus design, then experiment process, finally we would analyze the data we generate and offer some conclusion.
 
 Apr 2 (Ching):add how flocculation in general works but not just critical
+Apr 8 (Du):it is unnecessary to explain flocculation in our report, readers should not be laymen who have no idea about flocculation.  
 
-Flocculation is among the most applied processes for water and wastewater treatment, therefore, a thorough understanding of the physical and chemical process in flocculation is critical to the optimization of water treatment process, and thus a predictive model to describe the flocculation process is needed. However, the model built in the past research of AguaClara only considered the clay and coagulant in water, and failed to take natural organic matters into consideration. The natural organic matters, NOM, is ubiquitous in natural water system. NOM is matter composed of organic compounds from the remains of organisms such as plants and animals and their waste products .[1]["Natural Organic Matter," GreenFacts, 22 Apr, 2007] The application of flocculation to remove NOM from drinking water supplies was efficient and helped avoiding the formation of disinfection by products (DBPs).[2][Mika et al.,2018] Nonetheless, with the presence of NOM in water, the efficiency of flocculation was substantially reduced. Hence, in order to develop flocculation processes that optimize the operating conditions, which include mainly the amount of coagulants, we have to study the effect of NOM on flocculation.
+Flocculation is among the most applied processes for water and wastewater treatment, therefore, a thorough understanding of the physical and chemical process in flocculation is critical to the optimization of water treatment process, and thus a predictive model to describe the flocculation process is needed.**/(basic definition)** However, the model built in the past research of AguaClara only considered the clay and coagulant in water, and failed to take natural organic matters into consideration. The natural organic matters, NOM, is ubiquitous in natural water system. NOM is matter composed of organic compounds from the remains of organisms such as plants and animals and their waste products and can be generated within the water source through biological activities, or introduced to the water body via drainage within watersheds including substances generated during the breakdown of terrestrial organisms. (Hudson et al., 2007) The application of flocculation to remove NOM from drinking water supplies was efficient and helped avoiding the formation of disinfection by products (DBPs).[2](Mika et al.,2018) Nonetheless, for processes based on the use of chemicals (e.g. coagulation and oxidation) and materials (e.g. adsorption), the increasing concentrations of NOM requires using more chemicals or materials (Xu et al., 2016a), which ultimately leads to the generation of more sludge or spent materials. Hence, in order to develop flocculation processes that optimize the operating conditions, which include mainly the amount of coagulants, we have to study the effect of NOM on flocculation.**/(general incentives and problem of our research)**
 
-In the past research, the original model that only take coagulant and clay into account has been extended by simultaneously taking the effect of NOM on flocculation into consideration. Based on the bonding mechanism between clay, humic acid, and coagulant, assumption was raised that the coagulant can be saved by adding separately. It was assumed that after stage 1, all coagulant would be coated by humic acid. Thus the coagulant that is added in stage 2 can just function as an agglomerant to achieve better performance in flocculation process and in the aggregation process. If the coagulant dosage can be guided by a predictive model, operating conditions of flocculation process can be optimized and coagulant will be used more efficiently. Saving the coagulant will in turn reduce operational cost of water treatment plants. Since AguaClara is an engineering project team focuses on sustainable drinking water supply in developing region, cost should always be a main concern.
+In the past research, the original model which only takes coagulant and clay into account has been extended by considering the effect of NOM on flocculation. After studied the bonding mechanism between clay, humic acid, and coagulant, it was found that smaller particles(e.g. humic acid, HA) move faster in the fluid than larger particles(e.g. clay). Thus in synthetic water composed by clay, HA and coagulant, HA will collide and attach to coagulant before clay. Once the coagulant surface was occupied by HA, its performence will decrease because occupied surface can not attach to clay or nano-aggregate. Assumption was raised that the coagulant can be saved by adding separately and this addition method we called it two-stage coagulant addition.**/(state our hypothesis)** During the first stage, coagulant was added to offset the effect of humic acid in water, then the second stream of coagulant can aggregate clay, the nano-aggregate formed in the first stage and small particles join to form big flocs.It was assumed that after first stage, all coagulant would be coated by humic acid. Thus the coagulant that is added in second stage can just function as an agglomerant to achieve better performance in aggregation.**/(explain our hypothesis)** Furthermore, if the coagulant dosage can be guided by a predictive model, operating conditions of flocculation process can be optimized and coagulant will be used more efficiently. Saving the coagulant will in turn reduce the operational cost of water treatment plants. Since AguaClara is an engineering project team focuses on sustainable drinking water supply in developing region, cost should always be a main concern.**/(prospective contribution to AC team)**
 
-(Ching: talk about how agglomerant can achieve better performance)
 In this report, findings in literature review and our group's previous work is discussed, following that is the experiment design and apparatus set-up of our team in this semester. Findings and conclusion based on our experiment data and analysis is described at the end of main body. Details in experimental operation such as ProCoDA setting, chemical dosage calculation, experiment process can be found after the main text.
 
 <div class="alert alert-block alert-danger">
-Good content detailing the importance, but issues with technical writing.
-
-Good connection back to importance on cost and resource availability and description of why 2 stage coagulant addition may work.
-
-The overall description of the project would be confusing to anyone who hasn't heard about it before. Keep in mind your audience is a new member on the team. So think what did you need to know to understand this and then include that info.
+~~Good content detailing the importance, but issues with technical writing.Good connection back to importance on cost and resource availability and description of why 2 stage coagulant addition may work.The overall description of the project would be confusing to anyone who hasn't heard about it before. Keep in mind your audience is a new member on the team. So think what did you need to know to understand this and then include that info.~~
 </div>
 
 ## Literature Review and Previous Work
 **logic**: describe previous work first. in this part, talk about Yingda Du's thesis and our report after that. then is the lit review, lit review should be organized in the following fashion:1.why we do this 2. what did other researcher do 3.
 
 <div class="alert alert-block alert-danger">
-Need to pick first or third person and then stick with it.
-
-What is PACl?
-
-What important information did you get from Yingda's thesis?
-
-This is more of a restatement of the itnroduction. This section should summarize information and background from sources outside and within AguaClara
+Need to pick first or third person and then stick with it.What is PACl?What important information did you get from Yingda's thesis?This is more of a restatement of the itnroduction. This section should summarize information and background from sources outside and within AguaClara
 </div>
 
 
@@ -448,6 +438,11 @@ Liu, Ting et al. 2011. “Effect of Two-Stage Coagulant Addition on Coagulation-
 
 Sudoh, Ryou et al. 2015. “Removal of Dissolved Humic Acid from Water by Coagulation Method Using Polyaluminum Chloride (PAC) with Calcium Carbonate as Neutralizer and Coagulant Aid.” Journal of Environmental Chemical Engineering 3(2): 770–74.
 
+Xu, Y., Chen, T., Liu, Z., Zhu, S., Cui, F., Shi, W., 2016. The impact of recycling alum- humic-floc (AHF) on the removal of natural organic materials (NOM): behavior of coagulation and adsorption. Chem. Eng. J. 284, 1049e1057.
+
+Hudson, N., Baker, A., Reynolds, D., 2007. Fluorescence analysis of dissolved organic matter in natural, waste and polluted waters - a review. River Res. Appl. 23, 631e649.
+
+Knauer, K., Homazava, N., Junghans, M., Werner, I., 2017. The influence of particles on bioavailability and toxicity of pesticides in surface water. Integr. Environ. Assess. Manage. 13, 585e600.
 
 <div class="alert alert-block alert-danger">
 What/Where are your sources? (including Yingda's thesis)
