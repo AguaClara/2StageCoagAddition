@@ -145,7 +145,7 @@ This section needs a lot of work for understandability.
 
 ### Experimental Design
 
-Two upflow contact chambers are set before the fluid enters the flocculator, so that the coagulants are allowed more time and space to collide with particles in water. During the first stage of addition, in the first contact chamber, coagulants collide and then are covered by humic acid. Originally, the pump was designed to input the correct coagulant dosage before each contact chamber, allowing the two stage coagulant addition. However, the ProCoDA system used had a limit of controlling maximum of two pumps at the same time, therefore, one coagulant pump has to beunder manual control. So we changed the design, we used the second pump to drain from the first pump when we ran the two stages addition experiment.
+ProCoDA (Process Control and Data Acquisition) software was used to automate data collection and control the experimental apparatus. Two upflow contact chambers are set before the fluid enters the flocculator, so that the coagulants are allowed more time and space to collide with particles in water. uring the first stage of addition, coagulants collide and then are covered by humic acid in the first contact chamber. Originally, the pump was designed to input the correct coagulant dosage before each contact chamber, allowing the two stage coagulant addition. But due to the limitation of ProCoDA, which can only control a maximum of two pumps at the same time, one of the two coagulant pumps had to be controlled manually. In order to achieve the effect of two-stage addition, under the modified design, the coagulant for the second pump was drained from the first coagulant pump. (Ching: will put more details here)
 
 
 
