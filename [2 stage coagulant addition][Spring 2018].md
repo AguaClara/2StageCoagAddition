@@ -11,12 +11,10 @@ Please do not delete my comments. Address them in the report and I will check th
 </div>
 
 ## Abstract
-~~**Previous work:** Last semester, our group designed and fabricated the experiment apparatus and conducted experiment for both 1 stage and 2 stages coagulant addition. Our data is not enough to come up with a grand conclusion, but it suggested that there might be trade-off when we switch from 1 stage to 2 stages. Besides, we also made some simplification to our system.~~
 
 <div class="alert alert-block alert-danger">
-To grader:
 
-What is the experiment apparatus?
+~~What is the experiment apparatus?
 
 What does 1 stage and 2 stages coagulant addition do and what are their difference?
 
@@ -24,14 +22,7 @@ What were the Conclusions? What are the trade-offs from the switch from 1 stage 
 
 What are simplications?
 
-</div>
-
-~~**Goals & Objectives:** This semester, our group focused on comparing 1 stage addition with 2 stage addition and carrying on the experiment with different influent turbidities, coagulant dosage, and humic acid concentration as well as trying to improve Yingda's coagulant dosage model. Besides, more insight on the particles bond mechanism, flocculation, and geometry of the contact chambers were needed. Eventually, we will try to close the debate of 1 stage vs 2 stage, come up with a conclusion and generate enough data to support it.~~
-
-<div class="alert alert-block alert-danger">
-Who is Yingda?
-
-What is 1 stage vs. 2 stage addition? What are you adding?
+What is 1 stage vs. 2 stage addition? What are you adding?~~
 </div>
 
 ~~**What we have accomplished:** Up to now we have completed the literature review, and working on apparatus set up. The research was based on Yingda's thesis, who studied the effect of humic acid on the coagulant dosing model. Based on the bonding mechanism, it could be hypothesized that two-stage coagulant addition would increase the removal efficiency of particles while maintaining the coagulant dosage.~~
@@ -39,8 +30,6 @@ What is 1 stage vs. 2 stage addition? What are you adding?
 <div class="alert alert-block alert-danger">
 this section is much better than the first two = better focus
 </div>
-
-~~**Future work:** We have encountered several problems: the high pressure within the system, the leak caused by the poor connection. In next few weeks, we would fix those problems and begin to conduct our experiment. After discussed with Monroe, we suspected that the size of our first contact chamber is not enough for the HA and coag nanoparticles in the synthetic water to generate enough successful collision, so recalculation and test on the CC are also required.~~
 
 <div class="alert alert-block alert-danger">
 Use full, complete sentences.
@@ -80,15 +69,6 @@ In the past research, the original model that only take coagulant and clay into 
 (Ching: talk about how agglomerant can achieve better performance)
 In this report, findings in literature review and our group's previous work is discussed, following that is the experiment design and apparatus set-up of our team in this semester. Findings and conclusion based on our experiment data and analysis is described at the end of main body. Details in experimental operation such as ProCoDA setting, chemical dosage calculation, experiment process can be found after the main text.
 
-
-<div class="alert alert-block alert-danger">
-
-Define NOM
-
-</div>
-
-
-
 <div class="alert alert-block alert-danger">
 Good content detailing the importance, but issues with technical writing.
 
@@ -112,19 +92,6 @@ What important information did you get from Yingda's thesis?
 This is more of a restatement of the itnroduction. This section should summarize information and background from sources outside and within AguaClara
 </div>
 
-~~Humic acid is considered natural organic matter, and it is of the final components made after the breakdown of plant and animal decay. It is commonly found in the soil as it promotes a fertility, it is also used as fertilizers. There is an increase in humic acid concentrations in the wet seasons. The most visual issue of humic acid is that it cause water to change color. However, in the process of creating potable water, the addition of other compounds and elements with humic acid assists the formation of harmful byproducts such as trihalomethane and haloacetic acid.~~
-
-<div class="alert alert-block alert-danger">
-Consider "Humic acid is a component of natural organic matter" rather than "Humic acid is considered natural organic matter and it is of..."
-
-Why is there an increase in humic acid in the wet seasons?
-
-Do these by-products affect human health or environmental health?
-
-Where are your intext citations?
-
-Do an indepth review and focus on technical writing.
-</div>
 
 ### Observations and a Geometric Explanation of the Effects of Humic Acid (HA) on Flocculation
   The general science behind flocculation can be understood by analyzing the thesis of the observations and a geometric explanation of the effects of HA flocculation by Yingda Du. The thesis gives a clear layout of why we are using HA as the natural organic matter as well as the chemistry behind the creation of flocs. We are using HA as the exemplary compound to represent dissolved NOM because it is the most commonly found form of NOM in our surroundings. Clay is used to represent the colloidal solids. As NOM is easily found in our soil and water, it increases our need of coagulant to promote flocculation of dissolved particles in water.  Hence why in our model of the experiment we add humic acid and clay with the coagulant PaCl (polyaluminium chloride). However, there is a cut-off point as to how much coagulant we can add to the raw water for it to be beneficial in the removal of NOM. This observation shows that some NOM becomes increasingly uncooperative to being removed due to the increased presence of coagulant. Our understanding of the lack of floc formation in the presence of increased coagulant addition is limited, yet it is an area of interest in determining the magnitude of the effect.
