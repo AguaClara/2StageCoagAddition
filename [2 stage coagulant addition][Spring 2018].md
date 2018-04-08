@@ -78,6 +78,10 @@ In this report, findings in literature review and our group's previous work is d
 </div>
 
 ### Previous Work of AguaClara Project Team
+The research of Yingda Du, previous graduate student on the project team, explored the effects of NOM on flocculation her thesis (Du, 2017) determined the effects of humic acid on the particle size distribution of flocs and settled effluent turbidity for a synthetic surface water treated with polyaluminum chloride (PACl) as coagulant. The results from this thesis showed that presence of NOM increased the concentration of flocs and shifted the particle size distribution toward smaller particle sizes with a concurrent increase in the effluent turbidity. A mechanistically based hydraulic flocculation model, which took effects of humic acids into account, was developed in this research based on the observations of residual turbidity. The model was validated by successfully predicting data from independent experiments. The predictive model provided a useful guideline for effective coagulant dosages in water treatment.
+
+
+
 ### Previous Work of Two-Stage Coagulant Addition Subteam
 In Fall 2017 semester, TSCA (two-stage coagulant addition) subteam built the theoretical basis for future work by studying research report of previous particle removal research teams in AguaClara and relevant literature online. TSCA subteam built their apparatus based on the design of Contact Chamber subteam. Compared with previous group, the set-up includes five pumps to achieve a precise control on fluid flow rate. Two down-flow contact chambers, serving as places for particle collision, were applied in series before fluid enter flocculator. The apparatus set-up of Spring 2018 semester was based on the previous design and the detail will be explained in depth in later chapters.
 
