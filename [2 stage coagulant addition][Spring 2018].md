@@ -57,10 +57,14 @@ Outline of the remaining report present and easily understandable
 
 **the logic**: first give the background of NOM effect on flocculation and point out the problem: NOM reduce flocculation efficiency. then explain why we want to study its effect-want to optimize operation condition. then discuss what we learned in the past research-mainly the model and its result. then develop the hypothesis-two stage can save coagulant. after that our experiment test the particle removal efficiency of both 1stage and 2stage addition. so that we can validate our hypothesis: whether 2stage is more efficient. then out line, in the following report we would break down our experiment, from theoretical basis to apparatus design, then experiment process, finally we would analyze the data we generate and offer some conclusion.
 
+<<<<<<< HEAD
 ~~Apr 2 (Ching):add how flocculation in general works but not just critical
 Apr 8 (Du):it is unnecessary to explain flocculation in our report, readers should not be laymen who have no idea about flocculation. ~~
 
 Flocculation is among the most applied processes for water and wastewater treatment. Therefore, a thorough understanding of the physical and chemical process in flocculation is critical to the optimization of water treatment process, and so a predictive model to describe the flocculation process is needed.**/(basic definition)** However, the model built in the past research of AguaClara only considered the presence of clay and coagulant in water, and failed to take natural organic matters (NOM) into consideration. Natural organic matters, NOMs, are matters composed of organic compounds from the remains and waste products of organisms such as plants and animals and are ubiquitous in the natural water system. NOMs can be generated within the water source through biological activities, or introduced to the water body via drainage within watersheds, including substances generated during the breakdown of terrestrial organisms (Hudson et al., 2007). The application of flocculation to remove NOM from drinking water supplies is efficient, and helps avoiding the formation of disinfection by products (DBPs).[2](Mika et al.,2018) For processes based on the use of chemicals (e.g. coagulation and oxidation) and materials (e.g. adsorption), the increasing concentrations of NOM require the use of more chemicals or materials (Xu et al., 2016a), which ultimately leads to the generation of more sludge or spent materials. Hence, the effect of NOM on flocculation is crucial in developing flocculation processes that optimize the operating conditions, including the amount of coagulants.**/(general incentives and problem of our research)**
+=======
+Flocculation is among the most applied processes for water and wastewater treatment, therefore, a thorough understanding of the physical and chemical process in flocculation is critical to the optimization of water treatment process, and thus a predictive model to describe the flocculation process is needed.**/(basic definition)** However, the model built in the past research of AguaClara only considered the clay and coagulant in water, and failed to take natural organic matters into consideration. The natural organic matters, NOM, is ubiquitous in natural water system. NOM is matter composed of organic compounds from the remains of organisms such as plants and animals and their waste products and can be generated within the water source through biological activities, or introduced to the water body via drainage within watersheds including substances generated during the breakdown of terrestrial organisms. (Hudson et al., 2007) The application of flocculation to remove NOM from drinking water supplies was efficient and helped avoiding the formation of disinfection by products (DBPs).[2](Mika et al.,2018) Nonetheless, for processes based on the use of chemicals (e.g. coagulation and oxidation) and materials (e.g. adsorption), the increasing concentrations of NOM requires using more chemicals or materials (Xu et al., 2016a), which ultimately leads to the generation of more sludge or spent materials. Hence, in order to develop flocculation processes that optimize the operating conditions, which include mainly the amount of coagulants, we have to study the effect of NOM on flocculation.**/(general incentives and problem of our research)**
+>>>>>>> 50df99b016ebd883f4d098e2faad149906e6dc7c
 
 In the past research, the original model that only takes coagulant and clay into account has been extended by considering the effect of NOM on flocculation. After studying the bonding mechanism between clay, humic acid (HA), and coagulant, it was found that smaller particles(e.g. humic acid, HA) move faster in the fluid than larger particles(e.g. clay). Thus, in synthetic water composed by clay, HA and coagulant, HA collides and attaches to coagulant before clay. Once the coagulant surface is occupied by HA, the coagulant performance decreases because the occupied surface cannot attach to clay or nano-aggregate. It was assumed less coagulant is needed when it is added separately, a so-called two-stage coagulant addition, meaning the coagulants are added at two different stages of the treatment process.**/(state our hypothesis)** During the first stage, the coagulant is added to offset the effect of humic acid in water; then in the second stage, the second stream of the remaining coagulant can aggregate clay, which joins the nano-aggregate formed in the first stage, and small particles to form big flocs. It was assumed that after the first stage, all coagulant would be coated by humic acid. Thus, the coagulant added in second stage can function simply as an agglomerant to achieve better performance in aggregation.**/(explain our hypothesis)** Furthermore, if the coagulant dosage can be guided by a predictive model, operating conditions of flocculation process can be optimized and coagulant can be used more efficiently. Since AguaClara is an engineering project team focuses on sustainable drinking water supply in developing region, cost is a main concern. Therefore, using less amount of total coagulants in a two-stage settings is beneficial that it reduces the operational cost of water treatment plants.**/(prospective contribution to AC team)**
 
@@ -78,22 +82,28 @@ In this report, findings in literature review and our group's previous work is d
 </div>
 
 ### Previous Work of AguaClara Project Team
+The research of Yingda Du, previous graduate student on the project team, explored the effects of NOM on flocculation her thesis (Du, 2017) determined the effects of humic acid on the particle size distribution of flocs and settled effluent turbidity for a synthetic surface water treated with polyaluminum chloride (PACl) as coagulant. The results from this thesis showed that presence of NOM increased the concentration of flocs and shifted the particle size distribution toward smaller particle sizes with a concurrent increase in the effluent turbidity. A mechanistically based hydraulic flocculation model, which took effects of humic acids into account, was developed in this research based on the observations of residual turbidity. The model was validated by successfully predicting data from independent experiments. The predictive model provided a useful guideline for effective coagulant dosages in water treatment.
+
+
+
 ### Previous Work of Two-Stage Coagulant Addition Subteam
 In Fall 2017 semester, TSCA (two-stage coagulant addition) subteam built the theoretical basis for future work by studying research report of previous particle removal research teams in AguaClara and relevant literature online. TSCA subteam built their apparatus based on the design of Contact Chamber subteam. Compared with previous group, the set-up includes five pumps to achieve a precise control on fluid flow rate. Two down-flow contact chambers, serving as places for particle collision, were applied in series before fluid enter flocculator. The apparatus set-up of Spring 2018 semester was based on the previous design and the detail will be explained in depth in later chapters.
 
+Studying the operation of ProCoDA software was another critical task the subteam accomplished in Fall 2017 semester. ProCoDA, a process control software software, allows the user to control many parts of the experimental apparatus and to automate data collection. Specifically, ProCoDA can control the speed of peristaltic pumps, regulate flow through solenoid valves, and measure water quality parameters such as turbidity by connecting to the turbidity meter. Automated data acquisition can record the speed of pump, turbidity of water, mass of container to spreadsheet directly. The resulting data was analyzed with Excel, Python codes.Using the increment function built in ProCoDA enable the team to conduct series of control experiments without staying in the lab. More detail of our experiment will be discussed in Method part.**/(processing)** The original MathCAD base code used to calculate coagulant dosage, the composition of clay-HA mixture and pump speed was translated to Python codes, the code is attached after the main text.
+
+According to the generated data, two stage coagulant addition need more time to form floc blanket than one stage addition. But in several trials with relatively low turbidity, one stage addition can not form floc blanket while the two stage addition could under the same condition. 
+
+
+
+### Literature Review
 
 ### Observations and a Geometric Explanation of the Effects of Humic Acid (HA) on Flocculation
-   The thesis gives a clear layout of why we are using HA as the natural organic matter as well as the chemistry behind the creation of flocs. We are using HA as the exemplary compound to represent dissolved NOM because it is the most commonly found form of NOM in our surroundings. Clay is used to represent the colloidal solids. As NOM is easily found in our soil and water, it increases our need of coagulant to promote flocculation of dissolved particles in water.  Hence why in our model of the experiment we add humic acid and clay with the coagulant PaCl (polyaluminium chloride). However, there is a cut-off point as to how much coagulant we can add to the raw water for it to be beneficial in the removal of NOM. This observation shows that some NOM becomes increasingly uncooperative to being removed due to the increased presence of coagulant. Our understanding of the lack of floc formation in the presence of increased coagulant addition is limited, yet it is an area of interest in determining the magnitude of the effect.
+   ~~The thesis gives a clear layout of why we are using HA as the natural organic matter as well as the chemistry behind the creation of flocs. We are using HA as the exemplary compound to represent dissolved NOM because it is the most commonly found form of NOM in our surroundings. Clay is used to represent the colloidal solids. As NOM is easily found in our soil and water, it increases our need of coagulant to promote flocculation of dissolved particles in water.  Hence why in our model of the experiment we add humic acid and clay with the coagulant PaCl (polyaluminium chloride). However, there is a cut-off point as to how much coagulant we can add to the raw water for it to be beneficial in the removal of NOM. This observation shows that some NOM becomes increasingly uncooperative to being removed due to the increased presence of coagulant. Our understanding of the lack of floc formation in the presence of increased coagulant addition is limited, yet it is an area of interest in determining the magnitude of the effect.~~
 
   <div class="alert alert-block alert-danger">
   ~~Repetitive information leads me tobelieve that this report was not checked over before submission.How does NOM becomeincreasingly uncooperative to being removed due to increase presence of increased coagulant?Explain how there is a lack of floc formation in the presence of increased coagulant addition?
   </div>
 
-Nevertheless, Yingda’s report focuses on the effect on coagulation of humic acid in the form of hydraulic flocculation, with the consideration of the following processes of filtration and sedimentation. Her research is crucial to our subteam as it provides us with a basis of how we should set up our own apparatus, as well as the physics behind the creation of flocs.
-
-<div class="alert alert-block alert-danger">
-This paragraph has little content, could it be combined with another section?
-</div>
 
 ### Using PACl as neutralizer and coagulant aid
 Coagulation is one of the most effective methods to remove fine substances from water. Polyaluminum Chloride (PAC) is a coagulant that reduces DBPs precursors, which is potentially harmful. PACl prepolymerized coagulants are widely preferred because of its wide range of targets, such as low dosage, wide pH range, low sensitivity of temperature and low residual metal-ion concentration (Sudoh et. al., 2015). The effect of PACl with Calcium Carbonate in removing Humic Acid was significantly efficient comparing to other chemicals, because such combination acts as both alkaline chemical and coagulant agent. Comparing with other coagulant types such as Ferric Acid and Aluminum Sulfate, PACl has a significantly high removal efficiency even at a low dosage. In addition, the removal rate of PACl is higher than that of NaOH as alkaline agent.
@@ -137,9 +147,9 @@ This section needs a lot of work for understandability.
 
 ### Experimental Design
 
-
-
 Two upflow contact chambers are set before the fluid enters the flocculator, so that the coagulants are allowed more time and space to collide with particles in water. In the first contact chamber, coagulants collide and then will be covered by humic acid, which is the first stage of the addition. Originally, the pump was designed to input the correct coagulant dosage before each contact chamber, allowing the two stage coagulant addition. However, the ProCoDA system we used had its limit, the maximum number of pump it could control was 2, so there had to be one coagulant pump under manual control. So we changed the design, we used the second pump to drain from the first pump when we ran the two stages addition experiment.
+
+
 
 <div class="alert alert-block alert-danger">
 First sentence is a run-on. Do not include "should" in that sentence because there either are or are not.
@@ -188,24 +198,10 @@ Consider a clearer way to present this information
    What does CC stand for?
    </div>
 
-The way in which the apparatus worked was the following. To start with, clay, humic acid and water were added according to the calculation, into a 10L stock tank with a stir. This stock tank was connected to the clay pump, the pump speed would be control by ProCoDA system to maintain a relatively fixed influent turbidity. After that, mixture of humic acid and clay went through the first turbidity meter and influent turbidity of the raw water is measured.
+The way in which the apparatus worked was the following. To start with, clay, humic acid and water were added according to the calculation, into a 10L stock tank with a stirrer. This stock tank was connected to the clay pump, the pump speed would be control by ProCoDA system to maintain a relatively fixed influent turbidity. After that, mixture of humic acid and clay went through the first turbidity meter and influent turbidity of the raw water is measured.
 
 <div class="alert alert-block alert-danger">
-"The way in which the apparatus worked was the following" is both an incomplete sentence and too fluffy. Instead say how the apparatus worked in that first sentence.
-
-What calculation?
-
-Do you mean stirrer?
-
-How did you determine the pump speed for the fixed turbidity?
-
-What was that turbidity?
-
-Can the results from one experiment with a certain fixed turbidity be generalize for many tubridity levels?
-
-Turbidimeters not turbidity Turbidimeters
-
-Choose between is and was - have to keep tenses consistent.
+"The way in which the apparatus worked was the following" is both an incomplete sentence and too fluffy. Instead say how the apparatus worked in that first sentence.What calculation?Do you mean stirrer?How did you determine the pump speed for the fixed turbidity?What was that turbidity?Can the results from one experiment with a certain fixed turbidity be generalize for many tubridity levels?Turbidimeters not turbidity TurbidimetersChoose between is and was - have to keep tenses consistent.
 </div>
 
 Following this, the first dosage of coagulant was added right before the mixture entered the first contact chamber so when it entered the first contact chamber, all of the particles were stuck one with each other.
@@ -258,19 +254,7 @@ Are the current simplifications justified? Is the data you are getting reliable?
 For one stage addition experiment, in every single circulation, the coag dosage is 1.1-2.6mg/L, which was increased 7 times by using the increment function, a function built in . Two more data point was added on the basis of past experiment, one between 1-1.5mg/L, and the other between 1.5-2.0mg/L, because it was found that desirable effluent turbidity usually generated around that range of coagulant concentration. Besides, according to the previous data, 0.5mg/L and 1mg/L coagulant is insufficient to effectively reduce the turbidity of the synthetic water.
 
 <div class="alert alert-block alert-danger">
-coag is informal, use coagulant Instead
-
-put a space between values and their unit_registry
-
-Do not use colons in the middle of sentences - does not make sense
-
-Why are you redifining who Yingda is again?
-
-Include units on every number
-
-What is the increment function?
-
-Unclear what the last sentence means
+coag is informal, use coagulant Insteadput a space between values and their unit_registryDo not use colons in the middle of sentences - does not make senseWhy are you redifining who Yingda is again?Include units on every numberWhat is the increment function?Unclear what the last sentence means
 </div>
 
 We are planning to run 3 circulations per week, which will take 3 days, and we will use different humic acid between those 3 different trials within a week. Thus we can test the impact of both humic acid and coagulant dosage on the flocculating process.
@@ -459,19 +443,19 @@ I don't understand the point of the attention section.
 </div>
 
 ### Experiment
-**Step 1.** Make sure the stocks are filled. One stock will have a diluted solution of PAC and the other will have a solution of water, clay, and humic acid. The concentration depends on experiment objectives and can be calculated by using the Python code below.
+**Step 1.** Fill stock tanks. One stock tank should be filled with a diluted solution of PAC coagulant, and the other should have a mixture of water, clay, and humic acid. The concentration of solution depends on experiment objectives and can be calculated by using the chemical dosage calculation code below.
 
 
-**Step 2.** Once the solution is prepared, open the water and wastewater valves, turbidimeters, and let the apparatus completely filled with water, the experiment is now ready to run.
+**Step 2.** Once the solution is prepared, open the water and wastewater valves, turn on turbidity meters, and let the apparatus completely filled with water, the experiment is now ready to run. Be sure to turn on the sludge pump, a 1L/s pump next to the effluent turbidimeter, to ensure that sludge is drained to the wastewater line. 
 
-**Step 3.** Be sure to turn on the sludge pump, a 1L/s pump next to the effluent turbidimeter, to ensure that sludge is drained to the wastewater line. We do not want the flocs to go through the effluent turbidimeter.
+**Step 3.** Check important set points in ProCoDA. Set target influent turbidity, duration of data acqusition state and flushing state.
 
 
-**Step 4.** Go to ProCoDa and turn the state from OFF to ON to turn on the clay pump so the influent turbidimeter will soon reach the target influent turbidity. Once the influent turbidity fluctuate around 100 NTU, go back to ProCoDa and turn the stage from ON to Data acquisition state, which will turn on the coagulant pump. Then switch the operational mode from "Mannual" to "Auto Switch".
+**Step 4.** Open the ProCoDa software and turn the "operation state" from OFF to ON, to turn on the clay pump so the influent turbidimeter will soon reach the target influent turbidity. Once the influent turbidity fluctuate around the target influent turbidity, go back to ProCoDA and switch the state from "ON" to "Data acquisition state", the coagulant pump will be turned on. Then switch the operational mode from "Mannual" to "Auto Switch".
 
-**Step 5.** The Data Acquisition state will go back and forth with the Flush state which is used to wash out the floc blanket. The data will be recorded on an excel file to be analyzed later.
+**Step 5.** The data acquisition state will go back and forth with the flush state, which is used to wash out the floc blanket. The data will be recorded on spreadsheet for further use.
 
-**Step 6.** Once the experiment was ran and the data collected, check the datalog and turn off ProCoDa. Proceed to the cleaning procedure when experimentation is finished.
+**Step 6.** Once the the data collected, check the datalog and turn off ProCoDa. Proceed to the cleaning procedure when experimentation is finished.
 
 <div class="alert alert-block alert-danger">
 Check formatting and the technical writing.
