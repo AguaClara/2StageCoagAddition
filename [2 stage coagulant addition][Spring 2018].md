@@ -15,13 +15,9 @@ Please do not delete my comments. Address them in the report and I will check th
 <div class="alert alert-block alert-danger">
 
 ~~What is the experiment apparatus?
-
 What does 1 stage and 2 stages coagulant addition do and what are their difference?
-
 What were the Conclusions? What are the trade-offs from the switch from 1 stage to 2 stage?
-
 What are simplications?
-
 What is 1 stage vs. 2 stage addition? What are you adding?~~
 </div>
 
@@ -66,6 +62,7 @@ Apr 2 (Ching):add how flocculation in general works but not just critical
 Flocculation is among the most applied processes for water and wastewater treatment, therefore, a thorough understanding of the physical and chemical process in flocculation is critical to the optimization of water treatment process, and thus a predictive model to describe the flocculation process is needed. However, the model built in the past research of AguaClara only considered the clay and coagulant in water, and failed to take natural organic matters into consideration. The natural organic matters, NOM, is ubiquitous in natural water system. NOM is matter composed of organic compounds from the remains of organisms such as plants and animals and their waste products .[1]["Natural Organic Matter," GreenFacts, 22 Apr, 2007] The application of flocculation to remove NOM from drinking water supplies was efficient and helped avoiding the formation of disinfection by products (DBPs).[2][Mika et al.,2018] Nonetheless, with the presence of NOM in water, the efficiency of flocculation was substantially reduced. Hence, in order to develop flocculation processes that optimize the operating conditions, which include mainly the amount of coagulants, we have to study the effect of NOM on flocculation.
 
 In the past research, the original model that only take coagulant and clay into account has been extended by simultaneously taking the effect of NOM on flocculation into consideration. Based on the bonding mechanism between clay, humic acid, and coagulant, assumption was raised that the coagulant can be saved by adding separately. It was assumed that after stage 1, all coagulant would be coated by humic acid. Thus the coagulant that is added in stage 2 can just function as an agglomerant to achieve better performance in flocculation process and in the aggregation process. If the coagulant dosage can be guided by a predictive model, operating conditions of flocculation process can be optimized and coagulant will be used more efficiently. Saving the coagulant will in turn reduce operational cost of water treatment plants. Since AguaClara is an engineering project team focuses on sustainable drinking water supply in developing region, cost should always be a main concern.
+
 (Ching: talk about how agglomerant can achieve better performance)
 In this report, findings in literature review and our group's previous work is discussed, following that is the experiment design and apparatus set-up of our team in this semester. Findings and conclusion based on our experiment data and analysis is described at the end of main body. Details in experimental operation such as ProCoDA setting, chemical dosage calculation, experiment process can be found after the main text.
 
@@ -80,8 +77,6 @@ The overall description of the project would be confusing to anyone who hasn't h
 ## Literature Review and Previous Work
 **logic**: describe previous work first. in this part, talk about Yingda Du's thesis and our report after that. then is the lit review, lit review should be organized in the following fashion:1.why we do this 2. what did other researcher do 3.
 
-The fundamental objective of the two stage coagulant addition subteam is to research and find out if there are beneficial effects of two stage addition of coagulant. This would theoretically allow us to use our coagulant more efficiently which would consequently also reduce cost. Besides lab research, this requires research from external parties and other AguaClara teams. We investigated the effects of humic Acid in water and how it coagulates, as well as revisiting Yingda Du’s thesis on the effects of humic acid on flocculation. With this background knowledge, this would aid our advancement in our research.
-
 <div class="alert alert-block alert-danger">
 Need to pick first or third person and then stick with it.
 
@@ -94,7 +89,7 @@ This is more of a restatement of the itnroduction. This section should summarize
 
 
 ### Observations and a Geometric Explanation of the Effects of Humic Acid (HA) on Flocculation
-  The general science behind flocculation can be understood by analyzing the thesis of the observations and a geometric explanation of the effects of HA flocculation by Yingda Du. The thesis gives a clear layout of why we are using HA as the natural organic matter as well as the chemistry behind the creation of flocs. We are using HA as the exemplary compound to represent dissolved NOM because it is the most commonly found form of NOM in our surroundings. Clay is used to represent the colloidal solids. As NOM is easily found in our soil and water, it increases our need of coagulant to promote flocculation of dissolved particles in water.  Hence why in our model of the experiment we add humic acid and clay with the coagulant PaCl (polyaluminium chloride). However, there is a cut-off point as to how much coagulant we can add to the raw water for it to be beneficial in the removal of NOM. This observation shows that some NOM becomes increasingly uncooperative to being removed due to the increased presence of coagulant. Our understanding of the lack of floc formation in the presence of increased coagulant addition is limited, yet it is an area of interest in determining the magnitude of the effect.
+   The thesis gives a clear layout of why we are using HA as the natural organic matter as well as the chemistry behind the creation of flocs. We are using HA as the exemplary compound to represent dissolved NOM because it is the most commonly found form of NOM in our surroundings. Clay is used to represent the colloidal solids. As NOM is easily found in our soil and water, it increases our need of coagulant to promote flocculation of dissolved particles in water.  Hence why in our model of the experiment we add humic acid and clay with the coagulant PaCl (polyaluminium chloride). However, there is a cut-off point as to how much coagulant we can add to the raw water for it to be beneficial in the removal of NOM. This observation shows that some NOM becomes increasingly uncooperative to being removed due to the increased presence of coagulant. Our understanding of the lack of floc formation in the presence of increased coagulant addition is limited, yet it is an area of interest in determining the magnitude of the effect.
 
   <div class="alert alert-block alert-danger">
   Repetitive information leads me tobelieve that this report was not checked over before submission.
