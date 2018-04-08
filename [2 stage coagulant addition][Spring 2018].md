@@ -77,6 +77,8 @@ In this report, findings in literature review and our group's previous work is d
 ~~Need to pick first or third person and then stick with it.What is PACl?What important information did you get from Yingda's thesis?This is more of a restatement of the itnroduction. This section should summarize information and background from sources outside and within AguaClara~~
 </div>
 
+### Previous Work of AguaClara Project Team
+### Previous Work of Two-Stage Coagulant Addition Subteam
 
 ### Observations and a Geometric Explanation of the Effects of Humic Acid (HA) on Flocculation
    The thesis gives a clear layout of why we are using HA as the natural organic matter as well as the chemistry behind the creation of flocs. We are using HA as the exemplary compound to represent dissolved NOM because it is the most commonly found form of NOM in our surroundings. Clay is used to represent the colloidal solids. As NOM is easily found in our soil and water, it increases our need of coagulant to promote flocculation of dissolved particles in water.  Hence why in our model of the experiment we add humic acid and clay with the coagulant PaCl (polyaluminium chloride). However, there is a cut-off point as to how much coagulant we can add to the raw water for it to be beneficial in the removal of NOM. This observation shows that some NOM becomes increasingly uncooperative to being removed due to the increased presence of coagulant. Our understanding of the lack of floc formation in the presence of increased coagulant addition is limited, yet it is an area of interest in determining the magnitude of the effect.
