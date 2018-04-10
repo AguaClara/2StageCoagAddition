@@ -362,7 +362,7 @@ In this plot
 After describing a particular result, within a paragraph, go on to connect your work to fundamental physics/chemistry/statics/fluid mechanics, or whatever field is appropriate. Analyze your results and compare with theoretical expectations; or, if you have not yet done the experiments, describe your expectations based on established knowledge. Include implications of your results. How will your results influence the design of AguaClara plants? If possible provide clear recommendations for design changes that should be adopted. Show your experimental data in a professional way using the following guidelines:
 
 * **Did these results line up with expectations?**
-In this semster, up to now, we only did several trials of one stage addition. Our expectation for the one stage addtion is that the floc blanket can be found in our sedimentation tank and the effluent go down to a level that is desirable for the AguaClara filtration system. The effluent turbidity in several trials happened to be around 20NTU, we assumed that it was due to the limit time of our data acquisition state, namely, we did not give the system enough time to form the floc blanket, so we extend the duration of that state, from 3600 seconds to 4800.
+In this semEster, up to now, we only did several trials of one stage addition. Our expectation for the one stage addItion is that the floc blanket can be found in our sedimentation tank and the effluent go down to a level that is desirable for the AguaClara filtration system. The effluent turbidity in several trials happened to be around 20NTU, we assumed that it was due to the limit time of our data acquisition state, namely, we did not give the system enough time to form the floc blanket, so we extend the duration of that state, from 3600 seconds to 4800.
 
 <div class="alert alert-block alert-danger">
 Why is this formatted in a bulleted list with questions? It should be written in formal paragraphs as a normal research report would contain.
@@ -385,7 +385,7 @@ This sections needs much more development and polishing.
 
 At this point, we fully understood the ProCoDA system and could use the increment function to carry on set of control experiments with fixed turbidity and different coagulant dosage. Also we had implemented an electronic balance which also connects to the ProCoDA system to track the mass change of coagulant over time. It could offer us data to confirm our ProCoDA code will guide the pump to add coagulant to the amount we calculate.
 
-Generally, we deduced that by using the current design of system, when the turbidity is relatively low, we will need more coagulant to reach the target effluent turbidity.In this experiment, our target effluent turbidity should be no more than 3 NTU, which is already expected with the standard Aguaclara system.
+Generally, we deduced that by using the current design of system, when the turbidity is relatively low, we will need more coagulant to reach the target effluent turbidity. In this experiment, our target effluent turbidity should be no more than 3 NTU, which is already expected with the standard Aguaclara system.
 
 The calculation of coagulant dosage and the component of clay-humic acid mixture could be done on python now, we transfered the original MathCAD base code and translated it into python.
 
