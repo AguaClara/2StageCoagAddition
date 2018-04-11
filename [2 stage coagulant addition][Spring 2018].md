@@ -25,22 +25,22 @@ Combine these four sections into one paragraph. An abstract needs to be cohesive
 **Up-to-date abstract:** In the past, AguaClara built a predictive model by studying the effect of humic acid, clay and PAC coagulant on flocculation. Based on the modelling result and the study of bonding mechanism, it was hypothesized that two-stage coagulant addition, namely a separate coagulant addition, would increase the particle removal efficiency  while maintaining the coagulant dosage. During the first stage, coagulant was added to offset the effect of humic acid in water, then the second stream of coagulant can aggregate clay. The nano-aggregate formed in the first stage and small particles join to form big flocs. Last semester, our group designed and fabricated the experimental apparatus. This semester, using the same apparatus, our group conducted experiment for both one stage and two stage coagulant addition to. Our group will keep generating experimental data to compare the efficiency of different coagulant addition method and try to close the debate of one stage versus two stage.
 
 **Apr 2 updated abstract:**
-Based on the modelling result and bonding mechanism of humic acid, clay and PAC coagulant, we hypothesized that two-stage coagulant addition, namely a separate coagulant addition, would increase the particle removal efficiency. The first addition of coagulant offset the effect of humic acid in water while the second stream of coagulant aggregated clay. Using the same apparatus fabricated from last semester, we conducted experiment for both one- and two-stage coagulant addition. By comparing the efficiency of different coagulant addition methods, we aim to close the debate of one stage versus two stage.
+Based on the modelling result and bonding mechanism of humic acid, clay and PAC coagulant, we hypothesized that two-stage coagulant addition, namely a separate coagulant addition, would increase the particle removal efficiency. The first addition of coagulant offset the effect of humic acid in water while the second stream of coagulant aggregated clay. Using the same apparatus fabricated from last semester, we conducted experiment for both one- and two-stage coagulant addition. By comparing the particle removal efficiency of different coagulant addition methods, we aim to close the debate of one stage versus two stage.
 
 
 
 ## Introduction
 **Grading rubric**
-State your theory and hypothesis
+~~State your theory and hypothesis
 Explain your experiment / process and why you performed this experiment
 Explain why your work is important (Explain the context of your team’s work in AguaClara and the world)
 Rating of 5 (Strong):
 Presents a clear and concise lead-in to the remainder of the report
 Appropriate background information (including references) presented in organized fashion
 Problem is well developed.  Hypotheses, if appropriate, are clearly stated  
-Outline of the remaining report present and easily understandable
+Outline of the remaining report present and easily understandable~~
 
-**the logic**: first give the background of NOM effect on flocculation and point out the problem: NOM reduce flocculation efficiency. then explain why we want to study its effect-want to optimize operation condition. then discuss what we learned in the past research-mainly the model and its result. then develop the hypothesis-two stage can save coagulant. after that our experiment test the particle removal efficiency of both 1stage and 2stage addition. so that we can validate our hypothesis: whether 2stage is more efficient. then out line, in the following report we would break down our experiment, from theoretical basis to apparatus design, then experiment process, finally we would analyze the data we generate and offer some conclusion.
+**the logic**: ~~first give the background of NOM effect on flocculation and point out the problem: NOM reduce flocculation efficiency. then explain why we want to study its effect-want to optimize operation condition. then discuss what we learned in the past research-mainly the model and its result. then develop the hypothesis-two stage can save coagulant. after that our experiment test the particle removal efficiency of both 1stage and 2stage addition. so that we can validate our hypothesis: whether 2stage is more efficient. then out line, in the following report we would break down our experiment, from theoretical basis to apparatus design, then experiment process, finally we would analyze the data we generate and offer some conclusion.~~
 
 Flocculation is among the most applied processes for water and wastewater treatment. Therefore, a thorough understanding of the physical and chemical process in flocculation is critical to the optimization of water treatment process, and so a predictive model to describe the flocculation process is needed.**/(basic definition)** However, the model built in the past research of AguaClara only considered the presence of clay and coagulant in water, and failed to take natural organic matters (NOM) into consideration. Natural organic matters, NOMs, are matters composed of organic compounds from the remains and waste products of organisms such as plants and animals and are ubiquitous in the natural water system. NOMs can be generated within the water source through biological activities, or introduced to the water body via drainage within watersheds, including substances generated during the breakdown of terrestrial organisms (Hudson et al., 2007). The application of flocculation to remove NOM from drinking water supplies is efficient, and helps avoiding the formation of disinfection by products (DBPs).[2](Mika et al.,2018) For processes based on the use of chemicals (e.g. coagulation and oxidation) and materials (e.g. adsorption), the increasing concentrations of NOM require the use of more chemicals or materials (Xu et al., 2016a), which ultimately leads to the generation of more sludge or spent materials. Hence, the effect of NOM on flocculation is crucial in developing flocculation processes that optimize the operating conditions, including the amount of coagulants.**/(general incentives and problem of our research)**
 
@@ -49,15 +49,16 @@ In the past research, the original model that only takes coagulant and clay into
 In this report, findings in literature review and our group's previous work are discussed, and following that are the experiment design and apparatus set-up of our team in this semester. Findings and conclusion based on our experiment data and analysis are described at the end of the main body. Details in experimental operation such as ProCoDA setting, chemical dosage calculation, experiment process can be found after the main text.
 
 <div class="alert alert-block alert-danger">
-~~Good content detailing the importance, but issues with technical writing.Good connection back to importance on cost and resource availability and description of why 2 stage coagulant addition may work.The overall description of the project would be confusing to anyone who hasn't heard about it before. Keep in mind your audience is a new member on the team. So think what did you need to know to understand this and then include that info.~~
+Good content detailing the importance, but issues with technical writing.Good connection back to importance on cost and resource availability and description of why 2 stage coagulant addition may work.The overall description of the project would be confusing to anyone who hasn't heard about it before. Keep in mind your audience is a new member on the team. So think what did you need to know to understand this and then include that info.
 </div>
 
 ## Literature Review and Previous Work
-**logic**: describe previous work first. in this part, talk about Yingda Du's thesis and our report after that. then is the lit review, lit review should be organized in the following fashion:1.why we do this 2. what did other researcher do 3.
+**logic**: ~~describe previous work first. in this part, talk about Yingda Du's thesis and our report after that. then is the lit review, lit review should be organized in the following fashion:1.why we do this 2. what did other researcher do 3.~~
 
 ### Previous Work of AguaClara Project Team
 The research of Yingda Du, a previous graduate student on the project team, explored the effects of NOM on flocculation. Her thesis (Du, 2017) determined the effects of humic acid on the particle size distribution of flocs and settled effluent turbidity for a synthetic surface water treated with polyaluminum chloride (PACl) as coagulant. The results from this thesis showed that presence of NOM increased the concentration of flocs and shifted the particle size distribution toward smaller particle sizes with a concurrent increase in the effluent turbidity. A mechanistically based hydraulic flocculation model, which took effects of humic acids into account, was developed in this research based on the observations of residual turbidity. The model was validated by successfully predicting data from independent experiments. The predictive model provided a useful guideline for effective coagulant dosages in water treatment.
 
+Our research was based on her study of bonding mechanism between different particles in water. There are three different kinds of particle in our research model, they are clay, humic acid and coagulant nanoparticle. As it was shown in Figure 2, there are six kind of possible collision. However, only collisions with coagulant invoved can occur in reality, because clay and humic acid are not sticky, they can not attach to each other or themselves.
 ![collision](image/collision.png)
    Figure 1： Collisions between particles during flocculation
 
@@ -157,7 +158,7 @@ Consider a clearer way to present this information
 
 * Schematic (label parts)
 ![apparatus](image/ApparatusSketch.jpg)
-   Figure： Apparatus Diagram
+   Figure 3：Apparatus diagram
 
    <div class="alert alert-block alert-danger">
    Figure number?
@@ -194,7 +195,7 @@ Refer to figures by their figure number.
 
 ![apparatus](image/CurrentApparatus2.png)
 
-Figure: Current Apparatus Set-up
+Figure 4: Current Apparatus Set-up
 
 <div class="alert alert-block alert-danger">
 Figure number? Why don't you include this farther up?
@@ -317,11 +318,11 @@ plt.plot(coag, Data50NTU['0 mg/L'], 'r.', coag, Data50NTU['3 mg/L'], 'b.',
 
  ![datalog](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/100NTU.png)
 
-                        Figure: model result which guide our experiment
+                        Figure 5: Model result at 100NTU
 
  ![datalog](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/experiment%20data.png)
 
-                        Figure: one of the typical experiment we ran
+                        Figure 6: Typical experiment result
 <div class="alert alert-block alert-danger">
 What is going on with these datalogs and the code? Is that a remnant of the template? It is unprofessional looking.
 </div>
