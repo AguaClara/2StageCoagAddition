@@ -75,24 +75,17 @@ According to the generated data, two stage coagulant addition need more time to 
 ### Observations and a Geometric Explanation of the Effects of Humic Acid (HA) on Flocculation
    ~~The thesis gives a clear layout of why we are using HA as the natural organic matter as well as the chemistry behind the creation of flocs. We are using HA as the exemplary compound to represent dissolved NOM because it is the most commonly found form of NOM in our surroundings. Clay is used to represent the colloidal solids. As NOM is easily found in our soil and water, it increases our need of coagulant to promote flocculation of dissolved particles in water.  Hence why in our model of the experiment we add humic acid and clay with the coagulant PaCl (polyaluminium chloride). However, there is a cut-off point as to how much coagulant we can add to the raw water for it to be beneficial in the removal of NOM. This observation shows that some NOM becomes increasingly uncooperative to being removed due to the increased presence of coagulant. Our understanding of the lack of floc formation in the presence of increased coagulant addition is limited, yet it is an area of interest in determining the magnitude of the effect.~~
 
-### Using PACl as neutralizer and coagulant aid
-Coagulation is one of the most effective methods to remove fine substances from water. Polyaluminum Chloride (PAC) is a coagulant that reduces DBPs precursors, which is potentially harmful. PACl prepolymerized coagulants are widely preferred because of its wide range of targets, such as low dosage, wide pH range, low sensitivity of temperature and low residual metal-ion concentration (Sudoh et. al., 2015). The effect of PACl with Calcium Carbonate in removing Humic Acid was significantly efficient comparing to other chemicals, because such combination acts as both alkaline chemical and coagulant agent. Comparing with other coagulant types such as Ferric Acid and Aluminum Sulfate, PACl has a significantly high removal efficiency even at a low dosage. In addition, the removal rate of PACl is higher than that of NaOH as alkaline agent.
+### Using PACl as neutralizer and destabilizer
+Coagulation is one of the most effective methods to remove fine substances from water. Polyaluminum Chloride (PAC) was chose to be the coagulants of our researhc, because of its wide range of targets, low sensitivity of temperature and low residual metal-ion concentration. The effect of PACl in removing humic acid was significantly efficient comparing to other chemicals. (Sudoh et. al., 2015)
+
+Generally coagulants function as neutralizer and destabilizer in the particle removal process. As it shows in Figure 2, originally, the negatively charged solids particles repel each other. As positively-charged coagulant is added to the mixture, they adhere to the negatively charged colloids, neutralizing the charge and destabilizing the particles. With the removal of charge, the destabilized colloids can now adhere to each other, forming microflocs.
 
 ![coagulant](image/coagulant.png)
    Figure 2： Coagulants function as neutralizer and destabilizer
 
 <div class="alert alert-block alert-danger">
-Isn't coagulation one of the most effective methods to remove fine substances from water?
 
 Consider " Polyaluminum Chloride (PACl) is a coagulant that reduces DBPs..." rather than being associated with Coagulation
-
-What are DBPs?
-
-What capitalize calcium carbonate?
-
-Revise paragraph for singular/plural consistency
-
-This paragraph seems unnecessary as you can just state that PACl is used for it's high removal efficiency and move on.
 
 Focus on the important information to pass along.
 </div>
