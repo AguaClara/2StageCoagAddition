@@ -13,21 +13,6 @@ Please do not delete my comments. Address them in the report and I will check th
 ## Abstract
 
 <div class="alert alert-block alert-danger">
-
-~~What is the experiment apparatus?
-What does 1 stage and 2 stages coagulant addition do and what are their difference?
-What were the Conclusions? What are the trade-offs from the switch from 1 stage to 2 stage?
-What are simplications?
-What is 1 stage vs. 2 stage addition? What are you adding?~~
-</div>
-
-~~**What we have accomplished:** Up to now we have completed the literature review, and working on apparatus set up. The research was based on Yingda's thesis, who studied the effect of humic acid on the coagulant dosing model. Based on the bonding mechanism, it could be hypothesized that two-stage coagulant addition would increase the removal efficiency of particles while maintaining the coagulant dosage.~~
-
-<div class="alert alert-block alert-danger">
-this section is much better than the first two = better focus
-</div>
-
-<div class="alert alert-block alert-danger">
 Use full, complete sentences.
 
 The ideas in the final sentece are key to your work this semester and is understandable.
@@ -78,7 +63,7 @@ In this report, findings in literature review and our group's previous work are 
 </div>
 
 ### Previous Work of AguaClara Project Team
-The research of Yingda Du, a previous graduate student on the project team, explored the effects of NOM on flocculation. Her thesis (Du, 2017) determined the effects of humic acid on the particle size distribution of flocs and settled effluent turbidity for a synthetic surface water treated with polyaluminum chloride (PACl) as coagulant. The results from this thesis showed that presence of NOM increased the concentration of flocs and shifted the particle size distribution toward smaller particle sizes with a concurrent increase in the effluent turbidity. A mechanistically based hydraulic flocculation model, which took effects of humic acids into account, was developed in this research based on the observations of residual turbidity. The model was validated by successfully predicting data from independent experiments. The predictive model provided a useful guideline for effective coagulant dosages in water treatment. Du’s thesis is a very prominent piece of technical work for TSCA subteam. 
+The research of Yingda Du, a previous graduate student on the project team, explored the effects of NOM on flocculation. Her thesis (Du, 2017) determined the effects of humic acid on the particle size distribution of flocs and settled effluent turbidity for a synthetic surface water treated with polyaluminum chloride (PACl) as coagulant. The results from this thesis showed that presence of NOM increased the concentration of flocs and shifted the particle size distribution toward smaller particle sizes with a concurrent increase in the effluent turbidity. A mechanistically based hydraulic flocculation model, which took effects of humic acids into account, was developed in this research based on the observations of residual turbidity. The model was validated by successfully predicting data from independent experiments. The predictive model provided a useful guideline for effective coagulant dosages in water treatment. Du’s thesis is a very prominent piece of technical work for TSCA subteam.
 
 
 
@@ -635,11 +620,11 @@ print("so we add",clay_add.to(u.g),"clay and ",HA_add.to(u.g),"humic acid into t
  ```
 
 <div class="alert alert-block alert-danger">
-Where is the coagulant concentration coming from? 
+Where is the coagulant concentration coming from?
 
-What is k_dilution? u didn't read it carefully 
+What is k_dilution? u didn't read it carefully
 
-Need better commenting 
+Need better commenting
 
 Is this all of the code necessary? yes
 </div>
