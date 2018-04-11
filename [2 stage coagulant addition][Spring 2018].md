@@ -58,6 +58,8 @@ In this report, findings in literature review and our group's previous work are 
 ### Previous Work of AguaClara Project Team
 The research of Yingda Du, a previous graduate student on the project team, explored the effects of NOM on flocculation. Her thesis (Du, 2017) determined the effects of humic acid on the particle size distribution of flocs and settled effluent turbidity for a synthetic surface water treated with polyaluminum chloride (PACl) as coagulant. The results from this thesis showed that presence of NOM increased the concentration of flocs and shifted the particle size distribution toward smaller particle sizes with a concurrent increase in the effluent turbidity. A mechanistically based hydraulic flocculation model, which took effects of humic acids into account, was developed in this research based on the observations of residual turbidity. The model was validated by successfully predicting data from independent experiments. The predictive model provided a useful guideline for effective coagulant dosages in water treatment.
 
+![collision](image/collision.png)
+   Figure 1： Collisions between particles during flocculation
 
 ### Previous Work of Two-Stage Coagulant Addition Subteam
 In Fall 2017 semester, TSCA (two-stage coagulant addition) subteam built the theoretical basis for future work by studying research report of previous particle removal research teams in AguaClara and relevant literature online. TSCA subteam built their apparatus based on the design of Contact Chamber subteam. Compared with the previous group*  , the set-up includes five pumps to achieve a precise control on fluid flow rate. Two down-flow contact chambers were applied in series before fluid enters the flocculator. The contact chambers created a space for particle collision to take place. The apparatus set-up of Spring 2018 semester was based on the previous design and the detail will be explained in depth in later chapters.
@@ -75,6 +77,9 @@ According to the generated data, two stage coagulant addition need more time to 
 
 ### Using PACl as neutralizer and coagulant aid
 Coagulation is one of the most effective methods to remove fine substances from water. Polyaluminum Chloride (PAC) is a coagulant that reduces DBPs precursors, which is potentially harmful. PACl prepolymerized coagulants are widely preferred because of its wide range of targets, such as low dosage, wide pH range, low sensitivity of temperature and low residual metal-ion concentration (Sudoh et. al., 2015). The effect of PACl with Calcium Carbonate in removing Humic Acid was significantly efficient comparing to other chemicals, because such combination acts as both alkaline chemical and coagulant agent. Comparing with other coagulant types such as Ferric Acid and Aluminum Sulfate, PACl has a significantly high removal efficiency even at a low dosage. In addition, the removal rate of PACl is higher than that of NaOH as alkaline agent.
+
+![coagulant](image/coagulant.png)
+   Figure 2： Coagulants function as neutralizer and destabilizer
 
 <div class="alert alert-block alert-danger">
 Isn't coagulation one of the most effective methods to remove fine substances from water?
@@ -133,7 +138,7 @@ Watch out for run-on sentences. They make it very hard to read and understand.
 I am having a hard time visualizing the T-connection between the coag pumps and the set-up in general. Do you have a photo of the set-up? I am not understanding the rationale about dosaging between the two-stages as described by the latter half of the paragraph.
 </div>
 ### Experimental Apparatus Design
-The design of apparatus was based on the research of our subteam last semester. 
+The design of apparatus was based on the research of our subteam last semester.
 
 ProCoDA (Process Control and Data Acquisition) software was used to automate data collection and control the experimental apparatus. Two upflow contact chambers are set before the fluid enters the flocculator, so that the coagulants are allowed more time and space to collide with particles in water. During the first stage of addition, coagulants collide and then are covered by humic acid in the first contact chamber. Originally, the pump was designed to input the correct coagulant dosage before each contact chamber, allowing the two stage coagulant addition. But due to the limitation of ProCoDA, which can only control a maximum of two pumps at the same time, one of the two coagulant pumps had to be controlled manually. In order to achieve the effect of two-stage addition, under the modified design, the coagulant for the second pump was drained from the first coagulant pump. (more details followed)
 
