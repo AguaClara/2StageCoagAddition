@@ -56,8 +56,7 @@ In this report, findings in literature review and our group's previous work are 
 **logic**: describe previous work first. in this part, talk about Yingda Du's thesis and our report after that. then is the lit review, lit review should be organized in the following fashion:1.why we do this 2. what did other researcher do 3.
 
 ### Previous Work of AguaClara Project Team
-The research of Yingda Du, a previous graduate student on the project team, explored the effects of NOM on flocculation. Her thesis (Du, 2017) determined the effects of humic acid on the particle size distribution of flocs and settled effluent turbidity for a synthetic surface water treated with polyaluminum chloride (PACl) as coagulant. The results from this thesis showed that presence of NOM increased the concentration of flocs and shifted the particle size distribution toward smaller particle sizes with a concurrent increase in the effluent turbidity. A mechanistically based hydraulic flocculation model, which took effects of humic acids into account, was developed in this research based on the observations of residual turbidity. The model was validated by successfully predicting data from independent experiments. The predictive model provided a useful guideline for effective coagulant dosages in water treatment. Du’s thesis is a very prominent piece of technical work for TSCA subteam.
-
+The research of Yingda Du, a previous graduate student on the project team, explored the effects of NOM on flocculation. Her thesis (Du, 2017) determined the effects of humic acid on the particle size distribution of flocs and settled effluent turbidity for a synthetic surface water treated with polyaluminum chloride (PACl) as coagulant. The results from this thesis showed that presence of NOM increased the concentration of flocs and shifted the particle size distribution toward smaller particle sizes with a concurrent increase in the effluent turbidity. A mechanistically based hydraulic flocculation model, which took effects of humic acids into account, was developed in this research based on the observations of residual turbidity. The model was validated by successfully predicting data from independent experiments. The predictive model provided a useful guideline for effective coagulant dosages in water treatment.
 
 
 ### Previous Work of Two-Stage Coagulant Addition Subteam
@@ -73,11 +72,6 @@ According to the generated data, two stage coagulant addition need more time to 
 
 ### Observations and a Geometric Explanation of the Effects of Humic Acid (HA) on Flocculation
    ~~The thesis gives a clear layout of why we are using HA as the natural organic matter as well as the chemistry behind the creation of flocs. We are using HA as the exemplary compound to represent dissolved NOM because it is the most commonly found form of NOM in our surroundings. Clay is used to represent the colloidal solids. As NOM is easily found in our soil and water, it increases our need of coagulant to promote flocculation of dissolved particles in water.  Hence why in our model of the experiment we add humic acid and clay with the coagulant PaCl (polyaluminium chloride). However, there is a cut-off point as to how much coagulant we can add to the raw water for it to be beneficial in the removal of NOM. This observation shows that some NOM becomes increasingly uncooperative to being removed due to the increased presence of coagulant. Our understanding of the lack of floc formation in the presence of increased coagulant addition is limited, yet it is an area of interest in determining the magnitude of the effect.~~
-
-  <div class="alert alert-block alert-danger">
-  ~~Repetitive information leads me tobelieve that this report was not checked over before submission.How does NOM becomeincreasingly uncooperative to being removed due to increase presence of increased coagulant?Explain how there is a lack of floc formation in the presence of increased coagulant addition?
-  </div>
-
 
 ### Using PACl as neutralizer and coagulant aid
 Coagulation is one of the most effective methods to remove fine substances from water. Polyaluminum Chloride (PAC) is a coagulant that reduces DBPs precursors, which is potentially harmful. PACl prepolymerized coagulants are widely preferred because of its wide range of targets, such as low dosage, wide pH range, low sensitivity of temperature and low residual metal-ion concentration (Sudoh et. al., 2015). The effect of PACl with Calcium Carbonate in removing Humic Acid was significantly efficient comparing to other chemicals, because such combination acts as both alkaline chemical and coagulant agent. Comparing with other coagulant types such as Ferric Acid and Aluminum Sulfate, PACl has a significantly high removal efficiency even at a low dosage. In addition, the removal rate of PACl is higher than that of NaOH as alkaline agent.
@@ -119,23 +113,10 @@ This section needs a lot of work for understandability.
 
 ## Methods
 
-### Experimental Design
-
-ProCoDA (Process Control and Data Acquisition) software was used to automate data collection and control the experimental apparatus. Two upflow contact chambers are set before the fluid enters the flocculator, so that the coagulants are allowed more time and space to collide with particles in water. During the first stage of addition, coagulants collide and then are covered by humic acid in the first contact chamber. Originally, the pump was designed to input the correct coagulant dosage before each contact chamber, allowing the two stage coagulant addition. But due to the limitation of ProCoDA, which can only control a maximum of two pumps at the same time, one of the two coagulant pumps had to be controlled manually. In order to achieve the effect of two-stage addition, under the modified design, the coagulant for the second pump was drained from the first coagulant pump. (more details followed)
 
 
-
-<div class="alert alert-block alert-danger">
-First sentence is a run-on. Do not include "should" in that sentence because there either are or are not.
-
-I don't fully understand what's going on with the second pump draining from the first pump.
-
-Define ProCoDA
-</div>
-
-**Current Process**
-The concentration of humic acid was fixed while the influent turbidity and coagulant dosage were controlled variable. Thus, the effect of turbidity on particle removal efficiency and the optimal coagulant dosage were tested. Three different value of target influent turbidity were used of 50NTU, 100NTU and 150NTU respectively. The coagulant dosage were varied by the increment function built in ProCoDA.
-
+### Experiment Process
+The concentration of humic acid was fixed while the influent turbidity and coagulant dosage were controlled variable. Thus, the effect of turbidity on particle removal efficiency and the optimal coagulant dosage were tested. Three different value of target influent turbidity were used of 50NTU, 100NTU and 150NTU respectively. The coagulant dosage were varied by the increment function built in ProCoDA. The increment function can increase the coagulant dosage stepwise. When the run time of current state reach the duration we set in ProCoDA, the function will be triggered, increase the coagulant pump speed according to the setting. Details about ProCoDA set-up can be found after the main text.
 
 First, a set of one-stage coagulant addition experiments was carried out to find the optimal dosage that could reduce the effluent turbidity of 3 NTU or less, which was a requirement of AguaClara filter system. During the one-stage experiments, the second coagulant pump was turned off. Then, the dosages used in the first set of experiments (one-stage addition) were divided into two parts, where we would find the optimal distribution, at a point where most of the coagulant from the first coagulant pump would be used to absorb the humic acid in the system, and coagulant added by the second pump would only lowered the turbidity to be able to attach to every particle in the system to its surface. Therefore, a T-connection was installed between the two coagulant pumps. This helped to manage the amount of coagulant that was input into the system as the first pump would control the total amount of coagulant being put into the system. When the second coagulant pump was opened, it would be able to control how much coagulant would be used for the second dosage, drain directly from the first valve, so that a fixed dosage of the total amount of coagulant put in could be maintained. This helped to test whether or not having a second dosage of coagulant before the second contact chamber would make the experiment perform better than the total amount of coagulant dosage in one stage.*
 
@@ -151,7 +132,20 @@ Watch out for run-on sentences. They make it very hard to read and understand.
 
 I am having a hard time visualizing the T-connection between the coag pumps and the set-up in general. Do you have a photo of the set-up? I am not understanding the rationale about dosaging between the two-stages as described by the latter half of the paragraph.
 </div>
+### Experimental Apparatus Design
+The design of apparatus was based on the research of our subteam last semester. 
 
+ProCoDA (Process Control and Data Acquisition) software was used to automate data collection and control the experimental apparatus. Two upflow contact chambers are set before the fluid enters the flocculator, so that the coagulants are allowed more time and space to collide with particles in water. During the first stage of addition, coagulants collide and then are covered by humic acid in the first contact chamber. Originally, the pump was designed to input the correct coagulant dosage before each contact chamber, allowing the two stage coagulant addition. But due to the limitation of ProCoDA, which can only control a maximum of two pumps at the same time, one of the two coagulant pumps had to be controlled manually. In order to achieve the effect of two-stage addition, under the modified design, the coagulant for the second pump was drained from the first coagulant pump. (more details followed)
+
+
+
+<div class="alert alert-block alert-danger">
+First sentence is a run-on. Do not include "should" in that sentence because there either are or are not.
+
+I don't fully understand what's going on with the second pump draining from the first pump.
+
+Define ProCoDA
+</div>
 ### Experimental Apparatus
 
 * Design (calculations, constraints)
