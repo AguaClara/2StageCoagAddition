@@ -562,64 +562,66 @@ Good checklist
  $u$, $w$: x-velocity, z-velocity components
 
  ```python
- # calculate the flow rate of the system
-V_sedimentation = 2*(u.mm/u.s)
-ID_pipe = 0.96*u.inch
-Area_pipe = 0.25*np.pi*(ID_pipe**2)
-Q_system = V_sedimentation*Area_pipe
+ # build the environment
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from aide_design import physchem as pc
+from aide_design.units import unit_registry as u
+from aide_design import utility as ut
+
+# calculate the flow rate of the system and water pump speed
+V_sedimentation_upflow = 1*(u.mm/u.s)
+InnerDiam_SedTube = 0.96*u.inch
+Area_SedTube = 0.25*np.pi*(ID_pipe**2)
+Q_system = V_sedimentation_upflow*Area_SedTube
 
 print('The flow rate of the system is', (ut.sig(Q_system.to(u.mL/u.s),3)))
 
-# mass flow of coagulant
+WaterPumpQperRev = ((52*u.ml/(20*u.rpm)))/(0.5*u.min)
+WaterPumpSpeed_perSecond = (Q_system/WaterPumpQperRev)*(60*u.s)
+
+print("The water pump speed is ",WaterPumpSpeed_perSecond.to(u.dimensionless))
+
+# Calculate the mass flow of coagulant
 # desired conc of PAC per L of water in the system. (0.5-2.5mg/L)(normally fixed range)
 
-conc_PACL = 2*(u.mg/u.L)
+conc_PACL = 1.5 * (u.mg/u.L)
+
 MassFlow_coag = conc_PACL*Q_system
 
 print('The mass flow of coagulant in the system is',ut.sig(MassFlow_coag.to(u.mg/u.s),3))
 
 # how many mL of lab concentration are added per L into the reservoir(adjustable)
-k_dilution = 3.13*(u.ml/u.l)
+k_dilution = 3.80*(u.ml/u.l)
 
 # concentration in grams per L of lab solution(normally fixed value)
 conc_labsolution = 70.9*(u.g/u.L)
 conc_tank = conc_labsolution*k_dilution
-Q_reservoir = MassFlow_coag/conc_tank
-
-# print('The volumetric flow rate of solution leaving the tank\and entering the system to achieve desired final concentration',Q_reservoir.to(u.mL/u.s))
-V_reservoir = 2*u.L
-V_lab_solution = V_reservoir*conc_reservoir/conc_labsolution
+Q_coagtank = MassFlow_coag/conc_tank
+V_coagtank = 2*u.L
+V_lab_solution = V_coagtank*conc_tank/conc_labsolution
 print('The volume of lab concentration solution we need to add into the tank is',ut.sig(V_lab_solution,3))
+
 # calculate the relevant pump speed, so that we can set our increment function
 
 # The flow pumped out of the pump per round(measured by experiment)
-# below are different pump properties(ie.ml of fluid come out of the pump to )
-#Q_perrev_coag1 = 0.00042*(u.ml/u.s)
-Q_perrev_coag1 = 0.0173*(u.ml/u.s)
-# Q_perrev_coag2 = 0.103*(u.ml/u.s)
-numRPM = Q_reservoir/Q_perrev_coag1*60
-print('The pump should run with a speed of',numRPM.to(u.dimensionless))
 
-# water pump:
-QperRPM = ((52*u.ml/(20*u.rpm)))/(0.5*u.min)
-print('water pump',QperRPM.to(u.ml))
-# taget RPM
-#waterpump_speed = 60*Q_system/QperRPM
-#print(waterpump_speed.to(u.dimensionless))
-# clay pump control by ProCoDA
-# coag pump 1
-QperRPM_p1 = (1*u.ml/(10*u.rpm))/(4*u.min)
-print(QperRPM_p1.to(u.ml))
-# coag pump 2 # exp2: 10RPM 3ml 127s
-QperRPM_p2 = ((3*u.ml/(10*u.rpm)))/(110*u.s)
-print(QperRPM_p2.to(u.ml))
+Q_perrev_coag1 = 0.003979*(u.ml)
+Q_perrev_coag2 = 0.02604*(u.ml)
+#Q_perrev_coag1 = 0.0173*(u.ml/u.s)
+# Q_perrev_coag2 = 0.103*(u.ml/u.s)
+numRPM_coag1 = Q_coagtank/Q_perrev_coag1*(60*u.s)
+numRPM_coag2 = Q_coagtank/Q_perrev_coag2*(60*u.s)
+print('The pump should run with a speed of',numRPM_coag1.to(u.dimensionless))
+print('The pump should run with a speed of',numRPM_coag2.to(u.dimensionless))
 
 # concentration of the clay
 turbidity_target = (100*u.NTU)
 print(ut.sig(turbidity_target.to(u.g/u.L),3))
 
 # concentration of the humic acid
-conc_HA = 10*(u.mg/u.L)
+conc_HA = 8*(u.mg/u.L)
 print(conc_HA.to(u.g/u.L))
 
 # clay&HA in tank
@@ -633,13 +635,13 @@ print("so we add",clay_add.to(u.g),"clay and ",HA_add.to(u.g),"humic acid into t
  ```
 
 <div class="alert alert-block alert-danger">
-Where is the coagulant concentration coming from?
+Where is the coagulant concentration coming from? 
 
-What is k_dilution?
+What is k_dilution? u didn't read it carefully 
 
-Need better commenting
+Need better commenting 
 
-Is this all of the code necessary?
+Is this all of the code necessary? yes
 </div>
 
 ```python
