@@ -12,8 +12,6 @@ Please do not delete my comments. Address them in the report and I will check th
 
 ## Abstract
 
-This is a test line
-
 <div class="alert alert-block alert-danger">
 Use full, complete sentences.
 
