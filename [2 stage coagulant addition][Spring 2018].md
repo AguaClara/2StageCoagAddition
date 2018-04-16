@@ -82,7 +82,7 @@ According to the generated data, two stage coagulant addition need more time to 
 
 [Current Problem with NOM (Ching)]
 (what problems can it cause? current situation with NOM? why do we use humic acid to characterize NOM)
-Natural Organic Matter (NOM), which is increasingly prevalent in surface water, can cause many problems in water treatment processes. It does not only affect drinking water quality through various ways such as odor, color and taste, but also causes difficulty in water treatment process. Because NOMs are complex organic compounds that have a strong negative charge, its strong charge allows it to easily stick to other
+Natural Organic Matter (NOM), which is increasingly prevalent in surface water, can cause many problems in water treatment processes. It does not only affect drinking water quality through various ways such as odor, color and taste, but also causes difficulty in water treatment process. Because NOMs are complex organic compounds that have a strong negative charge, its strong charge
 ~~(2) increased coagulant and disinfectant
 doses (which in turn results in increased sludge volumes and production of
 harmful disinfection by-products), (3) promoted biological growth in distribution system,
