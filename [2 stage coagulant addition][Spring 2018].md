@@ -10,7 +10,7 @@ Why is the title not capitalized?
 Please do not delete my comments. Address them in the report and I will check them on the next submission. If you disagree with any of the comments, add your own comment under mine.
 </div>
 
-
+test
 
 ## Abstract
 
@@ -63,7 +63,8 @@ The research of Yingda Du, a previous graduate student on the project team, expl
 Our research was based on her study of bonding mechanism between different particles in water. There are three different kinds of particle in our research model: clay, humic acid and coagulant nanoparticle. As shown in Figure 1, there are six possible collisions between these three types of particles. However, only collisions with coagulant involved can occur in reality, because clay and humic acid are not adhesive enough to attach to each other or themselves.
 
 ![collision](image/collision.png)
-   Figure 1： Collisions between particles during flocculation
+
+Figure 1：Collisions between particles during flocculation
 
 ### Previous Work of Two-Stage Coagulant Addition Subteam
 In Fall 2017 semester, TSCA (two-stage coagulant addition) subteam built the theoretical basis for future work by studying research report of previous particle removal research teams in AguaClara and relevant literature online. TSCA subteam built their apparatus based on the design of Contact Chamber subteam. Compared with the previous group*  , the set-up includes five pumps to achieve a precise control on fluid flow rate. Two down-flow contact chambers were applied in series before fluid enters the flocculator. The contact chambers created a space for particle collision to take place. The apparatus set-up of Spring 2018 semester was based on the previous design and the detail will be explained in depth in later chapters.
@@ -77,7 +78,7 @@ According to the generated data, two stage coagulant addition need more time to 
 ### Literature Review
 
 ~~Observations and a Geometric Explanation of the Effects of Humic Acid (HA) on Flocculation~~
-   ~~The thesis gives a clear layout of why we are using HA as the natural organic matter as well as the chemistry behind the creation of flocs. We are using HA as the exemplary compound to represent dissolved NOM because it is the most commonly found form of NOM in our surroundings. Clay is used to represent the colloidal solids. As NOM is easily found in our soil and water, it increases our need of coagulant to promote flocculation of dissolved particles in water.  Hence why in our model of the experiment we add humic acid and clay with the coagulant PaCl (polyaluminium chloride). However, there is a cut-off point as to how much coagulant we can add to the raw water for it to be beneficial in the removal of NOM. This observation shows that some NOM becomes increasingly uncooperative to being removed due to the increased presence of coagulant. Our understanding of the lack of floc formation in the presence of increased coagulant addition is limited, yet it is an area of interest in determining the magnitude of the effect.~~
+   ~~The thesis gives a clear layout of why we are using HA as the natural organic matter as well as the chemistry behind the creation of flocs. We are using HA as the exemplary compound to represent dissolved NOM because it is the most commonly found form of NOM in our surroundings. Clay is used to represent the colloidal solids. As NOM is easily found in our soil and water, it increases our need of coagulant to promote flocculation of dissolved particles in water.  Hence why in our model of the experiment we add humic acid and clay with the coagulant PACl (polyaluminum chloride). However, there is a cut-off point as to how much coagulant we can add to the raw water for it to be beneficial in the removal of NOM. This observation shows that some NOM becomes increasingly uncooperative to being removed due to the increased presence of coagulant. Our understanding of the lack of floc formation in the presence of increased coagulant addition is limited, yet it is an area of interest in determining the magnitude of the effect.~~
 
 [Current Problem with NOM (Ching)]
 (what problems can it cause? current situation with NOM? why do we use humic acid to characterize NOM)
@@ -88,7 +89,7 @@ harmful disinfection by-products), (3) promoted biological growth in distributio
 and (4) increased levels of complex heavy metals and adsorbed organic pollutants.
 NOM can be removed from drinking water through the use of several treatment
 options, of which the most common and economically feasible processes are considered
-to be coagulation and flocculation followed by sedimentation/flotation and sand filtration.~~
+to be coagulation and flocculation followed by sedimentation/ flotation and sand filtration.~~
 An overall increase in NOM content in raw water has been observed in various regions worldwide (Eikebrokk et al., 2004).
 
 ~~Using PACl as neutralizer and destabilizer~~
@@ -235,7 +236,7 @@ Are the current simplifications justified? Is the data you are getting reliable?
 </div>
 
 ### Procedure
-For one stage addition experiment, in every single circulation, the coagulant dosage is 1.1-2.6 mg/L, which was increased 7 times by using the increment function, a function built in to increment the dosages of coagulant. Two more data points were added on the basis of past experiment, one between 1-1.5 mg/L, and the other between 1.5-2.0 mg/L, because it was found that desirable effluent turbidity was usually generated around that range of coagulant concentration. Besides, according to the previous data, 0. 5mg/L and 1 mg/L of coagulant are insufficient to effectively reduce the turbidity of the synthetic water.
+For one stage addition experiment, in every single circulation, the coagulant dosage is 1.1 mg/L to 2.6 mg/L, which was increased 7 times by using the increment function, a function built in to increment the dosages of coagulant. Two more data points were added on the basis of past experiment, one between 1 mg/L to 1.5 mg/L, and the other between 1.5 mg/L to 2.0 mg/L, because it was found that desirable effluent turbidity was usually generated around that range of coagulant concentration. Besides, according to the previous data, 0.5 mg/L and 1 mg/L of coagulant are insufficient to effectively reduce the turbidity of the synthetic water.
 
 <div class="alert alert-block alert-danger">
 coag is informal, use coagulant Insteadput a space between values and their unit_registryDo not use colons in the middle of sentences - does not make senseWhy are you redifining who Yingda is again?Include units on every numberWhat is the increment function?Unclear what the last sentence means
@@ -394,12 +395,6 @@ The conslusion in the second paragraph is not supported adequately in your repor
 
 ## Future Work
 We have encountered several problems: the high pressure within the system, the leak caused by the poor connection. In next few weeks, we would fix those problems and begin to conduct our experiment. After discussed with Monroe, we suspected that the size of our first contact chamber is not enough for the HA and coag nanoparticles in the synthetic water to generate enough successful collision, so recalculation and test on the CC are also required.
-
-##### Updated Future work
-In the future, we hope to find out the optimal coagulant dosages for both one stage coagulant addition and two stage coagulant addition. Once we have such information, we plan on
-
-Moreover, we have come to the realisation that our method of adding humic acid and clay together may be having a significant impact on our results. By researching the chemistry of how that is the case, we hope to be able to come up with an approach that would allow us to reach the standard required effluent.  
-
 
 <div class="alert alert-block alert-danger">
 Section has sentences that are incomplete.
