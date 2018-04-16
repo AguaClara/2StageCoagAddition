@@ -10,7 +10,7 @@ Why is the title not capitalized?
 Please do not delete my comments. Address them in the report and I will check them on the next submission. If you disagree with any of the comments, add your own comment under mine.
 </div>
 
-test
+
 
 ## Abstract
 
@@ -394,6 +394,12 @@ The conslusion in the second paragraph is not supported adequately in your repor
 
 ## Future Work
 We have encountered several problems: the high pressure within the system, the leak caused by the poor connection. In next few weeks, we would fix those problems and begin to conduct our experiment. After discussed with Monroe, we suspected that the size of our first contact chamber is not enough for the HA and coag nanoparticles in the synthetic water to generate enough successful collision, so recalculation and test on the CC are also required.
+
+##### Updated Future work
+In the future, we hope to find out the optimal coagulant dosages for both one stage coagulant addition and two stage coagulant addition. Once we have such information, we plan on
+
+Moreover, we have come to the realisation that our method of adding humic acid and clay together may be having a significant impact on our results. By researching the chemistry of how that is the case, we hope to be able to come up with an approach that would allow us to reach the standard required effluent.  
+
 
 <div class="alert alert-block alert-danger">
 Section has sentences that are incomplete.
