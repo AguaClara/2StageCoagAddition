@@ -74,19 +74,19 @@ According to the generated data, two stage coagulant addition need more time to 
 
 ### Literature Review
 
-### Observations and a Geometric Explanation of the Effects of Humic Acid (HA) on Flocculation
+~~Observations and a Geometric Explanation of the Effects of Humic Acid (HA) on Flocculation~~
    ~~The thesis gives a clear layout of why we are using HA as the natural organic matter as well as the chemistry behind the creation of flocs. We are using HA as the exemplary compound to represent dissolved NOM because it is the most commonly found form of NOM in our surroundings. Clay is used to represent the colloidal solids. As NOM is easily found in our soil and water, it increases our need of coagulant to promote flocculation of dissolved particles in water.  Hence why in our model of the experiment we add humic acid and clay with the coagulant PaCl (polyaluminium chloride). However, there is a cut-off point as to how much coagulant we can add to the raw water for it to be beneficial in the removal of NOM. This observation shows that some NOM becomes increasingly uncooperative to being removed due to the increased presence of coagulant. Our understanding of the lack of floc formation in the presence of increased coagulant addition is limited, yet it is an area of interest in determining the magnitude of the effect.~~
 
 [Current Problem with NOM (Ching)]
 (what problems can it cause? current situation with NOM)
-Natural Organic Matter (NOM)
+Natural Organic Matter (NOM) can cause many problems in drinking water and
 An overall increase in NOM content in raw water has been observed in various regions worldwide (Eikebrokk et al., 2004).
 
 ~~Using PACl as neutralizer and destabilizer~~
 
-Coagulation is one of the most effective methods to remove fine substances including NOM from water. Polyaluminum Chloride (PAC) was chosen to be the coagulants of our researhch, because of its wide range of targets, low sensitivity of temperature and low residual metal-ion concentration. The effect of PACl in removing humic acid was significantly efficient comparing to other chemicals. (Sudoh et. al., 2015)
+Coagulation is one of the most effective methods to remove fine substances including NOM from water. Polyaluminum Chloride (PACl) was chosen to be the coagulants of our research, because of its wide range of targets, low sensitivity of temperature and low residual metal-ion concentration. The effect of PACl in removing humic acid was significantly efficient comparing to other chemicals. (Sudoh et. al., 2015)
 
-Coagulants usually function as neutralizer and destabilizer in the particle removal process. As shown in Figure 2, originally, the negatively charged solids particles repel each other. However, as positively-charged coagulants are added to the mixture, they adhere to the negatively charged colloids, and neutralize the charge and destabilizing the particles. With the removal of charge, the destabilized colloids can now adhere to each other, forming microflocs.
+Coagulants generally function as neutralizer and destabilizer in the particle removal process. As shown in Figure 2, originally, the negatively charged solids particles repel each other. However, as positively-charged coagulants are added to the mixture, they adhere to the negatively charged colloids, and neutralize the charge and destabilizing the particles. With the removal of charge, the destabilized colloids can now adhere to each other, forming microflocs.
 
 ![coagulant](image/coagulant.png)
    Figure 2： Coagulants function as neutralizer and destabilizer
