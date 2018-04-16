@@ -78,8 +78,15 @@ According to the generated data, two stage coagulant addition need more time to 
    ~~The thesis gives a clear layout of why we are using HA as the natural organic matter as well as the chemistry behind the creation of flocs. We are using HA as the exemplary compound to represent dissolved NOM because it is the most commonly found form of NOM in our surroundings. Clay is used to represent the colloidal solids. As NOM is easily found in our soil and water, it increases our need of coagulant to promote flocculation of dissolved particles in water.  Hence why in our model of the experiment we add humic acid and clay with the coagulant PaCl (polyaluminium chloride). However, there is a cut-off point as to how much coagulant we can add to the raw water for it to be beneficial in the removal of NOM. This observation shows that some NOM becomes increasingly uncooperative to being removed due to the increased presence of coagulant. Our understanding of the lack of floc formation in the presence of increased coagulant addition is limited, yet it is an area of interest in determining the magnitude of the effect.~~
 
 [Current Problem with NOM (Ching)]
-(what problems can it cause? current situation with NOM)
-Natural Organic Matter (NOM) can cause many problems in drinking water and
+(what problems can it cause? current situation with NOM? why do we use humic acid to characterize NOM)
+Natural Organic Matter (NOM), which is increasingly prevalent in surface water, can cause many problems in water treatment processes. It does not only affect drinking water quality through various ways such as odor, color and taste, but also causes difficulty in water treatment process. Because NOMs are complex organic compounds that have a strong negative charge, its strong charge allows it to easily stick to other
+~~(2) increased coagulant and disinfectant
+doses (which in turn results in increased sludge volumes and production of
+harmful disinfection by-products), (3) promoted biological growth in distribution system,
+and (4) increased levels of complex heavy metals and adsorbed organic pollutants.
+NOM can be removed from drinking water through the use of several treatment
+options, of which the most common and economically feasible processes are considered
+to be coagulation and flocculation followed by sedimentation/flotation and sand filtration.~~
 An overall increase in NOM content in raw water has been observed in various regions worldwide (Eikebrokk et al., 2004).
 
 ~~Using PACl as neutralizer and destabilizer~~
