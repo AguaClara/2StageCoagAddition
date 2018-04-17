@@ -129,8 +129,6 @@ This section needs a lot of work for understandability.
 
 ## Methods
 
-
-
 ### Experiment Process
 The concentration of humic acid was fixed while the influent turbidity and coagulant dosage were controlled variable. Thus, the effect of turbidity on particle removal efficiency and the optimal coagulant dosage were tested. Three different value of target influent turbidity were used of 50NTU, 100NTU and 150NTU respectively. The coagulant dosages were varied by the increment function built in ProCoDA. The increment function can increase the coagulant dosage stepwise. When the run time of current state reach the duration we set in ProCoDA the function will be triggered and increase the coagulant pump speed according to the setting. Details about ProCoDA set-up can be found after the main text.
 
@@ -148,12 +146,11 @@ Watch out for run-on sentences. They make it very hard to read and understand.
 
 I am having a hard time visualizing the T-connection between the coag pumps and the set-up in general. Do you have a photo of the set-up? I am not understanding the rationale about dosaging between the two-stages as described by the latter half of the paragraph.
 </div>
+
 ### Experimental Apparatus Design
 The design of apparatus was based on the research of our subteam last semester.
 
 ProCoDA (Process Control and Data Acquisition) software was used to automate data collection and control the experimental apparatus. Two upflow contact chambers are set before the fluid enters the flocculator, so that the coagulants are allowed more time and space to collide with particles in water. During the first stage of addition, coagulants collide and then are covered by humic acid in the first contact chamber. Originally, the pump was designed to input the correct coagulant dosage before each contact chamber, allowing the two stage coagulant addition. But due to the limitation of ProCoDA, which can only control a maximum of two pumps at the same time, one of the two coagulant pumps had to be controlled manually. In order to achieve the effect of two-stage addition, under the modified design, the coagulant for the second pump was drained from the first coagulant pump. (more details followed)
-
-
 
 <div class="alert alert-block alert-danger">
 First sentence is a run-on. Do not include "should" in that sentence because there either are or are not.
@@ -162,9 +159,10 @@ I don't fully understand what's going on with the second pump draining from the 
 
 Define ProCoDA
 </div>
+
 ### Experimental Apparatus
 
-* Design (calculations, constraints)
+Design (calculations, constraints)
 The ProCoDA system can only control two pumps, and one of the coagulant pump had to be connected to the system, so we could not add humic acid and clay separately like some of other groups in the lab.
 
 <div class="alert alert-block alert-danger">
@@ -173,7 +171,7 @@ Any calculations?
 Consider a clearer way to present this information
 </div>
 
-* Schematic (label parts)
+Schematic (label parts)
 ![apparatus](image/ApparatusSketch.jpg)
    Figure 3：Apparatus diagram
 
