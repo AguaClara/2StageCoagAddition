@@ -446,7 +446,7 @@ from aide_design import utility as ut
 # calculate the flow rate of the system and water pump speed
 V_sedimentation_upflow = 1*(u.mm/u.s)
 InnerDiam_SedTube = 0.96*u.inch
-Area_SedTube = 0.25*np.pi*(ID_pipe**2)
+Area_SedTube = 0.25*np.pi*(InnerDiam_SedTube**2)
 Q_system = V_sedimentation_upflow*Area_SedTube
 
 print('The flow rate of the system is', (ut.sig(Q_system.to(u.mL/u.s),3)))
