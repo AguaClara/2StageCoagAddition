@@ -126,7 +126,7 @@ This section needs a lot of work for understandability.
 * **Optimal Coagulant Dosage**
 
 
-Throughout the semester, a series of one-stage coagulant addition experiments were carried out to find the optimal coagulant dosage that could reduce the effluent turbidity of 3 NTU or less, the required turbidity for the AguaClara's filter system. During the one-stage experiments, the second coagulant pump was turned off.
+Throughout the semester, a series of one-stage coagulant addition experiments was carried out to find the optimal coagulant dosage that could reduce the effluent turbidity of 3 NTU or less, the required turbidity for the AguaClara's filter system. During the one-stage experiments, the second coagulant pump was turned off.
 
 In two-stage coagulant addition experiments, each dosage of coagulant used in one-stage addition experiment was divided into two parts by adding one more stream of coagulant between the first and second contact chamber. The goal of two-stage experiment was to find the optimal distribution between the first and second stream coagulant. The desirable situation would be most of the coagulant from the first addition would offset the effect humic acid in the water, and coagulant from the second addition would be able to attach to clay and nanoaggregate, thus forming big flocs and reducing the effluent turbidity effectively.
 
