@@ -66,7 +66,7 @@ According to the generated data, two-stage coagulant addition need more time to 
 ### Literature Review
 
 ### Recent research findings of flocculation in NOM-containing waters
-A conclusion worth mentioning from a research paper, [(Yan et al., 2008)](https://www.sciencedirect.com/science/article/pii/S1383586609002342?via%3Dihub) establishes that the optimum operating conditions, such as the pH and the coagulant dosages, to reduce turbidity by flocculation are not necessarily the same conditions for NOM removals. Flocculation reduces the repulsive potential of electrical double layer of colloid by using coagulants. As a result, colloidal microparticles start to develop and then agglomerate into larger flocs. This agglomeration phenomenon includes various mechanisms with the coagulant's metal ions into insoluble aggregates[(Henderson et al., 2006)](https://www.scopus.com/record/display.uri?eid=2-s2.0-33744489650&origin=inward&txGid=aaab348399699d2ac6549079332441da). Considering the high variability of NOM's organic components, the removal mechanisms will substantially differ from one water source to the other or within the same source due to seasonal variations. The result will therefore be a variable removal efficiency of coagulation and the formation of flocs with different sizes and structures [(Jarvis et al., 2006)](https://www.sciencedirect.com/science/article/pii/S0043135406002405?via%3Dihub), which urges researcher to develop different water treatment strategy in different context.
+A conclusion worth mentioning from a research paper, [(Yan et al., 2008)](https://www.sciencedirect.com/science/article/pii/S1383586609002342?via%3Dihub) establishes that the optimum operating conditions, such as the pH and the coagulant dosages, to reduce turbidity by flocculation are not necessarily the same conditions for NOM removals. Flocculation reduces the repulsive potential of electrical double layer of colloid by using coagulants. As a result, colloidal microparticles develop and then agglomerate into larger flocs. This agglomeration phenomenon includes various mechanisms with the coagulant's metal ions into insoluble aggregates[(Henderson et al., 2006)](https://www.scopus.com/record/display.uri?eid=2-s2.0-33744489650&origin=inward&txGid=aaab348399699d2ac6549079332441da). Considering the high variability of NOM's organic components, the removal mechanisms will substantially differ from one water source to the other or within the same source due to seasonal variations. The result will therefore be a variable removal efficiency of coagulation and the formation of flocs with different sizes and structures [(Jarvis et al., 2006)](https://www.sciencedirect.com/science/article/pii/S0043135406002405?via%3Dihub), which urges researcher to develop different water treatment strategy in different context.
 
 ### Using PACl as neutralizer and destabilizer
  Polyaluminum Chloride (PAC) was chose to be the coagulants of our research, because of its wide range of targets, low sensitivity of temperature and low residual metal-ion concentration. The effect of PACl in removing humic acid was significantly efficient comparing to other chemicals. [(Sudoh et. al., 2015)](https://www.sciencedirect.com/science/article/pii/S2213343715000871) Projects have a preference on PAC also because of the economic facter(i.e. low cost and high availability in both solid and liquid form). [(Bratby,2006)](https://www.sciencedirect.com/science/refhub/S0045-6535(17)31538-2/sref15)
@@ -141,7 +141,7 @@ I don't fully understand what's going on with the second pump draining from the 
 Define ProCoDA
 </div>
 
-The general apparatus set-up developed from last semester was kept throughout this semester. The contact chamber was reversed from down-flow to up-flow so that all the air in the system can be pushed out. Due to the limited space on our bench area, we had to make simplifications in our apparatus set-up. Nevertheless, the simplifications reflects the nature of the AguaClara water treatment plant. The sedimentation tube in our system had the fundamental structures of what would be present in an AguaClara water treatment plant, including: the floc weir, floc settler, floc blanket and sludge valve. Further detail about the design of sedimentation tube can refer to the research of High Rate Sedimentation group in AguaClara. A tube flocculator was used in this research because it can be idealized as a high-Péclet-number reactor much like a baffled hydraulic flocculator and also because the average velocity gradient in laminar tube flow is well defined [(Weber-Shirk and Lion 2010)](https://www.sciencedirect.com/science/article/pii/S0043135410004136).
+The general apparatus set-up developed from last semester was kept throughout this semester. The contact chamber was reversed from down-flow to up-flow so that all the air in the system can be pushed out. Due to the limited space on our bench area, we had to make simplifications in our apparatus set-up. Nevertheless, the simplifications reflect the nature of the AguaClara water treatment plant. The sedimentation tube in our system had the fundamental structures of what would be present in an AguaClara water treatment plant, including the floc weir, floc settler, floc blanket and sludge valve. Further detail about the design of sedimentation tube can refer to the research of High Rate Sedimentation group in AguaClara. A tube flocculator was used in this research because it can be idealized as a high-Péclet-number reactor much like a baffled hydraulic flocculator and also because the average velocity gradient in laminar tube flow is well defined [(Weber-Shirk and Lion 2010)](https://www.sciencedirect.com/science/article/pii/S0043135410004136).
 
 <div class="alert alert-block alert-danger">
 Any calculations?
@@ -149,9 +149,10 @@ Any calculations?
 Consider a clearer way to present this information
 </div>
 
-* Schematic (label parts)
+
 ![apparatus](image/ApparatusSketch.jpg)
-   Figure 3：Apparatus diagram
+
+     Figure 3：Apparatus diagram
 
    <div class="alert alert-block alert-danger">
    Figure number?
@@ -160,12 +161,12 @@ Consider a clearer way to present this information
    </div>
 
 
-   ![apparatus](image/CurrentApparatus2.png)
+![apparatus](image/CurrentApparatus2.png)
 
-   Figure 4: Current Apparatus Set-up
+      Figure 4: Current Apparatus Set-up
 
 
-Since ProCoDA can only control two pumps, one of the coagulant pumps had to be connected to the system. Thus, humic acid and clay cannot be added into the system under the control of two independent pumps. To start with running our apparatus, clay, humic acid and water were added, according to the calculated amount, into a 10L stock tank with a stirrer. This stock tank was connected to the clay pump. The pump speed was controlled by ProCoDA system to maintain a relatively fixed influent turbidity. After that, a mixture of humic acid and clay went through the first turbidity meter, and influent turbidity of the raw water was measured. Following this, the first stream of coagulant was added right before the fluid entered the first contact chamber. The second stream of coagulant was pumped into the system after the first contact chamber if we were running a two-stage addition experiment.
+Since ProCoDA can only control two pumps, one of the coagulant pumps had to be connected to the system. Thus, humic acid and clay cannot be added into the system under the control of two independent pumps. To start with running our apparatus, clay, humic acid and water were added, according to the calculated amount, into a 10L stock tank with a stirrer. This stock tank was connected to the clay pump. The pump speed was controlled by ProCoDA to maintain a relatively fixed influent turbidity. After that, a mixture of humic acid and clay went through the first turbidity meter, and influent turbidity of the raw water was measured. Following this, the first stream of coagulant was added right before the fluid entered the first contact chamber. The second stream of coagulant was pumped into the system after the first contact chamber if we were running a two-stage addition experiment.
 
 Figure 5: T-connection for adaptation of ProCoDA
 
@@ -209,7 +210,7 @@ Table 1: The bench setup. The above are the parameters and resulting values of t
 ### Experiment operation
 Two-stage coagulant addition experiment should base on the data generated in one stage addition experiment, the total coagulant dosage is the optimal amount found in one stage addition experiments.  and then we add two more circulations for comparison, vary the total amount, +-0.5 on the basis of the first trial. When conducting two-stage addition experiment, the effect of humic acid concentration on flocculation would not be test, humic acid concentration of the synthetic water is fixed.
 
-During March, for one stage addition experiment, in every single circulation of the increment function, the coag dosage was range from 1.1 to 2.6 mg/L, the dosage was increased seven times over time under the control of ProCoDA. It was found that desirable effluent turbidity usually generated around 1.5 mg/L coagulant concentration according to Du's research(Du, 2017). Besides, in the previous experiment, 0.5mg/L and 1mg/L coagulant were proved to be insufficient to reduce the turbidity of synthetic water efficiently. By applying different humic acid concentration between separate trials with same coagulant dosage, the impact of both humic acid on flocculation process can be tested.
+During March, for one stage addition experiment, in every single circulation of the increment function, the coag dosage was range from 1.1 to 2.6 mg/L, the dosage was increased seven times over time under the control of ProCoDA. The target influent turbidity was 10It was found that desirable effluent turbidity usually generated around 1.5 mg/L coagulant concentration according to Du's research(Du, 2017). Besides, in the previous experiment, 0.5mg/L and 1mg/L coagulant were proved to be insufficient to reduce the turbidity of synthetic water efficiently. By applying different humic acid concentration between separate trials with same coagulant dosage, the impact of both humic acid on flocculation process can be tested.
 
 <div style = "text-align:center">
 <img
