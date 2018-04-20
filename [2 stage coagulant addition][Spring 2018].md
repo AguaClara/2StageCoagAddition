@@ -22,10 +22,10 @@ Combine these four sections into one paragraph. An abstract needs to be cohesive
 </div>
 
 
-**Up-to-date abstract:** In the past, AguaClara built a predictive model by studying the effect of humic acid, clay and PAC coagulant on flocculation. Based on the modelling result and the study of bonding mechanism, it was hypothesized that two-stage coagulant addition, namely a separate coagulant addition, would increase the particle removal efficiency  while maintaining the coagulant dosage. During the first stage, coagulant was added to offset the effect of humic acid in water, then the second stream of coagulant can aggregate clay. The nano-aggregate formed in the first stage and small particles join to form big flocs. Last semester, our group designed and fabricated the experimental apparatus. This semester, using the same apparatus, our group conducted experiment for both one stage and two stage coagulant addition to. Our group will keep generating experimental data to compare the efficiency of different coagulant addition method and try to close the debate of one stage versus two stage.
+**abstract V1:** In the past, AguaClara built a predictive model by studying the effect of humic acid, clay and PAC coagulant on flocculation. Based on the modelling result and the study of bonding mechanism, it was hypothesized that two-stage coagulant addition, namely a separate coagulant addition, would increase the particle removal efficiency  while maintaining the coagulant dosage. During the first stage, coagulant was added to offset the effect of humic acid in water, then the second stream of coagulant can aggregate clay. The nano-aggregate formed in the first stage and small particles join to form big flocs. Last semester, our group designed and fabricated the experimental apparatus. This semester, using the same apparatus, our group conducted experiment for both one stage and two stage coagulant addition to. Our group will keep generating experimental data to compare the efficiency of different coagulant addition method and try to close the debate of one stage versus two stage.
 
-**Apr 2 updated abstract:**
-Based on the modelling result and bonding mechanism of humic acid, clay and PAC coagulant, we hypothesized that two-stage coagulant addition, namely a separate coagulant addition, would increase the particle removal efficiency. The first addition of coagulant offset the effect of humic acid in water while the second stream of coagulant aggregated clay. Using the same apparatus fabricated from last semester, we conducted experiment for both one- and two-stage coagulant addition. By comparing the particle removal efficiency of different coagulant addition methods, we aim to close the debate of one stage versus two stage.
+**abstract V2-up to date:**
+Based on the modelling result and bonding mechanism of humic acid, clay and PAC coagulant, we hypothesized that two-stage coagulant addition, namely a separate coagulant addition, would increase the particle removal efficiency. The first addition of coagulant offset the effect of humic acid in water while the second stream of coagulant aggregates clay and nano-aggregation. Experiment for both one- and two-stage coagulant addition was conducted this semester. By comparing the particle removal efficiency of different coagulant addition methods, we aimed at closing the debate of one-stage addition versus two-stage addition.**/(general conclusion will be updated here in final submission)**
 
 
 
@@ -59,14 +59,14 @@ Studying the operation of ProCoDA software was another critical task the subteam
 
 According to the generated data, two stage coagulant addition need more time to form floc blanket than one stage addition. But in several trials with relatively low turbidity, one stage addition can not form floc blanket while the two stage addition could under the same condition.
 
-
-
 ### Literature Review
 
-### Using PACl as neutralizer and destabilizer
-Coagulation is one of the most effective methods to remove fine substances from water. Polyaluminum Chloride (PAC) was chose to be the coagulants of our research, because of its wide range of targets, low sensitivity of temperature and low residual metal-ion concentration. The effect of PACl in removing humic acid was significantly efficient comparing to other chemicals. (Sudoh et. al., 2015) Projects have a preference on PAC also because of the economic facter(i.e. low cost and high availability in both solid and liquid form). (Bratby,2006)
+#### Recent research findings of flocculation in NOM-containing waters
+There is a worth mentioning conclusion of the past research that the optimum operating conditions to remove turbidity or color by coagulation are not necessarily the same conditions for NOM removal (Yan et al., 2008). Flocculation is a physical-chemical process aiming at reducing the repulsive potential of electrical double layer of colloidsusing various coagulants. As a result, colloidal microparticles start to develop and then agglomerate into larger particles or flocs (see Fig. 2). This agglomeration phenomenon includes various mecha- nisms such as charge neutralization, entrapment, adsorption and complexation with the coagulant's metal ions into insoluble ag- gregates (Henderson et al., 2006). As far as NOM in concerned, and considering the high variability of its organic components in term of molecular and electrical properties, the combined removal mechanisms will substantially differ from one water source to the other and within the same source due to seasonal variations. The result will therefore be a variable removal efficiency of coagulation and the formation of flocs with different sizes and structures (Jarvis et al., 2006; Sharp et al., 2006b), which constitutes a serious chal- lenge for the application of coagulation in the treatment of drinking water supplies.
+#### Using PACl as neutralizer and destabilizer
+Polyaluminum Chloride (PAC) was chose to be the coagulants of our research, because of its wide range of targets, low sensitivity of temperature and low residual metal-ion concentration. The effect of PACl in removing humic acid was significantly efficient comparing to other chemicals. (Sudoh et. al., 2015) Projects have a preference on PAC also because of the economic facter(i.e. low cost and high availability in both solid and liquid form). (Bratby,2006)
 
-Coagulants usually function as neutralizer and destabilizer in the particle removal process. As shown in Figure 2, originally, the negatively charged solids particles repel each other. However, as positively-charged coagulants are added to the mixture, they adhere to the negatively charged colloids, and neutralize the charge and destabilizing the particles. With the removal of charge, the destabilized colloids can now adhere to each other, forming microflocs.
+Coagulants usually function as neutralizer and destabilizer in the particle removal process. As far as NOM is concerned, the flocculation-based removal process is more efficient when more positively charged Al species are generated because NOM is mainly composed of organic compounds with negatively-charged functional groups. As shown in Figure 2, originally, the negatively charged solids particles repel each other. However, as positively-charged coagulants are added to the mixture, they adhere to the negatively charged colloids, and neutralize the charge and destabilizing the particles. With the removal of charge, the destabilized colloids can now adhere to each other, forming microflocs. 
 
 ![coagulant](image/coagulant.png)
    Figure 2： Coagulants function as neutralizer and destabilizer
@@ -78,9 +78,9 @@ Consider " Polyaluminum Chloride (PACl) is a coagulant that reduces DBPs..." rat
 Focus on the important information to pass along.
 </div>
 
-### Effectiveness of Two-Stage Coagulant Addition
-Based on Du's Thesis, the presence of humic acid as NOM affects the use of PACl as a coagulant for synthetic surface water, but in a one-stage setting, meaning the coagulant is added at once. Last semester, our model considered the attachment efficiency for the hydraulic flocculation. However, past studies have investigated the difference of efficiency of two-stage coagulant addition, meaning adding the coagulants at two different points, comparing with one-stage. (Liu et. al., 2011) Keeping the total amount of coagulant at the same dosage, when partial amount was added half-way, it was found that two-stage can produce floc 1.5 times the floc size comparing with one-stage, which potentially made two-stage more efficient to one-stage. As the floc blanket was formed, the flocs were connected together to for larger adn more irregular structure, making two-stage addition more time-efficient than one-stage.
-
+#### Effectiveness of Two-Stage Coagulant Addition
+The presence of humic acid as NOM affects the use of PACl as a coagulant for synthetic surface water, but in a one-stage setting, meaning the coagulant is added at once. Last semester, our model considered the attachment efficiency for the hydraulic flocculation. However, past studies have investigated the difference of efficiency of two-stage coagulant addition, meaning adding the coagulants at two different points, comparing with one-stage. (Liu et. al., 2011) Keeping the total amount of coagulant at the same dosage, when partial amount was added half-way, it was found that two-stage can produce floc 1.5 times the floc size comparing with one-stage, which potentially made two-stage more efficient to one-stage. As the floc blanket was formed, the flocs were connected together to for larger adn more irregular structure, making two-stage addition more time-efficient than one-stage.
+ 
 <div class="alert alert-block alert-danger">
 Sometimes you use humic acid and sometimes you use Humic Acid. Be consistent with capitalization (I would say humic acid is more correct)
 
@@ -98,8 +98,6 @@ This section needs a lot of work for understandability.
 </div>
 
 ## Methods
-
-
 
 ### Experiment Process
 Humic acid is used as the representative NOM because it is the most commonly found  NOM in the natural system. Kaolin clay is used to represent the colloidal solids. Polyaluminium chloride(PAC), is the coagulant.
