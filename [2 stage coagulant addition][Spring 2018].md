@@ -113,6 +113,9 @@ This section needs a lot of work for understandability.
 * **Polyaluminium chloride (PAC)** - the coagulant.
 
 #### Variables
+
+
+|
 #####Control Variables
 * **Influent Turbidity** - the influent turbidity value TSCA team evaluated was 100 NTU.
 * **Coagulant Dosages** - the increment function used in ProCoDA increased the coagulant dosage stepwise. When the run time of current state reaches the duration set in ProCoDA, the function will be activated and increase the coagulant pump speed according to the setting. Details about ProCoDA set-up can be found after the main text.
