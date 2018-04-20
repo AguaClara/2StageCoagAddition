@@ -104,8 +104,6 @@ This section needs a lot of work for understandability.
 
 ## Methods
 
-
-
 ### Experiment Process
 Humic acid is used as the representative NOM because it is the most commonly found  NOM in the natural system. Kaolin clay is used to represent the colloidal solids. Polyaluminium chloride(PAC), is the coagulant.
 
@@ -158,13 +156,21 @@ Consider a clearer way to present this information
    What does CC stand for?
    </div>
 
+
+   ![apparatus](image/CurrentApparatus2.png)
+
+   Figure 4: Current Apparatus Set-up
+
+
 ProCoDA can only control two pumps, and one of the coagulant pumps had to be connected to the system. Thus humic acid and clay cannot add into the system under the control of two independent pumps. Our apparatus worked as the following description, to start with, clay, humic acid and water were added according to the calculation, into a 10L stock tank with a stirrer. This stock tank was connected to the clay pump. The pump speed would be control by ProCoDA system to maintain a relatively fixed influent turbidity. After that, a mixture of humic acid and clay went through the first turbidity meter, and influent turbidity of the raw water is measured. Following this, the first stream of coagulant was added right before the fluid entered the first contact chamber. The second stream of coagulant was pumped into the system after the first contact chamber if we were running a two-stage addition experiment.
+
+Figure 5: T-connection for adaptation of ProCoDA
+
 
 <div class="alert alert-block alert-danger">
 "The way in which the apparatus worked was the following" is both an incomplete sentence and too fluffy. Instead say how the apparatus worked in that first sentence.What calculation?Do you mean stirrer?How did you determine the pump speed for the fixed turbidity?What was that turbidity?Can the results from one experiment with a certain fixed turbidity be generalize for many tubridity levels?Turbidimeters not turbidity TurbidimetersChoose between is and was - have to keep tenses consistent.More run-on sentences and incorrect verb usage.The end of this paragraph is a better description of how the two stage dosing worked.
 </div>
 
-* Image
 
 <div class="alert alert-block alert-danger">
 Delete the bullet point for "Image"
@@ -172,21 +178,19 @@ Delete the bullet point for "Image"
 Refer to figures by their figure number.
 </div>
 
-![apparatus](image/CurrentApparatus2.png)
-
-Figure 4: Current Apparatus Set-up
 
 <div class="alert alert-block alert-danger">
 Figure number? Why don't you include this farther up?
 </div>
 
-Our group have been striving to fabricate a perfect system without any leak. However, many parts we used in apparatus set-up is processed by ourself, such as cutting, drilling, and tube connection. So it required a frequent monitoring on the apparatus, and fix the problem whenever it occurs.
+Our group have been trying to fabricate a  system without any leak. However, many parts we used in apparatus set-up is processed by ourselves, such as cutting, drilling, and tube connection. So it required a frequent monitoring on the apparatus, and fix the problem whenever it occurs.
 
 <div class="alert alert-block alert-danger">
 
 Are the current simplifications justified? Is the data you are getting reliable?
 </div>
 
+Table 1: The bench setup. The above are the parameters and resulting values of the current design.
 | Parameter | Meaning | Value |
 | ----- | ------------------------ | ----- |
 | V.Sed | Sed Tank Upflow Velocity | 1 mm/s |
@@ -197,7 +201,7 @@ Are the current simplifications justified? Is the data you are getting reliable?
 |  G  |  Shear   |  175.5 Hz  |
 |Theta |Residence Time | 1.899 min or 113.9 s|
 
-Table 1: The bench setup. The above are the parameters and resulting values of the current design.
+
 
 ### Experiment operation
 Two-stage coagulant addition experiment should base on the data generated in one stage addition experiment, the total coagulant dosage is the optimal amount found in one stage addition experiments.  and then we add two more circulations for comparison, vary the total amount, +-0.5 on the basis of the first trial. When conducting two-stage addition experiment, the effect of humic acid concentration on flocculation would not be test, humic acid concentration of the synthetic water is fixed.
