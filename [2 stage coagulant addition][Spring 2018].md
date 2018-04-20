@@ -55,7 +55,7 @@ Our research was based on her study of bonding mechanism between different parti
    Figure 1： Collisions between particles during flocculation
 
 ### Previous Work of Two-Stage Coagulant Addition Subteam
-In Fall 2017 semester, TSCA (two-stage coagulant addition) subteam built the theoretical basis for future work by studying research report of previous particle removal research teams in AguaClara and relevant literature online. TSCA subteam built their apparatus based on the design of Contact Chamber subteam. Compared with the previous group*  , the set-up includes five pumps to achieve a precise control on fluid flow rate. Two down-flow contact chambers were applied in series before fluid enters the flocculator. The contact chambers created a space for particle collision to take place. The apparatus set-up of Spring 2018 semester was based on the previous design and the detail will be explained in depth in later chapters.
+In Fall 2017 semester, TSCA (two-stage coagulant addition) subteam built the theoretical basis for future work by studying research report of previous particle removal research teams in AguaClara and relevant literature online. TSCA subteam built their apparatus based on the design of Contact Chamber subteam. The mechanisms related to the contact chambers can be found in the Contact Chamber subteam report. Compared with the previous group*  , the set-up includes five pumps to achieve a precise control on fluid flow rate. Two down-flow contact chambers were applied in series before fluid enters the flocculator. The contact chambers created a space for particle collision to take place. The apparatus set-up of Spring 2018 semester was based on the previous design and the detail will be explained in depth in later chapters.
 
 Studying the operation of ProCoDA software was another critical task the subteam accomplished in Fall 2017 semester. ProCoDA, a process control software software, allows the user to control many parts of the experimental apparatus and to automate data collection. Specifically, ProCoDA can control the speed of peristaltic pumps, regulate flow through solenoid valves, and measure water quality parameters such as turbidity by connecting to the turbidity meter. Automated data acquisition can record the speed of pump, turbidity of water, mass of container to an Excel spreadsheet directly. The resulting data was analyzed with Excel and Python codes. Using the increment function built in ProCoDA enable the team to conduct series of control experiments without staying in the lab. More detail of our experiment will be discussed in Method section of our report.**/(processing)** The original MathCAD base code used to calculate coagulant dosage, the composition of clay-HA mixture and pump speed was translated to Python codes, the code is attached after the main text.
 
@@ -104,16 +104,20 @@ This section needs a lot of work for understandability.
 
 ## Methods
 
+
+
 ### Experiment Process
 Humic acid is used as the representative NOM because it is the most commonly found  NOM in the natural system. Kaolin clay is used to represent the colloidal solids. Polyaluminium chloride(PAC), is the coagulant.
 
-Throughout the semester, The concentration of humic acid was fixed while the influent turbidity and coagulant dosage were controlled variables. Our independent variables were the effluent turbidity, which showed us the efficiency of particle removal, and the optimal coagulant dosage.
-The values observed for our control variable of target influent turbidity were 50 NTU, 100 NTU and 150 NTU. The coagulant dosages were varied by the increment function built in ProCoDA. The increment function can increase the coagulant dosage stepwise. When the run time of current state reach the duration we set in ProCoDA the function will be triggered and increase the coagulant pump speed according to the setting. Details about ProCoDA set-up can be found after the main text.
+Throughout the semester, The concentration of humic acid was fixed while the influent turbidity and coagulant dosage were controlled variables. Our independent variables were the effluent turbidity, which showed us the efficiency of particle removal, and the optimal coagulant dosage. The values observed for our control variable of target influent turbidity were 50 NTU, 100 NTU and 150 NTU. The coagulant dosages were varied by the increment function built in ProCoDA. The increment function can increase the coagulant dosage stepwise. When the run time of current state reach the duration we set in ProCoDA the function will be triggered and increase the coagulant pump speed according to the setting. Details about ProCoDA set-up can be found after the main text.
 
 First, a set of one-stage coagulant addition experiments were carried out to find the optimal dosage that could reduce the effluent turbidity of 3 NTU or less. 3 NTU is the requirement of AguaClara's filter system. During the one-stage experiments, the second coagulant pump was turned off.
 
 In two-stage coagulant addition experiment, the dosages used in one-stage addition experiment were divided into two parts by adding one more stream of coagulant between the first and second contact chamber. The goal of two-stage experiment is to find the optimal distribution between the first and second stream coagulant. The desirable situation is that most of the coagulant from the first addition would offset the effect humic acid in the water, and coagulant of second addition would be able to attach to clay and nanoaggregate, thus forming big flocs and reduce the effluent turbidity effectively. A T-connection was installed between the two coagulant pumps. This helped manage the amount of coagulant that was inputted into the system. The first pump would control the total amount of coagulant being put into the system. When the second coagulant pump was opened, it would be able to control how much coagulant would be used for the second dosage, drain directly from the first valve so that a fixed dosage of the total amount of coagulant put in could be maintained. This helped to test whether having second addition of coagulant before the second contact chamber would have a better performance with the same dosage of coagulant used in one stage coagulant addition.  
 
+When ample data of the effluent turbidities of both one-stage and two-stage coagulant addition has accumulated, we will determine which method is more beneficial.  
+
+**insert image of T connection here**
 
 <div class="alert alert-block alert-danger">
 "Finally, we decided to carry out the following procedure" - This sentence is unnecessary, keep focusing on clear and concise writing.
@@ -128,7 +132,7 @@ I am having a hard time visualizing the T-connection between the coag pumps and 
 </div>
 
 ### Experimental Apparatus Design
-ProCoDA (Process Control and Data Acquisition) software was used to automate data collection and control the experimental apparatus. Two up-flow contact chambers are set before the fluid enters the flocculator, so that the coagulants are allowed more time and space to collide with particles in water. During the first stage of addition, coagulants collide and they are covered by humic acid in the first contact chamber. Originally, the pump was designed to input the correct coagulant dosage before each contact chamber, allowing the two-stage coagulant addition. But due to the limit port of ProCoDA, we can only control a maximum of two pumps at the same time, one of the two coagulant pumps had to be controlled manually.
+ProCoDA (Process Control and Data Acquisition) software was used to automate data collection and control the experimental apparatus. Two up-flow contact chambers are set before the fluid enters the flocculator, so that the coagulants are allowed more time and space to collide with particles in water. During the first stage of addition, in the first contact chamber, coagulants collide and they are covered by humic acid. In the primary stages of setting up the apparatus, the pump was designed to input the correct coagulant dosage before each contact chamber, allowing for two-stage coagulant addition to take place. However, due to the limitations of ProCoDA, we can only control a maximum of two pumps at the same time. The second coagulant pump has to be controlled manually.
 
 <div class="alert alert-block alert-danger">
 First sentence is a run-on. Do not include "should" in that sentence because there either are or are not.
@@ -138,7 +142,7 @@ I don't fully understand what's going on with the second pump draining from the 
 Define ProCoDA
 </div>
 
-The apparatus set-up developed in last semester was kept at present. The contact chamber was reversed from down-flow to up-flow so that the air in the system can be pushed out. Due to the limit bench area, there were simplifications in our apparatus set-up, but it did reflect the nature of the AguaClara water treatment plant. The sedimentation tube in our system had those fundamental structures of AguaClara water treatment plant, including the floc weir, floc settler, floc blanket and sludge valve. Further detail about the design of sedimentation tube can refer to the research of High Rate Sedimentation group in AguaClara. A tube flocculator was used in this research because it can be idealized as a high-Péclet-number reactor much like a baffled hydraulic flocculator and also because the average velocity gradient in laminar tube flow is well defined [(Weber-Shirk and Lion 2010)](https://www.sciencedirect.com/science/article/pii/S0043135410004136).
+The apparatus set-up developed in last semester was kept at present. The contact chamber was reversed from down-flow to up-flow so that all the air in the system can be pushed out. Due to the limited space on our bench area, we had to make simplifications in our apparatus set-up. Nevertheless, the simplifications reflects the nature of the AguaClara water treatment plant. The sedimentation tube in our system had the fundamental structures of what would be present in an AguaClara water treatment plant, including: the floc weir, floc settler, floc blanket and sludge valve. Further detail about the design of sedimentation tube can refer to the research of High Rate Sedimentation group in AguaClara. A tube flocculator was used in this research because it can be idealized as a high-Péclet-number reactor much like a baffled hydraulic flocculator and also because the average velocity gradient in laminar tube flow is well defined [(Weber-Shirk and Lion 2010)](https://www.sciencedirect.com/science/article/pii/S0043135410004136).
 
 <div class="alert alert-block alert-danger">
 Any calculations?
@@ -156,21 +160,13 @@ Consider a clearer way to present this information
    What does CC stand for?
    </div>
 
-
-   ![apparatus](image/CurrentApparatus2.png)
-
-   Figure 4: Current Apparatus Set-up
-
-
-Since ProCoDA can only control two pumps, one of the coagulant pumps had to be connected to the system. Thus, humic acid and clay cannot be added into the system under the control of two independent pumps. To start with running our apparatus, clay, humic acid and water were added, according to the calculated amount, into a 10L stock tank with a stirrer. This stock tank was connected to the clay pump. The pump speed was controlled by ProCoDA system to maintain a relatively fixed influent turbidity. After that, a mixture of humic acid and clay went through the first turbidity meter, and influent turbidity of the raw water was measured. Following this, the first stream of coagulant was added right before the fluid entered the first contact chamber. The second stream of coagulant was pumped into the system after the first contact chamber if we were running a two-stage addition experiment.
-
-Figure 5: T-connection for adaptation of ProCoDA
-
+ProCoDA can only control two pumps, and one of the coagulant pumps had to be connected to the system. Thus humic acid and clay cannot add into the system under the control of two independent pumps. Our apparatus worked as the following description, to start with, clay, humic acid and water were added according to the calculation, into a 10L stock tank with a stirrer. This stock tank was connected to the clay pump. The pump speed would be control by ProCoDA system to maintain a relatively fixed influent turbidity. After that, a mixture of humic acid and clay went through the first turbidity meter, and influent turbidity of the raw water is measured. Following this, the first stream of coagulant was added right before the fluid entered the first contact chamber. The second stream of coagulant was pumped into the system after the first contact chamber if we were running a two-stage addition experiment.
 
 <div class="alert alert-block alert-danger">
 "The way in which the apparatus worked was the following" is both an incomplete sentence and too fluffy. Instead say how the apparatus worked in that first sentence.What calculation?Do you mean stirrer?How did you determine the pump speed for the fixed turbidity?What was that turbidity?Can the results from one experiment with a certain fixed turbidity be generalize for many tubridity levels?Turbidimeters not turbidity TurbidimetersChoose between is and was - have to keep tenses consistent.More run-on sentences and incorrect verb usage.The end of this paragraph is a better description of how the two stage dosing worked.
 </div>
 
+* Image
 
 <div class="alert alert-block alert-danger">
 Delete the bullet point for "Image"
@@ -178,19 +174,21 @@ Delete the bullet point for "Image"
 Refer to figures by their figure number.
 </div>
 
+![apparatus](image/CurrentApparatus2.png)
+
+Figure 4: Current Apparatus Set-up
 
 <div class="alert alert-block alert-danger">
 Figure number? Why don't you include this farther up?
 </div>
 
-Our group have been trying to fabricate a  system without any leak. However, many parts we used in apparatus set-up is processed by ourselves, such as cutting, drilling, and tube connection. So it required a frequent monitoring on the apparatus, and fix the problem whenever it occurs.
+Our group have been striving to fabricate a perfect system without any leak. However, many parts we used in apparatus set-up is processed by ourself, such as cutting, drilling, and tube connection. So it required a frequent monitoring on the apparatus, and fix the problem whenever it occurs.
 
 <div class="alert alert-block alert-danger">
 
 Are the current simplifications justified? Is the data you are getting reliable?
 </div>
 
-Table 1: The bench setup. The above are the parameters and resulting values of the current design.
 | Parameter | Meaning | Value |
 | ----- | ------------------------ | ----- |
 | V.Sed | Sed Tank Upflow Velocity | 1 mm/s |
@@ -201,7 +199,7 @@ Table 1: The bench setup. The above are the parameters and resulting values of t
 |  G  |  Shear   |  175.5 Hz  |
 |Theta |Residence Time | 1.899 min or 113.9 s|
 
-
+Table 1: The bench setup. The above are the parameters and resulting values of the current design.
 
 ### Experiment operation
 Two-stage coagulant addition experiment should base on the data generated in one stage addition experiment, the total coagulant dosage is the optimal amount found in one stage addition experiments.  and then we add two more circulations for comparison, vary the total amount, +-0.5 on the basis of the first trial. When conducting two-stage addition experiment, the effect of humic acid concentration on flocculation would not be test, humic acid concentration of the synthetic water is fixed.
@@ -213,10 +211,9 @@ During March, for one stage addition experiment, in every single circulation of 
 align = "center"
 src="https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/IMG_2356.JPG" height=400, width=300>
 
-Figure 6: Floc blanket forming in the reactor
+Figure 5: Floc blanket forming in the reactor
 
 </div>
-
 In April, the humic acid concentration used in the experiment was decreased to guarantee the formation of floc blanket in every trial. Synthetic water without humic acid was used in research to compare with HA and clay synthetic water. By doing so, we can study the effect of humic acid on the distance between clay particles. Our group conducted series of control experiment for two stages addition, aiming at discovering the most effective ratio of coagulant allocation between the first and second stage. In the future, after generating enough data, the overall particle removal efficiency of one-stage and two-stage addition will be compared.
 
 <div class="alert alert-block alert-danger">
@@ -226,7 +223,7 @@ coag is informal, use coagulant Insteadput a space between values and their unit
 
 ## Results and Analysis
 ### Impact of humic acid on flocculation
- In the beginning of the semester, the experiment data of one stage addition experiments didn't align with our expectation and experimental results in the past. Our expectation was that the floc blanket could be found in our sedimentation tank each time we ran because the minimum coagulant dosage we used at that time was 1.5mg/L, which is enough to reduce the effluent turbidity to 15 or less according to the past research. Besides, the ultimate goal of our flocclation and sedimentation system is reducing the water turidity to 5NTU or less, so that the water can be treated by AguaClara filtration system. Based on the past research, the AguaClara filtration system can not effectively treat water with 5NTU or higher turbidity. In some of our trials, the effluent turbidity was range from 70NTU to 80NTU, which suggested that only the tube flocculator contributed to the particle removal. Several possible causes of the failure was raised, and following paragraphs will discuss how we tested them.
+ Early in the spring semester, the experiment data of one stage addition experiments didn't align with our expectation and experimental results in the past. Our expectation was that the floc blanket could be found in our sedimentation tank each time we ran because the minimum coagulant dosage we used at that time was 1.5mg/L, which is enough to reduce the effluent turbidity to 15 or less according to the past research. Besides, the ultimate goal of our flocclation and sedimentation system is reducing the water turidity to 5NTU or less, so that the water can be treated by AguaClara filtration system. Based on the past research, the AguaClara filtration system can not effectively treat water with 5NTU or higher turbidity. In some of our trials, the effluent turbidity was range from 70NTU to 80NTU, which suggested that only the tube flocculator contributed to the particle removal. Several possible causes of the failure was raised, and following paragraphs will discuss how we tested them.
 
  One assumption was that due to the limit time of data acquisition state(detail explaination of ProCoDA set points can be found after the main text), the system did not have enough time to form the floc blanket. We extend the duration of data acquisition state, from 3600 seconds to 4800 seconds, and finally it was 8000 seconds. According to our observation, dense floc blanket usually formed one hour after the coagulant was added. If there was no floc blanket formed within two hours in a trial, it won't form over time.
 
@@ -240,15 +237,15 @@ Due to the limit port in our hardware, our group had to mix the clay and humic a
 ### Impact of coagulant dosage
 Regarding the effect of coagulants dosage, determining the optimal amount is crutial. Overdosing the coagulant would result in a substantial increase in the amount of generated sludge and a decrease in pH, while a lower dose is generally the cause for the residual metal remaining in treated water[(Ibrahim and Aziz, 2014)](http://www.ijsrpub.com/uploads/papers/IJSRES/IJSRES-2014/Mar/IJSRES-13-111.pdf). Increasing the alum dose has been shown to increase NOM removal up to a certain point; however, NOM removal is not significantly improved when adding very high alum dosages, which suggests that some components of NOM are recalcitrant to being removed by coagulant.
 
-Figure 7: Model result at 100NTU
 
  ![datalog](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/100NTU.png)
 
- Figure 8: Typical experiment result
+                        Figure 5: Model result at 100NTU
 
  ![datalog](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/experiment%20data.png)
 
-<div class="alert alert-block alert-danger">                     
+                        Figure 6: Typical experiment result
+<div class="alert alert-block alert-danger">
 What is going on with these datalogs and the code? Is that a remnant of the template? It is unprofessional looking.
 </div>
 
@@ -293,10 +290,9 @@ The conslusion in the second paragraph is not supported adequately in your repor
 </div>
 
 ## Future Work
-The current apparatus design is deficient as shown by the contact chamber group, because the two up-flow contact chambers applied cannot function as what they designed to be and merely acted as a ground for particle collision. Experiments demonstrated that the current design of contact chamber could not necessarily reduce the wall loss of the coagulant and improve the particle removal efficiency. Although currently the contact chamber is just for particle collision and to distinct the first and second stage addition physically, it would increase particle removal efficiency the design of contact chamber can be improved. AguaClara is currently using a tube contact chamber as it can be easily fabricated by cutting a PVC tube. If the design remained unchanged, the effect of contact chamber with varying different length and diameter can be tested.
+The current apparatus design is proved to be deficient by the contact chamber group because those two up-flow contact chambers we applied can't function as what they designed to be. Experiments demonstrated that the current design of contact chamber could not necessarily reduce the wall loss of the coagulant and improve the particle removal efficiency. Although right now we only use the contact chamber as a place for particle collision and divide the first and second stage addition physically, it would aid the improvement of particle removal efficiency if in the future we can modify the design of contact chamber. At present, AguaClara is using a tube contact chamber because this design can be easily fabricated by cutting a PVC tube. If not changing the design, we can test the effect of contact chamber with different length and diameter.  
 
-Furthermore, our current has not been consideredthe effect of pH. However, pH could be the single most crucial factor affecting the effectiveness of metal-based coagulants[(Qin et al., 2006)](https://www.sciencedirect.com/science/article/pii/S1383586605003187?via%3Dihub). In the future research, pH has to be measured during the experiment. Both pH meter or pH test paper can be the option. In either water treatment plant or apparatus in the lab, pH can be adjusted by applying different chemical reagent. The effect of pH can be studied by conducting a series of experiment with different pH. On the other hand, experiment process can simulate the environment of water treatment plant if we can keep the pH value align with the water in our plant.
-
+In the current research of us and other particle removal research teams, the effect of pH has not been considered. However, pH could be the single most crucial factor affecting the effectiveness of metal-based coagulants[(Qin et al., 2006)](https://www.sciencedirect.com/science/article/pii/S1383586605003187?via%3Dihub). In the future research, pH has to be measured during the experiment. Both pH meter or pH test paper can be the option. In either water treatment plant or apparatus in the lab, pH can be adjusted by applying different chemical reagent. The effect of pH can be studied by conducting a series of experiment with different pH. On the other hand, experiment process can simulate the environment of water treatment plant if we can keep the pH value align with the water in our plant.
 
 The predictive floc model developed by AguaClara is based on the past apparatus set-up and experiment process. Without considering the presence of floc blanket and the use of new tube sedimentation tank, the model can not simulate the current experiment, and it modeling result deviates a lot from present experimental data. The ultimate goal of our group is to revise the model to make it well aligned with the experiment in the lab so that the up-to-date research findings can guide AguaClara water treatment plant.
 
