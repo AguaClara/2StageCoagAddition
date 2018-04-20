@@ -1,6 +1,6 @@
 # 2 Stage Coagulant Addition, Spring 2018
 #### Barbara Oramah, Ching Pang, Yuhao Du
-#### April 14, 2018
+#### April 20, 2018
 
 <div class="alert alert-block alert-danger">
 Why is the title not capitalized?
@@ -62,7 +62,8 @@ According to the generated data, two stage coagulant addition need more time to 
 ### Literature Review
 
 #### Recent research findings of flocculation in NOM-containing waters
-There is a worth mentioning conclusion of the past research that the optimum operating conditions to remove turbidity or color by coagulation are not necessarily the same conditions for NOM removal (Yan et al., 2008). Flocculation is a physical-chemical process aiming at reducing the repulsive potential of electrical double layer of colloidsusing various coagulants. As a result, colloidal microparticles start to develop and then agglomerate into larger particles or flocs (see Fig. 2). This agglomeration phenomenon includes various mecha- nisms such as charge neutralization, entrapment, adsorption and complexation with the coagulant's metal ions into insoluble ag- gregates (Henderson et al., 2006). As far as NOM in concerned, and considering the high variability of its organic components in term of molecular and electrical properties, the combined removal mechanisms will substantially differ from one water source to the other and within the same source due to seasonal variations. The result will therefore be a variable removal efficiency of coagulation and the formation of flocs with different sizes and structures (Jarvis et al., 2006; Sharp et al., 2006b), which constitutes a serious chal- lenge for the application of coagulation in the treatment of drinking water supplies.
+There is a worth mentioning conclusion of the past research that the optimum operating conditions to remove turbidity by flocculation are not necessarily the same conditions for NOM removal (Yan et al., 2008). Flocculation reducing the repulsive potential of electrical double layer of colloid by using coagulants. As a result, colloidal microparticles start to develop and then agglomerate into larger flocs. This agglomeration phenomenon includes various mechanisms with the coagulant's metal ions into insoluble aggregates. Considering the high variability of NOM's organic components, the removal mechanisms will substantially differ from one water source to the other or within the same source due to seasonal variations. The result will therefore be a variable removal efficiency of coagulation and the formation of flocs with different sizes and structures (Jarvis et al., 2006), which urges researcher to develop different water treatment strategy in different context.
+
 #### Using PACl as neutralizer and destabilizer
 Polyaluminum Chloride (PAC) was chose to be the coagulants of our research, because of its wide range of targets, low sensitivity of temperature and low residual metal-ion concentration. The effect of PACl in removing humic acid was significantly efficient comparing to other chemicals. (Sudoh et. al., 2015) Projects have a preference on PAC also because of the economic facter(i.e. low cost and high availability in both solid and liquid form). (Bratby,2006)
 
