@@ -213,7 +213,7 @@ During March, for one stage addition experiment, in every single circulation of 
 align = "center"
 src="https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/IMG_2356.JPG" height=400, width=300>
 
-Figure 5: Floc blanket forming in the reactor
+Figure 6: Floc blanket forming in the reactor
 
 </div>
 
@@ -243,11 +243,11 @@ Regarding the effect of coagulants dosage, determining the optimal amount is cru
 
  ![datalog](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/100NTU.png)
 
-                        Figure 5: Model result at 100NTU
+                        Figure 7: Model result at 100NTU
 
  ![datalog](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/experiment%20data.png)
 
-                        Figure 6: Typical experiment result
+                        Figure 8: Typical experiment result
 <div class="alert alert-block alert-danger">
 What is going on with these datalogs and the code? Is that a remnant of the template? It is unprofessional looking.
 </div>
