@@ -186,6 +186,18 @@ Our group have been striving to fabricate a perfect system without any leak. How
 Are the current simplifications justified? Is the data you are getting reliable?
 </div>
 
+| Parameter | Meaning | Value |
+| ----- | ------------------------ | ----- |
+| V.Sed | Sed Tank Upflow Velocity | 1 mm/s |
+| D.Sed | Sed Tank Inner Diameter  | 1 in  |
+|Q.Sed, Q.Reactor| Flow rate (from V.Sed) |1.52 mL/s|
+|D.Floctube|Floctube Inner Diameter| 0.17 in |
+| Gtheta | G*theta | 20,000 |
+|  G  |  Shear   |  175.5 Hz  |
+|Theta |Residence Time | 1.899 min or 113.9 s|
+
+Table 1: The bench setup. The above are the parameters and resulting values of the current design.
+
 ### Experiment operation
 Two-stage coagulant addition experiment should base on the data generated in one stage addition experiment, the total coagulant dosage is the optimal amount found in one stage addition experiments.  and then we add two more circulations for comparison, vary the total amount, +-0.5 on the basis of the first trial. When conducting two-stage addition experiment, the effect of humic acid concentration on flocculation would not be test, humic acid concentration of the synthetic water is fixed.
 
