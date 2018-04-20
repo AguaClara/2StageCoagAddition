@@ -106,24 +106,29 @@ This section needs a lot of work for understandability.
 
 ### Experiment Process
 
-##### Materials
+#### Materials
 
 * **Humic acid** -  the representative NOM. It is the most commonly found  NOM in the natural system.
 * **Kaolin clay** - represents the colloidal solids.
 * **Polyaluminium chloride (PAC)** - the coagulant.
 
-##### Variables
+#### Variables
+Control Variables
+* **Concentration of Humic Acid**
+* **Influent Turbidity** - the values TSCA team evaluated were,
+* **Coagulant Dosages**
+Throughout the semester, The concentration of humic acid was fixed while the influent turbidity and coagulant dosage were controlled variables. The independent variables were the effluent turbidity, which showed the efficiency of particle removal, and the optimal coagulant dosage. The values observed for our control variable of target influent turbidity were 50 NTU, 100 NTU and 150 NTU. The coagulant dosages were varied by the increment function built in ProCoDA. The increment function can increase the coagulant dosage stepwise. When the run time of current state reaches the duration set in ProCoDA, the function will be activated and increase the coagulant pump speed according to the setting. Details about ProCoDA set-up can be found after the main text.
 
-Throughout the semester, The concentration of humic acid was fixed while the influent turbidity and coagulant dosage were controlled variables. Our independent variables were the effluent turbidity, which showed us the efficiency of particle removal, and the optimal coagulant dosage. The values observed for our control variable of target influent turbidity were 50 NTU, 100 NTU and 150 NTU. The coagulant dosages were varied by the increment function built in ProCoDA. The increment function can increase the coagulant dosage stepwise. When the run time of current state reach the duration we set in ProCoDA the function will be triggered and increase the coagulant pump speed according to the setting. Details about ProCoDA set-up can be found after the main text.
+First, a set of one-stage coagulant addition experiments was carried out to find the optimal dosage that could reduce the effluent turbidity of 3 NTU or less. 3 NTU is the requirement of AguaClara's filter system. During the one-stage experiments, the second coagulant pump was turned off.
 
-First, a set of one-stage coagulant addition experiments were carried out to find the optimal dosage that could reduce the effluent turbidity of 3 NTU or less. 3 NTU is the requirement of AguaClara's filter system. During the one-stage experiments, the second coagulant pump was turned off.
+In two-stage coagulant addition experiment, the dosages used in one-stage addition experiment were divided into two parts by adding one more stream of coagulant between the first and second contact chamber. The goal of two-stage experiment is to find the optimal distribution between the first and second stream coagulant. The desirable situation is that most of the coagulant from the first addition would offset the effect humic acid in the water, and coagulant of second addition would be able to attach to clay and nanoaggregate, thus forming big flocs and reducing the effluent turbidity effectively. A T-connection as shown in figure 3 was installed between the two coagulant pumps. This helped manage the amount of coagulant that was inputted into the system. The first pump would control the total amount of coagulant being put into the system. When the second coagulant pump was opened, it would be able to control how much coagulant would be used for the second dosage, drain directly from the first valve so that a fixed dosage of the total amount of coagulant put in could be maintained. This helped to test whether having second addition of coagulant before the second contact chamber would have a better performance with the same dosage of coagulant used in one stage coagulant addition.  
 
-In two-stage coagulant addition experiment, the dosages used in one-stage addition experiment were divided into two parts by adding one more stream of coagulant between the first and second contact chamber. The goal of two-stage experiment is to find the optimal distribution between the first and second stream coagulant. The desirable situation is that most of the coagulant from the first addition would offset the effect humic acid in the water, and coagulant of second addition would be able to attach to clay and nanoaggregate, thus forming big flocs and reduce the effluent turbidity effectively. A T-connection was installed between the two coagulant pumps. This helped manage the amount of coagulant that was inputted into the system. The first pump would control the total amount of coagulant being put into the system. When the second coagulant pump was opened, it would be able to control how much coagulant would be used for the second dosage, drain directly from the first valve so that a fixed dosage of the total amount of coagulant put in could be maintained. This helped to test whether having second addition of coagulant before the second contact chamber would have a better performance with the same dosage of coagulant used in one stage coagulant addition.  
+![connection](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/IMG_2358.JPG)
+   Figure 3：T-connection used in two-stage experiment to separage the two streams of coagulant.
 
 When ample data of the effluent turbidities of both one-stage and two-stage coagulant addition has accumulated, we will determine which method is more beneficial.  
 
-![connection](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/IMG_2358.JPG)
-   Figure ?：T-connection
+
 
 <div class="alert alert-block alert-danger">
 "Finally, we decided to carry out the following procedure" - This sentence is unnecessary, keep focusing on clear and concise writing.
