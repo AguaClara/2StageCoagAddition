@@ -240,15 +240,15 @@ Due to the limit port in our hardware, our group had to mix the clay and humic a
 ### Impact of coagulant dosage
 Regarding the effect of coagulants dosage, determining the optimal amount is crutial. Overdosing the coagulant would result in a substantial increase in the amount of generated sludge and a decrease in pH, while a lower dose is generally the cause for the residual metal remaining in treated water[(Ibrahim and Aziz, 2014)](http://www.ijsrpub.com/uploads/papers/IJSRES/IJSRES-2014/Mar/IJSRES-13-111.pdf). Increasing the alum dose has been shown to increase NOM removal up to a certain point; however, NOM removal is not significantly improved when adding very high alum dosages, which suggests that some components of NOM are recalcitrant to being removed by coagulant.
 
+Figure 7: Model result at 100NTU
 
  ![datalog](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/100NTU.png)
 
-                        Figure 7: Model result at 100NTU
+ Figure 8: Typical experiment result
 
  ![datalog](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/experiment%20data.png)
 
-                        Figure 8: Typical experiment result
-<div class="alert alert-block alert-danger">
+<div class="alert alert-block alert-danger">                     
 What is going on with these datalogs and the code? Is that a remnant of the template? It is unprofessional looking.
 </div>
 
