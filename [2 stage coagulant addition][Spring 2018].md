@@ -107,8 +107,6 @@ This section needs a lot of work for understandability.
 
 ## Methods
 
-
-
 ### Experiment Process
 
 #### Materials
@@ -186,7 +184,7 @@ Consider a clearer way to present this information
 
 ![apparatus](image/CurrentApparatus2.png)
 
-    Figure 5: Current Apparatus Set-up
+    Figure 5: Current Apparatus Set-up
 
 
 Since ProCoDA can only control two pumps, one of the coagulant pumps had to be connected to the system. Thus, humic acid and clay cannot be added into the system under the control of two independent pumps. To start with running our apparatus, clay, humic acid and water were added, according to the calculated amount, into a 10L stock tank with a stirrer. This stock tank was connected to the clay pump. The pump speed was controlled by ProCoDA to maintain a relatively fixed influent turbidity. After that, a mixture of humic acid and clay went through the first turbidity meter, and influent turbidity of the raw water was measured. Following this, the first stream of coagulant was added right before the fluid entered the first contact chamber. The second stream of coagulant was pumped into the system after the first contact chamber if we were running a two-stage addition experiment.
@@ -228,7 +226,8 @@ In March, for one-stage addition experiments, the coagulant dosages ranged from 
 align = "center"
 src="https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/IMG_2356.JPG" height=400, width=300>
 
-    Figure 6: Floc blanket forming in the reactor
+    Figure 6: Floc blanket forming in the reactor
+
 
 </div>
 In April, the humic acid concentration used in the experiment was decreased to guarantee the formation of floc blanket in every trial. Synthetic water without humic acid was used in research to compare with HA and clay synthetic water. By doing so, we can study the effect of humic acid on the distance between clay particles. Our group conducted series of control experiment for two stages addition, aiming at discovering the most effective ratio of coagulant allocation between the first and second stage. In the future, after generating enough data, the overall particle removal efficiency of one-stage and two-stage addition will be compared.
@@ -255,13 +254,15 @@ Due to the limit port in our hardware, our group had to mix the clay and humic a
 Regarding the effect of coagulants dosage, determining the optimal amount is crutial. Overdosing the coagulant would result in a substantial increase in the amount of generated sludge and a decrease in pH, while a lower dose is generally the cause for the residual metal remaining in treated water[(Ibrahim and Aziz, 2014)](http://www.ijsrpub.com/uploads/papers/IJSRES/IJSRES-2014/Mar/IJSRES-13-111.pdf). Increasing the alum dose has been shown to increase NOM removal up to a certain point; however, NOM removal is not significantly improved when adding very high alum dosages, which suggests that some components of NOM are recalcitrant to being removed by coagulant.
 
 
- ![datalog](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/100NTU.png)
+![datalog](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/100NTU.png)
+    
+    Figure 7: Model result at 100NTU
 
-    Figure 7: Model result at 100NTU
+![datalog](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/experiment%20data.png)
 
- ![datalog](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/experiment%20data.png)
-
-    Figure 8: Typical experiment result
+    Figure 8: Typical experiment result
+    
+    
 <div class="alert alert-block alert-danger">
 What is going on with these datalogs and the code? Is that a remnant of the template? It is unprofessional looking.
 </div>
