@@ -183,9 +183,7 @@ Consider a clearer way to present this information
    What does CC stand for?
    </div>
 
-<<<<<<< HEAD
 ProCoDA can only control two pumps, and one of the coagulant pumps had to be connected to the system. Thus humic acid and clay cannot add into the system under the control of two independent pumps. Our apparatus worked as the following description, to start with, clay, humic acid and water were added according to the calculation, into a 10L stock tank with a stirrer. This stock tank was connected to the clay pump. The pump speed would be control by ProCoDA system to maintain a relatively fixed influent turbidity. After that, a mixture of humic acid and clay went through the first turbidity meter, and influent turbidity of the raw water is measured. Following this, the first stream of coagulant was added right before the fluid entered the first contact chamber. The second stream of coagulant was pumped into the system after the first contact chamber if we were running a two-stage addition experiment.
-=======
 
 ![apparatus](image/CurrentApparatus2.png)
 
@@ -196,7 +194,7 @@ Since ProCoDA can only control two pumps, one of the coagulant pumps had to be c
 
 Figure 5: T-connection for adaptation of ProCoDA
 
->>>>>>> 6e38767733f6ee67dedcec1304987279316e2873
+
 
 <div class="alert alert-block alert-danger">
 "The way in which the apparatus worked was the following" is both an incomplete sentence and too fluffy. Instead say how the apparatus worked in that first sentence.What calculation?Do you mean stirrer?How did you determine the pump speed for the fixed turbidity?What was that turbidity?Can the results from one experiment with a certain fixed turbidity be generalize for many tubridity levels?Turbidimeters not turbidity TurbidimetersChoose between is and was - have to keep tenses consistent.More run-on sentences and incorrect verb usage.The end of this paragraph is a better description of how the two stage dosing worked.
