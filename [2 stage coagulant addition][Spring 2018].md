@@ -136,11 +136,13 @@ Throughout the semester, a series of one-stage coagulant addition experiments wa
 
 In two-stage coagulant addition experiments, each dosage of coagulant used in one-stage addition experiment was divided into two parts by adding one more stream of coagulant between the first and second contact chamber. The goal of two-stage experiment was to find the optimal distribution between the first and second stream coagulant. The desirable situation was that most of the coagulant from the first addition would offset the effect humic acid in the water, and coagulant from the second addition would be able to attach to clay and nanoaggregate, thus forming big flocs and reducing the effluent turbidity effectively.
 
-A T-connection as shown in figure 3 was installed between the two coagulant pumps to help manage the amount of coagulant that was input into the system. The first pump would control the total amount of coagulant being put into the system through the left valve to the right valve. When the second coagulant pump was opened, it would control how much coagulant is used for the second dosage, draining directly from the left valve to the top valve so that a fixed dosage of the total amount of coagulant used. This can test whether having second addition of coagulant before the second contact chamber would have a better performance with the same dosage of coagulant used in one stage coagulant addition.  
+A T-connection as shown in figure 3 was installed between the two coagulant pumps to help manage the amount of coagulant that was input into the system. The first pump would control the total amount of coagulant being put into the system through the left valve to the right valve. When the second coagulant pump was opened, it would control how much coagulant is used for the second dosage, draining directly from the left valve to the top valve so that a fixed dosage of the total amount of coagulant used. This can test whether having second addition of coagulant before the second contact chamber would have a better performance with the same dosage of coagulant used in one stage coagulant addition. Coagulant flows in through the left valve and is separated into two streams by the top and right valve as the first and the second addition respectively.
 
 ![connection](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/IMG_2358.JPG)
 
-    Figure 3：T-connection used in two-stage experiment to separate the two streams of coagulant. Coagulant flows in through the left valve and is separated into two streams by the top and right valve as the first and the second addition respectively.
+    Figure 3：T-connection used in two-stage experiment to separate the two streams of coagulant. 
+    
+
 
 Once ample data of the effluent turbidities of both one-stage and two-stage coagulant addition has accumulated, we will determine which method is more beneficial.  
 
@@ -180,18 +182,11 @@ Consider a clearer way to present this information
 
 ![apparatus](image/ApparatusSketch.jpg)
 
-     Figure 4：Apparatus diagram
-
-   <div class="alert alert-block alert-danger">
-   Figure number?
-
-   What does CC stand for?
-   </div>
-
+    Figure 4：Apparatus diagram
 
 ![apparatus](image/CurrentApparatus2.png)
 
-      Figure 5: Current Apparatus Set-up
+    Figure 5: Current Apparatus Set-up
 
 
 Since ProCoDA can only control two pumps, one of the coagulant pumps had to be connected to the system. Thus, humic acid and clay cannot be added into the system under the control of two independent pumps. To start with running our apparatus, clay, humic acid and water were added, according to the calculated amount, into a 10L stock tank with a stirrer. This stock tank was connected to the clay pump. The pump speed was controlled by ProCoDA to maintain a relatively fixed influent turbidity. After that, a mixture of humic acid and clay went through the first turbidity meter, and influent turbidity of the raw water was measured. Following this, the first stream of coagulant was added right before the fluid entered the first contact chamber. The second stream of coagulant was pumped into the system after the first contact chamber if we were running a two-stage addition experiment.
