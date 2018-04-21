@@ -199,7 +199,7 @@ Figure number? Why don't you include this farther up?
 Are the current simplifications justified? Is the data you are getting reliable?
 </div>
 
-Table 1: The bench setup. Parameters and resulting values of the current design.
+
 
 | Parameter | Meaning | Value |
 | ----- | ------------------------ | ----- |
@@ -210,6 +210,8 @@ Table 1: The bench setup. Parameters and resulting values of the current design.
 | Gtheta | G*theta | 20,000 |
 |  G  |  Shear   |  175.5 Hz  |
 |Theta |Residence Time | 1.899 min or 113.9 s|
+
+    Table 1: The bench setup. Parameters and resulting values of the current design.
 
 
 
