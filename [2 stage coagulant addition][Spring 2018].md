@@ -179,7 +179,7 @@ Consider a clearer way to present this information
 
     Figure 4：Apparatus diagram
 
-![apparatus](image/CurrentApparatus2.png)
+![apparatus](image/Labeled diagram.png)
 
     Figure 5: Current Apparatus Set-up
 
