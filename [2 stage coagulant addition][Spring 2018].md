@@ -199,7 +199,7 @@ Figure number? Why don't you include this farther up?
 Are the current simplifications justified? Is the data you are getting reliable?
 </div>
 
-
+Table 1: The bench setup. Parameters and resulting values of the current design.
 
 | Parameter | Meaning | Value |
 | ----- | ------------------------ | ----- |
@@ -211,7 +211,7 @@ Are the current simplifications justified? Is the data you are getting reliable?
 |  G  |  Shear   |  175.5 Hz  |
 |Theta |Residence Time | 1.899 min or 113.9 s|
 
-    Table 1: The bench setup. Parameters and resulting values of the current design.
+
 
 
 
@@ -261,7 +261,10 @@ Regarding the effect of coagulants dosage, determining the optimal amount is cru
 
 ![datalog](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/dosage.png)
 
-        Figure 8: Typical experiment result
+  Figure 8: Typical experiment result
+
+
+Table 2: Experimental Parameter
 | Parameter | Value |
 | --------- | ----- |
 | Coagulant Dosage|1.5mg/L-2.8mg/L |
@@ -270,7 +273,7 @@ Regarding the effect of coagulants dosage, determining the optimal amount is cru
 | Up Flow Velocity| 2mm/s|
 
 
-       Table 2: Experimental Parameter
+
 
 Under the control of increment function, coagulant dosage in our experiment increased over time. Figure 8 shows the experiment data of one stage addition trial, which can be used to study the effect of coagulant dosage on floc formation. The influent turbidity is 100NTU. Effluent turbidity reached the peak during the flush state, when floc blanket was washed out. Then it reduced steadily after the system switched back to data acquisition state, the floc blanket formed after coagulant entered the system(detail explanation can be found after the main text). As shown, with the stepwise increase of coagulant dosage, the effluent turbidity dropped faster. This suggests that the floc blanket formed faster with higher coagulant dosage, which is aligned with our observation.
 
