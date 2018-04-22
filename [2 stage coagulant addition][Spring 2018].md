@@ -255,17 +255,16 @@ Due to the limit port in our hardware, our group had to mix the clay and humic a
 
 ![datalog](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/plot2.png)
 
-    Figure 8: Experiment outcome with and without humic acid
+Figure 8: Experiment outcome with and without humic acid
+
+Table 2:  Experimental Parameter for Figure 8
 
 | Parameter | Value |
 | --------- | ----- |
 | Coagulant Dosage|2.4mg/L-2.7mg/L |
 | Humic Acid Concentration | 0mg/L, 2mg/L |
 | Target Influent Turbidity|  100NTU  |
-| Up Flow Velocity| 1mm/s|
-| --------- | ----- |
-    Table 2: Experimental Parameter
-
+| Up Flow Velocity| 2mm/s|
 
 ### Impact of coagulant dosage
 Regarding the effect of coagulants dosage, determining the optimal amount is crutial. Overdosing the coagulant would result in a substantial increase in the amount of generated sludge and a decrease in pH, while a lower dose is generally the cause for the residual metal remaining in treated water[(Ibrahim and Aziz, 2014)](http://www.ijsrpub.com/uploads/papers/IJSRES/IJSRES-2014/Mar/IJSRES-13-111.pdf). Increasing the alum dose has been shown to increase NOM removal up to a certain point; however, NOM removal is not significantly improved when adding very high alum dosages, which suggests that some components of NOM are recalcitrant to being removed by coagulant.
@@ -277,6 +276,7 @@ Regarding the effect of coagulants dosage, determining the optimal amount is cru
     Figure 9: Experiment result with different coagulant dosage
 
 
+Table 3: Experimental Parameter for figure 9
 
 | Parameter | Value |
 | --------- | ----- |
@@ -285,7 +285,7 @@ Regarding the effect of coagulants dosage, determining the optimal amount is cru
 | Target Influent Turbidity|  100NTU  |
 | Up Flow Velocity| 2mm/s|
 
-    Table 3: Experimental Parameter
+
 
 
 
@@ -325,7 +325,7 @@ At this point, we fully understood the ProCoDA system and could use the incremen
 
 Generally, we deduced that by using the current design of system, when the turbidity is relatively low, we will need more coagulant to reach the target effluent turbidity. In this experiment, our target effluent turbidity should be no more than 3 NTU, which is already expected with the standard AguaClara system.
 
-The calculation of coagulant dosage and the component of clay-humic acid mixture could be done on python now, we transferred the original MathCAD base code and translated it into python. Moreover, the team must gain a deeper understanding of how the the pre-mixed mixture of clay-humic acid can be removed at a successful rate, regardless of the ratio of HA to clay. This is a critical task as in essence our research goal is to be able to model our experiment in different scenarios. This should be applicable to both one stage and two stage coagluant addition.
+The calculation of coagulant dosage and the component of clay-humic acid mixture could be done on python now, we transferred the original MathCAD base code and translated it into python. Moreover, the team must gain a deeper understanding of how the the pre-mixed mixture of clay-humic acid can be removed at a successful rate, regardless of the ratio of HA to clay. This is a critical task as in essence our research goal is to be able to model our experiment in different scenarios. This should be applicable to both one stage and two stage coagulant addition.
 
 In the rest semester, we would keep running both one stage and two stage experiment.
 
