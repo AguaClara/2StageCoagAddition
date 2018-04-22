@@ -284,7 +284,6 @@ Under the control of increment function, coagulant dosage in our experiment incr
 What is going on with these datalogs and the code? Is that a remnant of the template? It is unprofessional looking.
 </div>
 
-**requirement:** After describing a particular result, within a paragraph, go on to connect your work to fundamental physics/chemistry/statics/fluid mechanics, or whatever field is appropriate. Analyze your results and compare with theoretical expectations; or, if you have not yet done the experiments, describe your expectations based on established knowledge. Include implications of your results. How will your results influence the design of AguaClara plants? If possible provide clear recommendations for design changes that should be adopted.
 
 <div class="alert alert-block alert-danger">
 Why is this formatted in a bulleted list with questions? It should be written in formal paragraphs as a normal research report would contain.
@@ -295,7 +294,7 @@ What does the duration change?
 </div>
 
 ### Analysis of One Stage Coagulant addition procedure
-A primary concern was the lack of consistency in the formation of a floc blanket in our Sedtank during 1 Stage coagulant addition. It was concluded that due the limitations of ProCoDA, it constrained our team to mix clay and humic acid before it enters into the system. We hypothesis that due the prior mixing, ~~the humic acid makes the surfaces of the clay more negatively charged.~~ This disperses the clay particles more thus creating more clay particle surface area. This means that there is more clay than there is coagulant available to bind together and create flocs.~~In order to determine whether this hypothesis is true, we have modified our calculations and ratio of humic acid.~~
+A primary concern was the lack of consistency in the formation of a floc blanket in our sedimentation tank during 1-Stage coagulant addition. Due the limitations of ProCoDA, clay and humic acid had to be mixed before it entered into the system. It was hypothesized that due the prior mixing, clay and humic acid particles were more dispersed as the strongly negatively charged humic acid might have increased the negative charge of clay particles. As the clay and humic acid particles became more likely to repel each other, surface area of clay was increased. Therefore, there were more clay and humic acid particles than there was coagulant available to bind to and create flocs.
 
 
 
