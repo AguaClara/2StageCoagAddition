@@ -135,8 +135,8 @@ A T-connection as shown in figure 3 was installed between the two coagulant pump
 
 ![connection](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/IMG_2358.JPG)
 
-    Figure 3：T-connection used in two-stage experiment to separate the two streams of coagulant. 
-    
+    Figure 3：T-connection used in two-stage experiment to separate the two streams of coagulant.
+
 
 
 Once ample data of the effluent turbidities of both one-stage and two-stage coagulant addition has accumulated, we will determine which method is more beneficial.  
@@ -245,6 +245,11 @@ One assumption was that due to the limit time of data acquisition state(detail e
 The effluent turbidity did not vary a lot even though the increment function worked, after examining the data we found that the coagulant pump actually worked around its lowest speed, and the past research showed that our pump did not work well at that speed. Therefore, for future experiments, we are going to set a higher intercept for the increment function, so the lowest rpm in our experiment now is 39.
 
 
+
+![datalog](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/100NTU.png)
+
+    Figure 7: Floc Model result at 100NTU
+
 ### Impact of surface charge
 Due to the limit port in our hardware, our group had to mix the clay and humic acid before pumped them into water. This set-up can have two possible outcomes. If the clay can cover by the humic acid when stirring in the stock tank, there should be a suspension which is easier to remove, because the amount of humic acid is reduced. But according to our observation, suspension with humic acid was harder to be removed than the single clay turbid solution. So here comes the second hypothesis. Both clay and humic acid is negatively charged, while humic acid has a higher charge density. The charge density of clay particles increase after attached by humic acid and they will become more repulsive to each other, thus the clay suspension is more dispersed and harder to be removed. According to our observations, suspension with humic acid did require more coagulant to be removed when compared with single clay suspension.
 
@@ -253,15 +258,25 @@ Due to the limit port in our hardware, our group had to mix the clay and humic a
 Regarding the effect of coagulants dosage, determining the optimal amount is crutial. Overdosing the coagulant would result in a substantial increase in the amount of generated sludge and a decrease in pH, while a lower dose is generally the cause for the residual metal remaining in treated water[(Ibrahim and Aziz, 2014)](http://www.ijsrpub.com/uploads/papers/IJSRES/IJSRES-2014/Mar/IJSRES-13-111.pdf). Increasing the alum dose has been shown to increase NOM removal up to a certain point; however, NOM removal is not significantly improved when adding very high alum dosages, which suggests that some components of NOM are recalcitrant to being removed by coagulant.
 
 
-![datalog](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/100NTU.png)
-    
-    Figure 7: Model result at 100NTU
 
-![datalog](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/experiment%20data.png)
+![datalog](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/dosage.png)
 
-    Figure 8: Typical experiment result
-    
-    
+        Figure 8: Typical experiment result
+| Parameter | Value |
+| --------- | ----- |
+| Coagulant Dosage|1.5mg/L-2.8mg/L |
+| Humic Acid Concentration | 8mg/L |
+| Target Influent Turbidity|  100NTU  |
+| Up Flow Velocity| 2mm/s|
+
+
+       Table 2: Experimental Parameter
+
+Under the control of increment function, coagulant dosage in our experiment increased over time. Figure 8 shows the experiment data of one stage addition trial, which can be used to study the effect of coagulant dosage on floc formation. The influent turbidity is 100NTU. Effluent turbidity reached the peak during the flush state, when floc blanket was washed out. Then it reduced steadily after the system switched back to data acquisition state, the floc blanket formed after coagulant entered the system(detail explanation can be found after the main text). As shown, with the stepwise increase of coagulant dosage, the effluent turbidity dropped faster. This suggests that the floc blanket formed faster with higher coagulant dosage, which is aligned with our observation.
+
+
+
+
 <div class="alert alert-block alert-danger">
 What is going on with these datalogs and the code? Is that a remnant of the template? It is unprofessional looking.
 </div>
