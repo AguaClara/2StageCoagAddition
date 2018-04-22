@@ -313,7 +313,7 @@ At this point, we fully understood the ProCoDA system and could use the incremen
 
 Generally, we deduced that by using the current design of system, when the turbidity is relatively low, we will need more coagulant to reach the target effluent turbidity. In this experiment, our target effluent turbidity should be no more than 3 NTU, which is already expected with the standard AguaClara system.
 
-The calculation of coagulant dosage and the component of clay-humic acid mixture could be done on python now, we transferred the original MathCAD base code and translated it into python. Moreover, the team must gain a deeper understanding of how the the pre-mixed mixture of clay-humic acid can be removed at a successful rate, regardless of the ratio of HA to clay. This is a critical task as in essence our research goal is to be able to model our experiment in different scenarios. This should be applicable to both one stage and two stage coagluant addition.
+The calculation of coagulant dosage and the component of clay-humic acid mixture could be done on python now, we transferred the original MathCAD base code and translated it into python. Moreover, the team must gain a deeper understanding of how the the pre-mixed mixture of clay-humic acid can be removed at a successful rate, regardless of the ratio of HA to clay. This is a critical task as in essence our research goal is to be able to model our experiment in different scenarios. This should be applicable to both one stage and two stage coagulant addition.
 
 In the rest semester, we would keep running both one stage and two stage experiment.
 
