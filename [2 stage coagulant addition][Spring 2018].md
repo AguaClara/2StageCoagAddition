@@ -256,14 +256,15 @@ Due to the limit port in our hardware, our group had to mix the clay and humic a
 ![datalog](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/plot2.png)
 
     Figure 8: Experiment outcome with and without humic acid
-
-    | Parameter | Value |
-    | --------- | ----- |
-    | Coagulant Dosage|2.4mg/L-2.7mg/L |
-    | Humic Acid Concentration | 0mg/L, 2mg/L |
-    | Target Influent Turbidity|  100NTU  |
-    | Up Flow Velocity| 2mm/s|
-
+    
+| Parameter | Value |
+| --------- | ----- |
+| Coagulant Dosage|2.4mg/L-2.7mg/L |
+| Humic Acid Concentration | 0mg/L, 2mg/L |
+| Target Influent Turbidity|  100NTU  |
+| Up Flow Velocity| 1mm/s|
+| --------- | ----- |
+    Table 2: Experimental Parameter
 ### Impact of coagulant dosage
 Regarding the effect of coagulants dosage, determining the optimal amount is crutial. Overdosing the coagulant would result in a substantial increase in the amount of generated sludge and a decrease in pH, while a lower dose is generally the cause for the residual metal remaining in treated water[(Ibrahim and Aziz, 2014)](http://www.ijsrpub.com/uploads/papers/IJSRES/IJSRES-2014/Mar/IJSRES-13-111.pdf). Increasing the alum dose has been shown to increase NOM removal up to a certain point; however, NOM removal is not significantly improved when adding very high alum dosages, which suggests that some components of NOM are recalcitrant to being removed by coagulant.
 
