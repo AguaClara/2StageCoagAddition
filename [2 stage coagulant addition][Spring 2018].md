@@ -251,8 +251,18 @@ The effluent turbidity did not vary a lot even though the increment function wor
     Figure 7: Floc Model result at 100NTU
 
 ### Impact of surface charge
-Due to the limit port in our hardware, our group had to mix the clay and humic acid before pumped them into water. This set-up can have two possible outcomes. If the clay can cover by the humic acid when stirring in the stock tank, there should be a suspension which is easier to remove, because the amount of humic acid is reduced. But according to our observation, suspension with humic acid was harder to be removed than the single clay turbid solution. So here comes the second hypothesis. Both clay and humic acid is negatively charged, while humic acid has a higher charge density. The charge density of clay particles increase after attached by humic acid and they will become more repulsive to each other, thus the clay suspension is more dispersed and harder to be removed. According to our observations, suspension with humic acid did require more coagulant to be removed when compared with single clay suspension.
+Due to the limit port in our hardware, our group had to mix the clay and humic acid before pumped them into water. This set-up can have two possible outcomes. If the clay can cover by the humic acid when stirring in the stock tank, there should be a suspension which is easier to remove, because the amount of humic acid is reduced. But according to our observation, suspension with humic acid was harder to be removed than the single clay turbid solution. So here comes the second hypothesis. Both clay and humic acid is negatively charged, while humic acid has a higher charge density. It was hypothesized that due the prior mixing, the charge density of clay particles increase after attached by humic acid and they will become more repulsive to each other, thus the clay suspension is more dispersed, surface area of clay was increased, the suspension was harder to be removed by flocculation. According to our observations, suspension with humic acid did require more coagulant to be removed when compared with single clay suspension.  
 
+![datalog](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/plot2.png)
+
+    Figure 8: Experiment outcome with and without humic acid
+
+    | Parameter | Value |
+    | --------- | ----- |
+    | Coagulant Dosage|2.4mg/L-2.7mg/L |
+    | Humic Acid Concentration | 0mg/L, 2mg/L |
+    | Target Influent Turbidity|  100NTU  |
+    | Up Flow Velocity| 2mm/s|
 
 ### Impact of coagulant dosage
 Regarding the effect of coagulants dosage, determining the optimal amount is crutial. Overdosing the coagulant would result in a substantial increase in the amount of generated sludge and a decrease in pH, while a lower dose is generally the cause for the residual metal remaining in treated water[(Ibrahim and Aziz, 2014)](http://www.ijsrpub.com/uploads/papers/IJSRES/IJSRES-2014/Mar/IJSRES-13-111.pdf). Increasing the alum dose has been shown to increase NOM removal up to a certain point; however, NOM removal is not significantly improved when adding very high alum dosages, which suggests that some components of NOM are recalcitrant to being removed by coagulant.
@@ -261,10 +271,10 @@ Regarding the effect of coagulants dosage, determining the optimal amount is cru
 
 ![datalog](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/dosage.png)
 
-  Figure 8: Typical experiment result
+    Figure 9: Experiment result with different coagulant dosage
 
 
-Table 2: Experimental Parameter
+
 | Parameter | Value |
 | --------- | ----- |
 | Coagulant Dosage|1.5mg/L-2.8mg/L |
@@ -272,6 +282,7 @@ Table 2: Experimental Parameter
 | Target Influent Turbidity|  100NTU  |
 | Up Flow Velocity| 2mm/s|
 
+    Table 3: Experimental Parameter
 
 
 
@@ -294,7 +305,7 @@ What does the duration change?
 </div>
 
 ### Analysis of One Stage Coagulant addition procedure
-A primary concern was the lack of consistency in the formation of a floc blanket in our sedimentation tank during 1-Stage coagulant addition. Due the limitations of ProCoDA, clay and humic acid had to be mixed before it entered into the system. It was hypothesized that due the prior mixing, clay and humic acid particles were more dispersed as the strongly negatively charged humic acid might have increased the negative charge of clay particles. As the clay and humic acid particles became more likely to repel each other, surface area of clay was increased. Therefore, there were more clay and humic acid particles than there was coagulant available to bind to and create flocs.
+A primary concern was the lack of consistency in the formation of a floc blanket in our sedimentation tank during 1-Stage coagulant addition. Due the limitations of ProCoDA, clay and humic acid had to be mixed before it entered into the system.
 
 
 
