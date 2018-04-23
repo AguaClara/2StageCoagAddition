@@ -22,9 +22,7 @@ Combine these four sections into one paragraph. An abstract needs to be cohesive
 </div>
 
 
-
-**Apr 2 updated abstract:**
-Based on the modelling result and bonding mechanism of humic acid, clay and PAC coagulant, we hypothesized that two-stage coagulant addition, namely a separate coagulant addition, would increase the particle removal efficiency. The first addition of coagulant offset the effect of humic acid in water while the second stream of coagulant aggregated clay. Using the same apparatus fabricated from last semester, we conducted experiment for both one- and two-stage coagulant addition. By comparing the particle removal efficiency of different coagulant addition methods, we aim to close the debate of one stage versus two stage.
+Based on the modelling result and bonding mechanism of humic acid, clay and PAC coagulant, it was hypothesized that two-stage coagulant addition, namely a separate coagulant addition, would increase the particle removal efficiency. Separate addition would allow the first addition of coagulant to offset the effect of humic acid in water and the second to aggregat clay. Using the same apparatus fabricated from last semester, experiments for both one- and two-stage coagulant addition are conducted. The  debate of one stage versus two stage were expected to close by comparing the particle removal efficiency of different coagulant addition methods.
 
 
 
