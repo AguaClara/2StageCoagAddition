@@ -123,14 +123,13 @@ This section needs a lot of work for understandability.
 
 ##### Dependent Variables
 * **Effluent Turbidity** - the effluent turbidity showed the efficiency of particle removal in the system.
-* **Optimal Coagulant Dosage**
 
 
-Throughout the semester, a series of one-stage coagulant addition experiments was carried out to find the optimal coagulant dosage that could reduce the effluent turbidity of 3 NTU or less, the required turbidity for the AguaClara's filter system. During the one-stage experiments, the second coagulant pump was turned off.
+Throughout the semester, a series of one-stage coagulant addition experiments was carried out to find the optimal coagulant dosage that could reduce the effluent turbidity of 3 NTU or less, the required turbidity for the AguaClara's filter system. During one-stage experiments, the second coagulant pump was turned off so that only one stream of coagulant is added.
 
 In two-stage coagulant addition experiments, each dosage of coagulant used in one-stage addition experiment was divided into two parts by adding one more stream of coagulant between the first and second contact chamber. The goal of two-stage experiment was to find the optimal distribution between the first and second stream coagulant. The desirable situation was that most of the coagulant from the first addition would offset the effect humic acid in the water, and coagulant from the second addition would be able to attach to clay and nanoaggregate, thus forming big flocs and reducing the effluent turbidity effectively.
 
-A T-connection as shown in figure 3 was installed between the two coagulant pumps to help manage the amount of coagulant that was input into the system. The first pump would control the total amount of coagulant being put into the system through the left valve to the right valve. When the second coagulant pump was opened, it would control how much coagulant is used for the second dosage, draining directly from the left valve to the top valve so that a fixed dosage of the total amount of coagulant used. This can test whether having second addition of coagulant before the second contact chamber would have a better performance with the same dosage of coagulant used in one stage coagulant addition. Coagulant flows in through the left valve and is separated into two streams by the top and right valve as the first and the second addition respectively.
+A T-connection as shown in figure 3 was installed between the two coagulant pumps to help manage the amount of coagulant that was input into the system. The first pump would control the total amount of coagulant being put into the system through the left valve to the right valve. When the second coagulant pump was opened, it would control how much coagulant is used for the second dosage, draining directly from the left valve to the top valve so that a fixed dosage of the total amount of coagulant used. This could test whether having second addition of coagulant before the second contact chamber would have a better performance with the same dosage of coagulant used in one stage coagulant addition. Coagulant flowed in through the left valve and was separated into two streams by the top and right valve as the first and the second addition respectively.
 
 ![connection](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/IMG_2358.JPG)
 
@@ -138,7 +137,7 @@ A T-connection as shown in figure 3 was installed between the two coagulant pump
 
 
 
-Once ample data of the effluent turbidities of both one-stage and two-stage coagulant addition has accumulated, we will determine which method is more beneficial.  
+Once ample data of the effluent turbidities of both one-stage and two-stage coagulant addition has accumulated, we would determine which method is more beneficial.  
 
 
 
@@ -155,7 +154,7 @@ I am having a hard time visualizing the T-connection between the coag pumps and 
 </div>
 
 ### Experimental Apparatus Design
-ProCoDA (Process Control and Data Acquisition) software was used to automate data collection and control the experimental apparatus. Two up-flow contact chambers are set before the fluid enters the flocculator, so that the coagulants are allowed more time and space to collide with particles in water. During the first stage of addition, in the first contact chamber, coagulants collide and they are covered by humic acid. In the primary stages of setting up the apparatus, the pump was designed to input the correct coagulant dosage before each contact chamber, allowing for two-stage coagulant addition to take place. However, due to the limitations of ProCoDA, we can only control a maximum of two pumps at the same time. The second coagulant pump has to be controlled manually.
+ProCoDA (Process Control and Data Acquisition) software was used to automate data collection and control the experimental apparatus. Two up-flow contact chambers were set before the fluid entered the flocculator, so that the coagulants were allowed more time and space to collide with particles in water. During the first stage of addition, in the first contact chamber, coagulants collided and they were covered by humic acid. In the primary stages of setting up the apparatus, the pump was designed to input the correct coagulant dosage before each contact chamber, allowing for two-stage coagulant addition to take place. However, due to the limitations of ProCoDA, we could only control a maximum of two pumps at the same time. The second coagulant pump had to be controlled manually.
 
 <div class="alert alert-block alert-danger">
 First sentence is a run-on. Do not include "should" in that sentence because there either are or are not.
@@ -165,7 +164,7 @@ I don't fully understand what's going on with the second pump draining from the 
 Define ProCoDA
 </div>
 
-The general apparatus set-up developed from last semester was kept throughout this semester. The contact chamber was reversed from down-flow to up-flow so that all the air in the system can be pushed out. Due to the limited space on our bench area, we had to make simplifications in our apparatus set-up. Nevertheless, the simplifications reflect the nature of the AguaClara water treatment plant. The sedimentation tube in our system had the fundamental structures of what would be present in an AguaClara water treatment plant, including the floc weir, floc settler, floc blanket and sludge valve. Further detail about the design of sedimentation tube can refer to the research of High Rate Sedimentation group in AguaClara. A tube flocculator was used in this research because it can be idealized as a high-Péclet-number reactor much like a baffled hydraulic flocculator and also because the average velocity gradient in laminar tube flow is well defined [(Weber-Shirk and Lion 2010)](https://www.sciencedirect.com/science/article/pii/S0043135410004136).
+The general apparatus set-up developed from last semester was kept throughout this semester. The contact chamber was reversed from down-flow to up-flow so that all the air in the system can be pushed out. Due to the limited space on our bench area, we had to make simplifications in our apparatus set-up. Nevertheless, the simplifications reflect the nature of the AguaClara water treatment plant. The sedimentation tube in our system had the fundamental structures of what would be presented in an AguaClara water treatment plant, including the floc weir, floc settler, floc blanket and sludge valve. Further detail about the design of sedimentation tube can be refered to the research of High Rate Sedimentation group in AguaClara. A tube flocculator was used in this research because it could be idealized as a high-Péclet-number reactor much like a baffled hydraulic flocculator, and also because the average velocity gradient in laminar tube flow was well defined [(Weber-Shirk and Lion 2010)](https://www.sciencedirect.com/science/article/pii/S0043135410004136).
 
 <div class="alert alert-block alert-danger">
 Any calculations?
@@ -183,8 +182,7 @@ Consider a clearer way to present this information
     Figure 5: Current Apparatus Set-up
 
 
-Since ProCoDA can only control two pumps, one of the coagulant pumps had to be connected to the system. Thus, humic acid and clay cannot be added into the system under the control of two independent pumps. To start with running our apparatus, clay, humic acid and water were added, according to the calculated amount, into a 10L stock tank with a stirrer. This stock tank was connected to the clay pump. The pump speed was controlled by ProCoDA to maintain a relatively fixed influent turbidity. After that, a mixture of humic acid and clay went through the first turbidity meter, and influent turbidity of the raw water was measured. Following this, the first stream of coagulant was added right before the fluid entered the first contact chamber. The second stream of coagulant was pumped into the system after the first contact chamber if we were running a two-stage addition experiment.
-
+Since ProCoDA could only control two pumps, one of the coagulant pumps had to be connected to the system. Thus, humic acid and clay could not be added into the system under the control of two independent pumps. To run our apparatus, clay, humic acid and water were added, according to the calculated amount, into a 10L stock tank with a stirrer. This stock tank was connected to the clay pump. The pump speed was controlled by ProCoDA to maintain a relatively fixed influent turbidity. After that, a mixture of humic acid and clay went through the first turbidity meter, and influent turbidity of the raw water was measured. Following this, the first stream of coagulant was added right before the fluid entered the first contact chamber. The second stream of coagulant was pumped into the system after the first contact chamber for running a two-stage addition experiment.
 
 <div class="alert alert-block alert-danger">
 "The way in which the apparatus worked was the following" is both an incomplete sentence and too fluffy. Instead say how the apparatus worked in that first sentence.What calculation?Do you mean stirrer?How did you determine the pump speed for the fixed turbidity?What was that turbidity?Can the results from one experiment with a certain fixed turbidity be generalize for many turbidity levels?Turbidimeters not turbidity TurbidimetersChoose between is and was - have to keep tenses consistent.More run-on sentences and incorrect verb usage.The end of this paragraph is a better description of how the two stage dosing worked.
