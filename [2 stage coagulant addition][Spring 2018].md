@@ -231,7 +231,7 @@ coag is informal, use coagulant Insteadput a space between values and their unit
 
 Although the presence of natural organic matter would require more coagulant to treat the water, the experiment data of one stage addition experiments at the beginning did not align with the expectation. The floc blanket was expected to be found in the sedimentation tank in every trials because the minimum coagulant dosage in experiment was 1.5 mg/L, which was enough to reduce the effluent turbidity to 15 NTU or less according to past research. Besides, the goal of the flocculation and sedimentation system was reducing the water turbidity to 5 NTU or less, so that the water can be treated by AguaClara filtration system, which was unable to effectively treat water with 5NTU or higher turbidity. In some trials, the effluent turbidity was ranging from 70 NTU to 80 NTU, which suggested that only the tube flocculator contributed to the particle removal.
 
-One possible explanation was that due to the limit time of data acquisition state (detailed explanation of ProCoDA set points can be found after the main text), the system did not have enough time to form the floc blanket. Therefore, the duration of data acquisition state was extended, from 3600 seconds to 4800 seconds, and to 8000 seconds. Based on observation, dense floc blanket was formed one hour after the coagulant was added. If there was no floc blanket formed within two hours in a trial, it would not form over time.
+One possible explanation was that due to the limit time of data acquisition state (detailed explanation of ProCoDA set points can be found after the main text), the system did not have enough time to form the floc blanket. Therefore, the duration of data acquisition state was extended, from 3600 seconds to 4800 seconds, and to 8000 seconds. Based on observation, dense floc blanket was formed one hour after the coagulant was added as shown in figure 6. It was found that if no floc blanket formed within two hours in a trial, the floc would stay the same and no floc blanket can be observed even with the increase in time.
 
 
 ![flocblanket](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/flocblanket.jpeg)
@@ -315,7 +315,7 @@ This sections needs much more development and polishing.
 
 ## Conclusions
 
-A set of control experiments with fixed turbidity and different coagulant dosage was able to carried out with the increment function of ProCoDA. An electronic balance had also been implemented, which connected to the ProCoDA system to track the mass change of coagulant over time. It could offer us data to confirm our ProCoDA code will guide the pump to add coagulant to the amount we calculate.
+A set of control experiments with fixed turbidity and different coagulant dosage was carried out with the increment function of ProCoDA. An electronic balance had also been implemented, which connected to the ProCoDA system to track the mass change of coagulant over time. It could offer us data to confirm our ProCoDA code will guide the pump to add coagulant to the amount we calculate.
 
 Generally, we deduced that by using the current design of system, when the turbidity is relatively low, we will need more coagulant to reach the target effluent turbidity. In this experiment, our target effluent turbidity should be no more than 3 NTU, which is already expected with the standard AguaClara system.
 
