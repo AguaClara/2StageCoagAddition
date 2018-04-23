@@ -1,6 +1,6 @@
 # 2 Stage Coagulant Addition, Spring 2018
 #### Barbara Oramah, Ching Pang, Yuhao Du
-#### April 14, 2018
+#### April 21, 2018
 
 <div class="alert alert-block alert-danger">
 Why is the title not capitalized?
