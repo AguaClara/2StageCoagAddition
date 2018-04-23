@@ -226,7 +226,10 @@ src="https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/IMG_23
 
 
 </div>
-The humic acid concentration used in the experiment was then decreased to guarantee the formation of floc blanket in every trial. Synthetic water without humic acid was used in research to compare with HA and clay synthetic water, such that the effect of humic acid on the distance between clay particles. could be studied. A series of control experiment for two stages addition was conducted to find the most effective ratio of coagulant allocation between the first and second stage. In the future, after generating enough data, the overall particle removal efficiency of one-stage and two-stage addition will be compared.
+
+The humic acid concentration used in the experiment was then decreased to guarantee the formation of floc blanket in every trial. Synthetic water without humic acid was used in research to compare with HA and clay synthetic water, such that the effect of humic acid on the distance between clay particles could be studied. Series of experiment for two-stage addition was conducted to find the most effective ratio of coagulant allocation between the first and second stage. In the future, after generating enough data, the overall particle removal efficiency of one-stage and two-stage addition will be compared.
+
+Furthermore, the coagulant pump in the system performed poorly when operating around its lower bound of speed. According to the past experiments, pump speed lower than 12 RPM was inadequate and should be avoided. The lowest pump speed can be set by adjusting the increment function, as the intercept of the function defined the lowest coagulant pump speed. Therefore, for later experiments, a higher intercept for the increment function was set so that the lowest pump speed was 20 RPM.
 
 <div class="alert alert-block alert-danger">
 coag is informal, use coagulant Insteadput a space between values and their unit_registryDo not use colons in the middle of sentences - does not make senseWhy are you redifining who Yingda is again?Include units on every numberWhat is the increment function?Unclear what the last sentence means
@@ -240,11 +243,10 @@ Although the presence of natural organic matter would require more coagulant to 
 
 One possible explanation was that due to the limit time of data acquisition state (detailed explanation of ProCoDA set points can be found after the main text), the system did not have enough time to form the floc blanket. Therefore, thethe duration of data acquisition state was extended, from 3600 seconds to 4800 seconds, and to 8000 seconds. Based on observation, dense floc blanket was formed one hour after the coagulant was added. If there was no floc blanket formed within two hours in a trial, it would not form over time.
 
-The experiment data of one stage addition experiments in the beginning didn't align with the expectation and experimental results in the past semester. It was expected that the floc blanket could be found in the sedimentation tank each run because the minimum coagulant dosage used at that time was 1.5mg/L, which would be enough to reduce the effluent turbidity to 15 or less NTU according to past research. Besides, the goal of the flocculation and sedimentation system was reducing the water turbidity to 5 NTU or less, so that the water can be treated by AguaClara filtration system, which was unable to effectively treat water with 5NTU or higher turbidity. In some of our trials, the effluent turbidity was range from 70NTU to 80NTU, which suggested that only the tube flocculator contributed to the particle removal. Several possible causes of the failure was raised, and following paragraphs will discuss how we tested them.
+The experiment data of one stage addition experiments in the beginning didn't align with the expectation and experimental results in the past semester. It was expected that the floc blanket could be found in the sedimentation tank each run because the minimum coagulant dosage used at that time was 1.5 mg/L, which would be enough to reduce the effluent turbidity to 15 or less NTU according to past research. Besides, the goal of the flocculation and sedimentation system was reducing the water turbidity to 5 NTU or less, so that the water can be treated by AguaClara filtration system that was unable to effectively treat water with 5NTU or higher turbidity. In some of our trials, the effluent turbidity ranged from 70NTU to 80NTU, which suggested that only the tube flocculator contributed to the particle removal.
 
-One assumption was that due to the limit time of data acquisition state(detail explanation of ProCoDA set points can be found after the main text), the system did not have enough time to form the floc blanket. We extend the duration of data acquisition state, from 3600 seconds to 4800 seconds, and finally it was 8000 seconds. According to our observation, dense floc blanket usually formed one hour after the coagulant was added. If there was no floc blanket formed within two hours in a trial, it won't form over time.
+One assumption was that due to the limit time of data acquisition state(detail explanation of ProCoDA set points can be found after the main text), the system did not have enough time to form the floc blanket. We extend the duration of data acquisition state, from 3600 seconds to 4800 seconds, and finally it was 8000 seconds. According to our observation, dense floc blanket usually formed one hour after the coagulant was added. If there was no floc blanket formed within two hours in a trial, it would not form over time.
 
-The effluent turbidity did not vary a lot even though the increment function worked, after examining the data we found that the coagulant pump actually worked around its lowest speed, and the past research showed that our pump did not work well at that speed. Therefore, for future experiments, we are going to set a higher intercept for the increment function, so the lowest rpm in our experiment now is 39.
 
 
 
@@ -253,11 +255,13 @@ The effluent turbidity did not vary a lot even though the increment function wor
     Figure 7: Floc Model result at 100NTU
 
 ### Impact of surface charge
-Due to the limit port in our hardware, our group had to mix the clay and humic acid before pumped them into water. This set-up can have two possible outcomes. If the clay is covered by the humic acid when mixed in the stock tank, there should be a suspension which is easier to remove as the amount of humic acid is reduced. But according to our observation, suspension with humic acid was harder to be removed than the single clay turbid solution. So here comes the second hypothesis. Both clay and humic acid is negatively charged, while humic acid has a higher charge density. It was hypothesized that due the prior mixing, the charge density of clay particles increase after attached by humic acid and they will become more repulsive to each other, thus the clay suspension is more dispersed, surface area of clay was increased, the suspension was harder to be removed by flocculation. According to our observations, suspension with humic acid did require more coagulant to be removed when compared with single clay suspension.  
+Since the clay and humic acid had to be mixed before pumping into the water with the limitation of apparatus, this could lead to two possible outcomes. If the clay was covered by the humic acid when mixed in the stock tank, there might be a suspension that was easier to remove as the amount of humic acid was reduced. However, according to observation, suspension with humic acid was harder to be removed than the single clay turbid solution. Therefore, a second hypothesis could be made. As both clay and humic acid are negatively charged, while humic acid has a higher charge density, it was hypothesized that due the prior mixing, the charge density of clay particles increased after attached by humic acid and the clay particle had become more repulsive to each other. Thus, the clay suspension was more dispersed, and the surface area of clay was increased, which caused the suspension harder to be removed by flocculation. According to our observations, suspension with humic acid required more coagulant to be removed than only clay suspension.  
 
 ![datalog](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/plot2.png)
 
-Figure 8: Experiment outcome with and without humic acid
+    Figure 8: Experiment outcome with and without humic acid
+
+
 
 Table 2:  Experimental Parameter for Figure 8
 
@@ -269,7 +273,7 @@ Table 2:  Experimental Parameter for Figure 8
 | Up Flow Velocity| 2mm/s|
 
 ### Impact of coagulant dosage
-Regarding the effect of coagulants dosage, determining the optimal amount is crutial. Overdosing the coagulant would result in a substantial increase in the amount of generated sludge and a decrease in pH, while a lower dose is generally the cause for the residual metal remaining in treated water[(Ibrahim and Aziz, 2014)](http://www.ijsrpub.com/uploads/papers/IJSRES/IJSRES-2014/Mar/IJSRES-13-111.pdf). Increasing the alum dose has been shown to increase NOM removal up to a certain point; however, NOM removal is not significantly improved when adding very high alum dosages, which suggests that some components of NOM are recalcitrant to being removed by coagulant.
+Regarding the effect of coagulants dosage, determining the optimal amount is crucial. Overdosing the coagulant would result in a substantial increase in the amount of generated sludge and a decrease in pH, while a lower dose is generally the cause for the residual metal remaining in treated water[(Ibrahim and Aziz, 2014)](http://www.ijsrpub.com/uploads/papers/IJSRES/IJSRES-2014/Mar/IJSRES-13-111.pdf). Increasing the alum dose has been shown to increase NOM removal up to a certain point; however, NOM removal is not significantly improved when adding very high alum dosages, which suggests that some components of NOM are recalcitrant to being removed by coagulant.
 
 
 
@@ -308,12 +312,6 @@ What are thefull results of your several trials completed of one stage addition?
 
 What does the duration change?
 </div>
-
-### Analysis of One Stage Coagulant addition procedure
-A primary concern was the lack of consistency in the formation of a floc blanket in our sedimentation tank during 1-Stage coagulant addition. Due the limitations of ProCoDA, clay and humic acid had to be mixed before it entered into the system.
-
-
-
 
 <div class="alert alert-block alert-danger">
 I get that pump speed is an issue here but I don't know why. What determined the rpms of your pumps? Why is 20 NTU a bad result?
