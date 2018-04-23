@@ -217,16 +217,6 @@ Two-stage coagulant addition experiment was based on the data generated in one s
 
 For one-stage addition experiments, the coagulant dosages ranged from 1.1 to 2.6 mg/L in every circulation of the increment function (incrementing coagulant dosage by ProCoDA). The dosage was increased seven times over time under the control of ProCoDA. The target influent turbidity kept at 100 NTU and the humic acid concentration was constant at 2 mg/L. Trials using pure clay suspension (no humic acid) were also conducted for comparison. It was found that the desirable effluent turbidity and floc blanket (Fig. 5) was usually generated around 1.5 mg/L of coagulant concentration. Besides, in the previous experiments, 0.5mg/L and 1mg/L coagulant were insufficient to reduce the turbidity of synthetic water efficiently. By applying different humic acid concentration between separate trials with same coagulant dosage, the effect of both humic acid on flocculation process was tested.
 
-<div style = "text-align:center">
-<img
-align = "center"
-src="https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/IMG_2356.JPG" height=400, width=300>
-
-    Figure 6: Floc blanket forming in the reactor
-
-
-</div>
-
 The humic acid concentration used in the experiment was then decreased to guarantee the formation of floc blanket in every trial. Synthetic water without humic acid was used in research to compare with HA and clay synthetic water, such that the effect of humic acid on the distance between clay particles could be studied. Series of experiment for two-stage addition was conducted to find the most effective ratio of coagulant allocation between the first and second stage. In the future, after generating enough data, the overall particle removal efficiency of one-stage and two-stage addition will be compared.
 
 Furthermore, the coagulant pump in the system performed poorly when operating around its lower bound of speed. According to the past experiments, pump speed lower than 12 RPM was inadequate and should be avoided. The lowest pump speed can be set by adjusting the increment function, as the intercept of the function defined the lowest coagulant pump speed. Therefore, for later experiments, a higher intercept for the increment function was set so that the lowest pump speed was 20 RPM.
@@ -242,6 +232,10 @@ coag is informal, use coagulant Insteadput a space between values and their unit
 Although the presence of natural organic matter would require more coagulant to treat the water, the experiment data of one stage addition experiments at the beginning did not align with the expectation. The floc blanket was expected to be found in the sedimentation tank in every trials because the minimum coagulant dosage in experiment was 1.5 mg/L, which was enough to reduce the effluent turbidity to 15 NTU or less according to past research. Besides, the goal of the flocculation and sedimentation system was reducing the water turbidity to 5 NTU or less, so that the water can be treated by AguaClara filtration system, which was unable to effectively treat water with 5NTU or higher turbidity. In some trials, the effluent turbidity was ranging from 70 NTU to 80 NTU, which suggested that only the tube flocculator contributed to the particle removal.
 
 One possible explanation was that due to the limit time of data acquisition state (detailed explanation of ProCoDA set points can be found after the main text), the system did not have enough time to form the floc blanket. Therefore, the duration of data acquisition state was extended, from 3600 seconds to 4800 seconds, and to 8000 seconds. Based on observation, dense floc blanket was formed one hour after the coagulant was added. If there was no floc blanket formed within two hours in a trial, it would not form over time.
+
+
+![floc blanket](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/floc%20blanket.jpeg)
+    Figure 6: Floc blanket in the sedimentation tube
 
 The experiment data of one stage addition experiments in the beginning didn't align with the expectation and experimental results in the past semester. It was expected that the floc blanket could be found in the sedimentation tank each run because the minimum coagulant dosage used at that time was 1.5 mg/L, which would be enough to reduce the effluent turbidity to 15 or less NTU according to past research. Besides, the goal of the flocculation and sedimentation system was reducing the water turbidity to 5 NTU or less, so that the water can be treated by AguaClara filtration system that was unable to effectively treat water with 5NTU or higher turbidity. In some of our trials, the effluent turbidity ranged from 70 NTU to 80 NTU, which suggested that only the tube flocculator contributed to the particle removal.
 
@@ -295,7 +289,7 @@ Table 3: Experimental Parameter for figure 9
 
 
 
-Under the control of increment function, coagulant dosage was increased over time. Figure 8 shows the experiment data of one stage addition trial, which could be used to study the effect of coagulant dosage on floc formation. The influent turbidity was 100NTU. Effluent turbidity reached the peak during the flush state, when floc blanket was washed out. Then, it was reduced steadily after the system switched back to data acquisition state, the floc blanket formed after coagulant entered the system (detail explanation can be found after the main text). As shown in figure 8, with the stepwise increase of coagulant dosage, the effluent turbidity dropped faster. This suggests that the floc blanket formed faster with higher coagulant dosage, which is aligned with our observation.
+Under the control of increment function, coagulant dosage was increased over time. Figure 8 shows the experiment data of one stage addition trial, which could be used to study the effect of coagulant dosage on floc formation. The influent turbidity was 100NTU, and the effluent turbidity reached the peak during the flush state, when floc blanket was washed out. Then, it was reduced steadily after the system switched back to data acquisition state, the floc blanket formed after coagulant entered the system (detail explanation can be found after the main text). As shown in figure 8, with the stepwise increase of coagulant dosage, the effluent turbidity dropped faster with a steeper slope. This suggested that the floc blanket formed faster with higher coagulant dosage, which aligned with the observation.
 
 
 
@@ -327,7 +321,7 @@ Generally, we deduced that by using the current design of system, when the turbi
 
 The calculation of coagulant dosage and the component of clay-humic acid mixture could be done on python now, we transferred the original MathCAD base code and translated it into python. Moreover, the team must gain a deeper understanding of how the the pre-mixed mixture of clay-humic acid can be removed at a successful rate, regardless of the ratio of HA to clay. This is a critical task as in essence our research goal is to be able to model our experiment in different scenarios. This should be applicable to both one stage and two stage coagulant addition.
 
-In the past, we found that two-stage coagulant addition needed more time than one stage addition to form floc blanket. But in several trials with relatively low turbidity, one stage addition can not form floc blanket while the two-stage addition could under the same condition.
+In the past research, we found that two-stage coagulant addition needed more time than one stage addition to form floc blanket. But in several trials with relatively low turbidity, one stage addition can not form floc blanket while the two-stage addition could under the same condition. Up to now, no significant difference was observed between the lowest turbidiy of one stage and two stage addition experiment with same parameters.
 
 In the rest semester, we would keep running both one stage and two stage experiment.
 
