@@ -321,7 +321,7 @@ This sections needs much more development and polishing.
 
 ## Conclusions
 
-At this point, we fully understood the ProCoDA system and could use the increment function to carry on set of control experiments with fixed turbidity and different coagulant dosage. Also we had implemented an electronic balance which also connects to the ProCoDA system to track the mass change of coagulant over time. It could offer us data to confirm our ProCoDA code will guide the pump to add coagulant to the amount we calculate.
+A set of control experiments with fixed turbidity and different coagulant dosage was able to carried out with the increment function of ProCoDA. An electronic balance had also been implemented, which connected to the ProCoDA system to track the mass change of coagulant over time. It could offer us data to confirm our ProCoDA code will guide the pump to add coagulant to the amount we calculate.
 
 Generally, we deduced that by using the current design of system, when the turbidity is relatively low, we will need more coagulant to reach the target effluent turbidity. In this experiment, our target effluent turbidity should be no more than 3 NTU, which is already expected with the standard AguaClara system.
 
