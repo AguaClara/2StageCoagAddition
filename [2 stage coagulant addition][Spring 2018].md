@@ -234,7 +234,7 @@ Although the presence of natural organic matter would require more coagulant to 
 One possible explanation was that due to the limit time of data acquisition state (detailed explanation of ProCoDA set points can be found after the main text), the system did not have enough time to form the floc blanket. Therefore, the duration of data acquisition state was extended, from 3600 seconds to 4800 seconds, and to 8000 seconds. Based on observation, dense floc blanket was formed one hour after the coagulant was added. If there was no floc blanket formed within two hours in a trial, it would not form over time.
 
 
-![flocblanket](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/floc%20blanket.jpeg)
+![flocblanket](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/flocblanket.jpeg)
 
     Figure 6: Floc blanket in the sedimentation tube
 
