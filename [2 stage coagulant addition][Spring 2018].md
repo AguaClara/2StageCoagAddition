@@ -234,13 +234,13 @@ Although the presence of natural organic matter would require more coagulant to 
 One possible explanation was that due to the limit time of data acquisition state (detailed explanation of ProCoDA set points can be found after the main text), the system did not have enough time to form the floc blanket. Therefore, the duration of data acquisition state was extended, from 3600 seconds to 4800 seconds, and to 8000 seconds. Based on observation, dense floc blanket was formed one hour after the coagulant was added. If there was no floc blanket formed within two hours in a trial, it would not form over time.
 
 
-![floc blanket](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/floc%20blanket.jpeg)
+![flocblanket](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/floc%20blanket.jpeg)
+
     Figure 6: Floc blanket in the sedimentation tube
 
 The experiment data of one stage addition experiments in the beginning didn't align with the expectation and experimental results in the past semester. It was expected that the floc blanket could be found in the sedimentation tank each run because the minimum coagulant dosage used at that time was 1.5 mg/L, which would be enough to reduce the effluent turbidity to 15 or less NTU according to past research. Besides, the goal of the flocculation and sedimentation system was reducing the water turbidity to 5 NTU or less, so that the water can be treated by AguaClara filtration system that was unable to effectively treat water with 5NTU or higher turbidity. In some of our trials, the effluent turbidity ranged from 70 NTU to 80 NTU, which suggested that only the tube flocculator contributed to the particle removal.
 
 One assumption was that due to the limit time of data acquisition state(detail explanation of ProCoDA set points can be found after the main text), the system did not have enough time to form the floc blanket. We extend the duration of data acquisition state, from 3600 seconds to 4800 seconds, and finally it was 8000 seconds. According to our observation, dense floc blanket usually formed one hour after the coagulant was added. If there was no floc blanket formed within two hours in a trial, it would not form over time.
-
 
 
 
