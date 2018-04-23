@@ -315,9 +315,9 @@ This sections needs much more development and polishing.
 
 ## Conclusions
 
-A set of control experiments with fixed turbidity and different coagulant dosage was carried out with the increment function of ProCoDA. An electronic balance had also been implemented, which connected to the ProCoDA system to track the mass change of coagulant over time. It could offer us data to confirm our ProCoDA code will guide the pump to add coagulant to the amount we calculate.
+A set of control experiments with fixed turbidity and different coagulant dosage was carried out with the increment function of ProCoDA. An electronic balance had also been implemented, which was connected to the ProCoDA system to track the mass change of coagulant over time. The balance would be able to verify the amount of coagulant entered the system that was reflected on ProCoDA.
 
-Generally, we deduced that by using the current design of system, when the turbidity is relatively low, we will need more coagulant to reach the target effluent turbidity. In this experiment, our target effluent turbidity should be no more than 3 NTU, which is already expected with the standard AguaClara system.
+Generally, it was deduced that by using the current design of system, when the turbidity is relatively low, more coagulant was needed to reach the target effluent turbidity. In this experiment, our target effluent turbidity should be no more than 3 NTU, which is already expected with the standard AguaClara system.
 
 The calculation of coagulant dosage and the component of clay-humic acid mixture could be done on python now, we transferred the original MathCAD base code and translated it into python. Moreover, the team must gain a deeper understanding of how the the pre-mixed mixture of clay-humic acid can be removed at a successful rate, regardless of the ratio of HA to clay. This is a critical task as in essence our research goal is to be able to model our experiment in different scenarios. This should be applicable to both one stage and two stage coagulant addition.
 
