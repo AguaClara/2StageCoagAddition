@@ -223,11 +223,9 @@ coag is informal, use coagulant Insteadput a space between values and their unit
 
 
 ## Results and Analysis
-### Impact of humic acid on flocculation
+### Analysis of Undesirable Research Outcome
 
-Although it is well acknowledged that the presence of natural organic matter required more coagulant to treat the water, experiment data of one stage addition experiments at the beginning did not align with the expectation. The floc blanket was expected to be found in the sedimentation tank in every trials because the minimum coagulant dosage in experiment was 1.5 mg/L, which was enough to reduce the effluent turbidity to 15 NTU or less according to past research. Experiment data with and without the formation of floc blanket can not compare with each other.
-
-Besides, the goal of the flocculation and sedimentation system was reducing the water turbidity to 5 NTU or less to meet the requirement of AguaClara filtration system, which was unable to treat water with 5NTU or higher turbidity. In some trials, the effluent turbidity was ranging from 70 NTU to 80 NTU, which suggested that only the tube flocculator contributed to the particle removal.
+Experiment data of one stage addition experiments at the beginning did not align with the expectation. The floc blanket was expected to be found in the sedimentation tank in every trials because the minimum coagulant dosage in experiment was 1.5 mg/L, which was enough to reduce the effluent turbidity to 15 NTU or less according to past research. Experiment data with and without the formation of floc blanket can not compare with each other. Besides, the goal of the flocculation and sedimentation system was reducing the water turbidity to 5 NTU or less to meet the requirement of AguaClara filtration system, which was unable to treat water with 5NTU or higher turbidity.
 
 One possible explanation was that due to the limit time of data acquisition state (detailed explanation of ProCoDA set points can be found after the main text), the system did not have enough time to form the floc blanket. Therefore, the duration of data acquisition state was extended, from 3600 seconds to 4800 seconds, and to 8000 seconds. Based on observation, dense floc blanket was formed one hour after the coagulant was added as shown in figure 6. It was found that if no floc blanket formed within two hours in a trial, the floc would stay the same and no floc blanket can be observed even with the increase in time.
 
@@ -236,11 +234,7 @@ One possible explanation was that due to the limit time of data acquisition stat
 
     Figure 6: Floc blanket in the sedimentation tube
 
-The experiment data of one stage addition experiments in the beginning did not align with the expectation and experimental results in the past semester. It was expected that the floc blanket could be found in the sedimentation tank each run because the minimum coagulant dosage used at that time was 1.5 mg/L, which would be enough to reduce the effluent turbidity to 15 or less NTU according to past research. Besides, the goal of the flocculation and sedimentation system was reducing the water turbidity to 5 NTU or less, so that the water can be treated by AguaClara filtration system that was unable to effectively treat water with 5NTU or higher turbidity. In some of our trials, the effluent turbidity ranged from 70 NTU to 80 NTU, which suggested that only the tube flocculator contributed to the particle removal.
-
-One assumption was that due to the limit time of data acquisition state(detail explanation of ProCoDA set points can be found after the main text), the system did not have enough time to form the floc blanket. We extend the duration of data acquisition state, from 3600 seconds to 4800 seconds, and finally it was 8000 seconds. According to our observation, dense floc blanket usually formed one hour after the coagulant was added. If there was no floc blanket formed within two hours in a trial, it would not form over time.
-
-
+The experiment data of one stage addition also did not aligned with the floc model very well. By using the same HA concentration and coagulant dosage, our effluent turbiditiy was higher than the model result. After study the experiment settings of past research and other subteams, our group was proved to be the only one premixed the clay and HA when creating the synthetic water. Based on our observation, we study the mechanism of particle distance and surface charge.
 
 ![datalog](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/100NTU.png)
 
