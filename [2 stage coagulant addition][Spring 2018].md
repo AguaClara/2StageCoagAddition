@@ -58,9 +58,9 @@ Our research was based on her study of bonding mechanism between different parti
 ### Previous Work of Two-Stage Coagulant Addition Subteam
 In Fall 2017 semester, our subteam built the theoretical basis for future work by studying research report of previous particle removal research teams in AguaClara and relevant literature. The subteam built its apparatus based on the design of Contact Chamber subteam. Mechanisms related to the contact chambers can be found in the Contact Chamber subteam report. Compared with the previous group, the set-up includes five pumps to achieve a precise control of fluid flow rate. Two down-flow contact chambers were applied in series before the fluid enters the flocculator. The contact chambers created a space for particle collision to take place. The apparatus set-up of Spring 2018 semester was based on the previous design and the detail will be explained in later sections.
 
-Studying the operation of ProCoDA software was another critical task the subteam accomplished in Fall 2017 semester. ProCoDA, a process control software, allows the user to control many parts of the experimental apparatus and to automate data collection. Specifically, ProCoDA can control the speed of peristaltic pumps, regulate flow through solenoid valves, and measure water quality parameters such as turbidity by connecting to the turbidity meter. Automated data acquisition can record the speed of pumps, the turbidity of water, the mass of container to an Excel spreadsheet directly. The resulting data are analyzed with Excel and Python codes. Using the increment function built in that automatically increments values ProCoDA enable the team to conduct series of control experiments without staying in the lab. **/(processing)** Python codes F calculate coagulant dosage, the composition of clay-HA mixture and pump speed was translated to , the code is attached to the main text.
+Studying the operation of ProCoDA software was another critical task the subteam accomplished in Fall 2017 semester. ProCoDA, a process control software, allows the user to control many parts of the experimental apparatus and to automate data collection. Specifically, ProCoDA can control the speed of peristaltic pumps, regulate flow through solenoid valves, and measure water quality parameters such as turbidity by connecting to the turbidity meter. Automated data acquisition can record the speed of pumps, the turbidity of water, the mass of container to an Excel spreadsheet directly. The experiment outcomes are analyzed with Excel and Python codes. Increment function is a command biuld in ProCoDA, it can adjust experiment parameters automatically according to the setting over time. By applying the increment function, our team can conduct series of control experiments without staying in the lab. Python codes was created to calculate coagulant dosage, composition of clay-HA mixture and pump speed, the code is attached to the main text.
 
-A floc blanket is a fluidized bed of flocs that are maintained in the bottom of an upflow sedimentation tank. It looks like a snow globe with too much snow. The highly concentrated suspension acts like the second flocculator that intercepts incoming clay particles and thus reduces the turbidity of the settled water.[(Weber-Shirk, 2009)](http://cuaguaclara.blogspot.com/2012/08/the-floc-blanket-quest.html) Floc blanket can improve the particle removal performance dramatically, one of AguaClara's goal was to add floc blanket in the plant. So the expectation of our research is to observe the floc blanket formation in every trial.  
+A floc blanket is a fluidized bed of flocs that are maintained in the bottom of an upflow sedimentation tank. The highly concentrated suspension acts like the second flocculator that intercepts incoming clay particles and thus reduces the turbidity of the settled water.[(Weber-Shirk, 2009)](http://cuaguaclara.blogspot.com/2012/08/the-floc-blanket-quest.html) Floc blanket can improve the particle removal performance dramatically, one of AguaClara's goal was to add floc blanket in the plant. So the expectation of our research is to observe the floc blanket formation in every trial.  
 
 
 
@@ -83,17 +83,10 @@ Coagulants usually function as neutralizer and destabilizer in the particle remo
 Consider " Polyaluminum Chloride (PACl) is a coagulant that reduces DBPs..." rather than being associated with Coagulation
 
 Focus on the important information to pass along.
-</div>
 
-
-
-
-<div class="alert alert-block alert-danger">
 Sometimes you use humic acid and sometimes you use humic Acid. Be consistent with capitalization (I would say humic acid is more correct)
 
 I don't understand the first sentences
-
-What is attachment efficiency for the hydraulic Flocculation
 
 Where are these results coming from? Source?
 
@@ -185,7 +178,7 @@ Consider a clearer way to present this information
     Figure 5: Current Apparatus Set-up
 
 
-Since ProCoDA could only control two pumps, one of the coagulant pumps had to be connected to the system. Thus, humic acid and clay could not be added into the system under the control of two independent pumps. To run our apparatus, clay, humic acid and water were added, according to the calculated amount, into a 10L stock tank with a stirrer. This stock tank was connected to the clay pump. The pump speed was controlled by ProCoDA to maintain a relatively fixed influent turbidity. After that, a mixture of humic acid and clay went through the first turbidity meter, and influent turbidity of the raw water was measured. Following this, the first stream of coagulant was added right before the fluid entered the first contact chamber. The second stream of coagulant was pumped into the system after the first contact chamber for running a two-stage addition experiment.
+ProCoDA can only control two pumps due to the limit port. The clay pump must be connected to the computer to achieve closed-loop control, and one of the coagulant pumps had to be controlled by ProCoDA to apply increment function. Humic acid and clay thus cannot be injected into the system under the control of two independent pumps. In the experiment, clay, HA, and water were added, according to the calculated amount, into a 10L stock tank with a stirrer. This stock tank was connected to the clay pump. The pump speed was controlled by ProCoDA to maintain a relatively fixed influent turbidity. After that, a mixture of humic acid and clay went through the first turbidity meter, and influent turbidity of the raw water was measured. Following this, the first stream of coagulant was added right before the fluid entered the first contact chamber. The second stream of coagulant was pumped into the system after the first contact chamber for running a two-stage addition experiment.
 
 <div class="alert alert-block alert-danger">
 "The way in which the apparatus worked was the following" is both an incomplete sentence and too fluffy. Instead say how the apparatus worked in that first sentence.What calculation?Do you mean stirrer?How did you determine the pump speed for the fixed turbidity?What was that turbidity?Can the results from one experiment with a certain fixed turbidity be generalize for many turbidity levels?Turbidimeters not turbidity TurbidimetersChoose between is and was - have to keep tenses consistent.More run-on sentences and incorrect verb usage.The end of this paragraph is a better description of how the two stage dosing worked.
@@ -203,13 +196,12 @@ Table 1: The bench setup. Parameters and resulting values of the current design.
 
 | Parameter | Meaning | Value |
 | ----- | ------------------------ | ----- |
-| V.Sed | Sed Tank Upflow Velocity | 1 mm/s |
+| V.Sed | Sed Tank Upflow Velocity | 1-2 mm/s |
 | D.Sed | Sed Tank Inner Diameter  | 1 in  |
 |Q.Sed, Q.Reactor| Flow rate (from V.Sed) |1.52 mL/s|
 |D.Floctube|Floctube Inner Diameter| 0.17 in |
 | Gtheta | G*theta | 20,000 |
-|  G  |  Shear   |  175.5 Hz  |
-|Theta |Residence Time | 1.899 min or 113.9 s|
+
 
 
 
@@ -218,9 +210,9 @@ Table 1: The bench setup. Parameters and resulting values of the current design.
 ### Experiment operation
 Two-stage coagulant addition experiment was based on the data generated in one stage addition experiment, and the total coagulant dosage was the optimal amount found in one stage addition experiments. Two additional dosages of coagulant were added for comparison by varying +/-0.5 mg/L of the optimal dosage based on the first-stage results.
 
-For one-stage addition experiments, the coagulant dosages ranged from 1.1 to 2.6 mg/L in every circulation of the increment function (incrementing coagulant dosage by ProCoDA). The dosage was increased seven times over time under the control of ProCoDA by incrementing the coagulant pump speed. The target influent turbidity kept at 100 NTU and the humic acid concentration was constant at 2 mg/L. Trials using pure clay suspension (no humic acid) were also conducted for comparison. It was found that the desirable effluent turbidity and floc blanket (Fig. 5) was usually generated around 1.5 mg/L of coagulant concentration. Besides, in the previous experiments, 0.5mg/L and 1mg/L coagulant were insufficient to reduce the turbidity of synthetic water efficiently. By applying different humic acid concentration between separate trials with same coagulant dosage, the effect of both humic acid on flocculation process was tested.
+For one-stage addition experiments, the coagulant dosages usually ranged from 1.0 to 3.0 mg/L in every circulation of the increment function. The dosage was increased several times by increasing the coagulant pump speed under the control of ProCoDA. The target influent turbidity kept at 100 NTU by ProCoDA and the humic acid concentration was constant throughout each trial, it can be varied to study the impact of HA. It was found that the desirable effluent turbidity and floc blanket (Fig. 5) was usually generated around 1.5 mg/L of coagulant concentration. Besides, in the previous experiments, 0.5mg/L and 1mg/L coagulant were insufficient to reduce the turbidity of synthetic water efficiently. By applying different humic acid concentration between separate trials with same coagulant dosage, the effect of both humic acid on flocculation process was tested.
 
-The humic acid concentration used in the experiment was then decreased to guarantee the formation of floc blanket in every trial. Synthetic water without humic acid was used in research to compare with HA and clay synthetic water, such that the effect of humic acid on the distance between clay particles could be studied. Series of experiment for two-stage addition was conducted to find the most effective ratio of coagulant allocation between the first and second stage. In the future, after generating enough data, the overall particle removal efficiency of one-stage and two-stage addition will be compared.
+In the beginning, our group used an HA concentration of 0.8mg/L, but failed to observe floc blanket in lots of experiment. The humic acid concentration used in the experiment was then decreased to guarantee the formation of floc blanket in every trial. Synthetic water without humic acid was used in research to compare with HA and clay synthetic water, such that the effect of humic acid on the distance between clay particles could be studied. Series of experiments for two-stage addition was conducted to find the most effective ratio of coagulant allocation between the first and second stage. In the future, after generating enough data, the overall particle removal efficiency of one-stage and two-stage addition will be compared.
 
 Furthermore, the coagulant pump in the system performed poorly when operating around its lower bound of speed. According to the past experiments, pump speed lower than 12 RPM was inadequate and should be avoided. The lowest pump speed can be set by adjusting the increment function, as the intercept of the function defined the lowest coagulant pump speed. Therefore, for later experiments, a higher intercept for the increment function was set so that the lowest pump speed was 20 RPM.
 
@@ -232,7 +224,9 @@ coag is informal, use coagulant Insteadput a space between values and their unit
 ## Results and Analysis
 ### Impact of humic acid on flocculation
 
-Although the presence of natural organic matter would require more coagulant to treat the water, the experiment data of one stage addition experiments at the beginning did not align with the expectation. The floc blanket was expected to be found in the sedimentation tank in every trials because the minimum coagulant dosage in experiment was 1.5 mg/L, which was enough to reduce the effluent turbidity to 15 NTU or less according to past research. Besides, the goal of the flocculation and sedimentation system was reducing the water turbidity to 5 NTU or less, so that the water can be treated by AguaClara filtration system, which was unable to effectively treat water with 5NTU or higher turbidity. In some trials, the effluent turbidity was ranging from 70 NTU to 80 NTU, which suggested that only the tube flocculator contributed to the particle removal.
+Although it is well acknowledged that the presence of natural organic matter required more coagulant to treat the water, experiment data of one stage addition experiments at the beginning did not align with the expectation. The floc blanket was expected to be found in the sedimentation tank in every trials because the minimum coagulant dosage in experiment was 1.5 mg/L, which was enough to reduce the effluent turbidity to 15 NTU or less according to past research. Experiment data with and without the formation of floc blanket can not compare with each other.
+
+Besides, the goal of the flocculation and sedimentation system was reducing the water turbidity to 5 NTU or less to meet the requirement of AguaClara filtration system, which was unable to treat water with 5NTU or higher turbidity. In some trials, the effluent turbidity was ranging from 70 NTU to 80 NTU, which suggested that only the tube flocculator contributed to the particle removal.
 
 One possible explanation was that due to the limit time of data acquisition state (detailed explanation of ProCoDA set points can be found after the main text), the system did not have enough time to form the floc blanket. Therefore, the duration of data acquisition state was extended, from 3600 seconds to 4800 seconds, and to 8000 seconds. Based on observation, dense floc blanket was formed one hour after the coagulant was added as shown in figure 6. It was found that if no floc blanket formed within two hours in a trial, the floc would stay the same and no floc blanket can be observed even with the increase in time.
 
