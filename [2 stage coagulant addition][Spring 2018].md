@@ -22,8 +22,7 @@ Combine these four sections into one paragraph. An abstract needs to be cohesive
 </div>
 
 
-Based on the study of bonding mechanism of humic acid, clay and PAC coagulant, and the result of floc formation model, it was hypothesized that the particle removal efficiency would increase by applying two-stage coagulant addition. This separate addition would allow the first stream of coagulant to offset the effect of humic acid in water and the second stream can aggregate clay particles and other nano-agglomerate. Experiments for both one- and two-stage coagulant addition are conducted. The debate of one stage versus two stage was expected to close by comparing the particle removal efficiency of different coagulant addition methods.
-
+Based on bonding mechanism of humic acid, clay and PAC coagulant, and the result of floc formation model, it was hypothesized that the particle removal efficiency would increase by applying two-stage coagulant addition. This separate addition would allow the first stream of coagulant to offset the effect of humic acid in water, and the second stream to aggregate clay particles and other nano-agglomerate. Both one- and two-stage coagulant addition experiments were conducted. Comparing the particle removal efficiency of both methods, if two-stage could reach the same efficiency with less coagulant, the operation cost of water treatment could be reduced.
 
 
 ## Introduction
