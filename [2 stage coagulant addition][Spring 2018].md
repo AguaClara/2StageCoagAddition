@@ -388,19 +388,19 @@ Before running the experiment, we check apparatus following steps below:
 
 **{Data Acquisition Time}** - Duration of the data acquisition state.
 
-**{State to Increment}** - Tell the increment function when to increase its value, in this experiment, we use increment function to control coagulant pump speed.
+**{State to Increment}** - Tells the increment function when to increase its value, in this experiment, increment function controlled coagulant pump speed.
 
 **{Slope}** - The slope of increment function.
 
 **{Intercept}** - The intercept of increment function.
 
-**{Max x}** - How many time would the increment function work during one circulation.
+**{Max x}** - Times the increment function will work during one circulation.
 
 
-**{coag pump control}** - Use this set poiont to decide which coagulant pump should we control.
+**{coagulant pump control}** - Points out which coagulant pump should we control.
 
 
-**{coag pump property}** - Flow rate per revolution.
+**{coagulant pump property}** - Flow rate per revolution.
 
 **{balance}** - Variable with value returned by the electrical balance.
 
