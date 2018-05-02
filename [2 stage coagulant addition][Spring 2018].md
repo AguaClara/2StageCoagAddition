@@ -54,6 +54,8 @@ In Fall 2017 semester, the theoretical basis for future work was built by studyi
  Du: what do you mean? Isn't it clear yet?
 </div>
 
+
+**move this paragraph to experimental appartus design. repetitive info regarding ProCoDA operations**
 Handling the operation of ProCoDA software was another critical task the subteam accomplished in Fall 2017 semester. ProCoDA is a process control software that allows the user to control many parts of the experimental apparatus and collect data automatically. ProCoDA can control the speed of peristaltic pumps, regulate flow through solenoid valves, and measure water quality parameters such as turbidity by connecting to the turbidity meter. Automated data acquisition can record the speed of pumps, the turbidity of water, the mass of container to an Excel spreadsheet directly. The experiment outcomes are processed with Excel and Python codes. Increment function is a command built in ProCoDA, and it can adjust experimental parameters automatically according to the setting over time. By applying the increment function, the team can conduct series of control experiments without staying in the lab. Python codes were created to calculate coagulant dosage, the composition of clay-HA mixture, and pump speed, the code was attached to the main text.
 
 A floc blanket is a fluidized bed of flocs that are maintained in the bottom of an up-flow sedimentation tank. The highly concentrated suspension acts like the second flocculator that intercepts incoming clay particles and thus reduces the turbidity of the settled water.[(Weber-Shirk, 2009)](http://cuaguaclara.blogspot.com/2012/08/the-floc-blanket-quest.html) Floc blanket can improve the particle removal performance dramatically, one of AguaClara's goal was to add floc blanket in the plant. So the purpose of the research was to observe the floc blanket formation in every trial.
@@ -108,7 +110,7 @@ Du: search for this sentence
 
 ##### Control Variables
 * **Influent Turbidity** - the influent turbidity value TSCA team evaluated was 100 NTU.
-* **Coagulant Dosages** - the increment function used in ProCoDA increased the coagulant dosage stepwise. When the run time of current state reaches the duration set in ProCoDA, the function will be activated and increase the coagulant pump speed according to the setting. Details about ProCoDA set-up can be found after the main text.
+* **Coagulant Dosages** - the increment function used in ProCoDA increased the coagulant dosages stepwise. When the run time of current state reaches the duration set in ProCoDA, the function will be activated and increase the coagulant pump speed according to the setting. Details about ProCoDA set-up can be found after the main text.
 
 <div class="alert alert-block alert-danger">
 Consider "Doses" rather than "Dosages"
@@ -125,15 +127,14 @@ Throughout the semester, a series of one-stage coagulant addition experiments wa
 
 In two-stage coagulant addition experiments, each dosage of coagulant used in one-stage addition experiment was divided into two parts by adding one more stream of coagulant between the first and second contact chamber. The goal of two-stage experiment was to find the optimal distribution between the first and second stream coagulant. The desirable situation was that most of the coagulant from the first addition would offset the effect humic acid in the water, and coagulant from the second addition would be able to attach to clay and nanoaggregate, thus forming big flocs and reducing the effluent turbidity effectively.
 
-A T-connection as shown in figure 3 was installed between the two coagulant pumps to help manage the amount of coagulant that was input into the system. The first pump would control the total amount of coagulant being put into the system through the left valve to the right valve. When the second coagulant pump was opened, it would control how much coagulant is used for the second dosage, draining directly from the left valve to the top valve so that a fixed dosage of the total amount of coagulant used. This could test whether having second addition of coagulant before the second contact chamber would have a better performance with the same dosage of coagulant used in one stage coagulant addition. Coagulant flowed in through the left valve and was separated into two streams by the top and right valve as the first and the second addition respectively.
+**A T-connection as shown in Figure 3 was installed between the two coagulant pumps to help manage the amount of coagulant that was input into the system. The first pump would control the total amount of coagulant being put into the system through the left branch to the right branch. When the second coagulant pump was opened, it would control how much coagulant is used for the second dosage, draining directly from the left branch to the top branch so that a fixed dosage of the total amount of coagulant is used. This tests for the efficiency of two stage coagulant addition. Coagulant flowed in through the left branch and was separated into two streams by the top and right branch.**
 
 ![connection](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/IMG_2358.JPG)
 
     Figure 3：T-connection used in two-stage experiment to separate the two streams of coagulant.
 
 
-Once ample data of the effluent turbidities of both one-stage and two-stage coagulant addition has accumulated, the particle removal efficiency of both one-stage and two-stage can be evaluated.
-
+~~ Once ample data of the effluent turbidities of both one-stage and two-stage coagulant addition has accumulated, the particle removal efficiency of both one-stage and two-stage can be evaluated. ~~
 
 
 ![connection](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/IMG_2358.JPG)
@@ -144,12 +145,18 @@ Once ample data of the effluent turbidities of both one-stage and two-stage coag
 Cannot see figure - recurring issue
 </div>
 
-Once ample data of the effluent turbidities of both one-stage and two-stage coagulant addition has accumulated, we will determine which method is more beneficial.
+~~ Once ample data of the effluent turbidities of both one-stage and two-stage coagulant addition has accumulated, we will determine which method is more beneficial.~~
 
 ### Experimental Apparatus Design
 ProCoDA (Process Control and Data Acquisition) software was used to automate data collection and control the experimental apparatus. Two up-flow contact chambers were set before the fluid entered the flocculator, so that the coagulants were allowed more time and space to collide with particles in water. During the first stage of addition, in the first contact chamber, coagulants collided and they were covered by humic acid. In the primary stages of setting up the apparatus, the pump was designed to input the correct coagulant dosage before each contact chamber, allowing for two-stage coagulant addition to take place. However, due to the limitations of ProCoDA, we could only control a maximum of two pumps at the same time. The second coagulant pump had to be controlled manually.
 
-The general apparatus set-up developed from last semester was kept throughout this semester as shown in figure 4 and 5. The contact chamber was reversed from down-flow to up-flow so that all the air in the system can be pushed out. Due to the limited space on our bench area, we had to make simplifications in our apparatus set-up. Nevertheless, the simplifications reflect the nature of the AguaClara water treatment plant. The sedimentation tube in our system had the fundamental structures of what would be presented in an AguaClara water treatment plant, including the floc weir, floc settler, floc blanket and sludge valve. Further detail about the design of sedimentation tube can be refered to the research of High Rate Sedimentation group in AguaClara. A tube flocculator was used in this research because it could be idealized as a high-Péclet-number reactor much like a baffled hydraulic flocculator, and also because the average velocity gradient in laminar tube flow was well defined [(Weber-Shirk and Lion 2010)](https://www.sciencedirect.com/science/article/pii/S0043135410004136).
+The general apparatus set-up developed from last semester was kept throughout this semester as shown in figure 4 and 5. The contact chamber was reversed from down-flow to up-flow so that all the air in the system can be pushed out. Due to the limited space on our bench area, we had to make simplifications in our apparatus set-up. Nevertheless, the simplifications reflect the nature of the AguaClara water treatment plant. The sedimentation tube in our system had the fundamental structures of what would be presented in an AguaClara water treatment plant, including the floc weir, floc settler, floc blanket and sludge valve. Further detail about the design of sedimentation tube can be referred to the research of High Rate Sedimentation group in AguaClara. A tube flocculator was used in this research because it could be idealized as a high-Péclet-number reactor much like a baffled hydraulic flocculator, and also because the average velocity gradient in laminar tube flow was well defined [(Weber-Shirk and Lion 2010)](https://www.sciencedirect.com/science/article/pii/S0043135410004136).
+
+<div class="alert alert-block alert-danger">
+Have you spoken with contact chamber to make sure your set-up is currently what they recommend?
+Would the implementation of 2-stage coagulant require plants to have a contact chamber? (They do not right now)
+</div>
+
 
 
 ![apparatus](image/ApparatusSketch.jpg)
