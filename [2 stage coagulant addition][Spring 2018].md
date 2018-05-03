@@ -127,14 +127,13 @@ Throughout the semester, a series of one-stage coagulant addition experiments wa
 
 In two-stage coagulant addition experiments, each dosage of coagulant used in one-stage addition experiment was divided into two parts by adding one more stream of coagulant between the first and second contact chamber. The goal of two-stage experiment was to find the optimal distribution between the first and second stream coagulant. The desirable situation was that most of the coagulant from the first addition would offset the effect humic acid in the water, and coagulant from the second addition would be able to attach to clay and nanoaggregate, thus forming big flocs and reducing the effluent turbidity effectively.
 
-**A T-connection as shown in Figure 3 was installed between the two coagulant pumps to help manage the amount of coagulant that was input into the system. The first pump would control the total amount of coagulant being put into the system through the left branch to the right branch. When the second coagulant pump was opened, it would control how much coagulant is used for the second dosage, draining directly from the left branch to the top branch so that a fixed dosage of the total amount of coagulant is used. This tests for the efficiency of two stage coagulant addition. Coagulant flowed in through the left branch and was separated into two streams by the top and right branch.**
+**A T-connection as shown in Figure 3 was installed between the two coagulant pumps to help manage the amount of coagulant that was input into the system. The first pump controlled the total amount of coagulant being put into the system through the left branch to the right branch. When the second coagulant pump was opened, it controlled how much coagulant is used for the second dosage, draining directly from the left branch to the top branch. The T connection is a fundamental set-up for two stage coagulant addition. Coagulant flowed in through the left branch and was separated into two streams by the top and right branch.**
 
 ![connection](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/IMG_2358.JPG)
 
     Figure 3：T-connection used in two-stage experiment to separate the two streams of coagulant.
 
 
-~~ Once ample data of the effluent turbidities of both one-stage and two-stage coagulant addition has accumulated, the particle removal efficiency of both one-stage and two-stage can be evaluated. ~~
 
 
 ![connection](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/IMG_2358.JPG)
@@ -147,10 +146,12 @@ Cannot see figure - recurring issue
 
 ~~ Once ample data of the effluent turbidities of both one-stage and two-stage coagulant addition has accumulated, we will determine which method is more beneficial.~~
 
+**Must give a minimum exact number of runs that would give a sufficient amount of data**
+
 ### Experimental Apparatus Design
 ProCoDA (Process Control and Data Acquisition) software was used to automate data collection and control the experimental apparatus. Two up-flow contact chambers were set before the fluid entered the flocculator, so that the coagulants were allowed more time and space to collide with particles in water. During the first stage of addition, in the first contact chamber, coagulants collided and they were covered by humic acid. In the primary stages of setting up the apparatus, the pump was designed to input the correct coagulant dosage before each contact chamber, allowing for two-stage coagulant addition to take place. However, due to the limitations of ProCoDA, we could only control a maximum of two pumps at the same time. The second coagulant pump had to be controlled manually.
 
-The general apparatus set-up developed from last semester was kept throughout this semester as shown in figure 4 and 5. The contact chamber was reversed from down-flow to up-flow so that all the air in the system can be pushed out. Due to the limited space on our bench area, we had to make simplifications in our apparatus set-up. Nevertheless, the simplifications reflect the nature of the AguaClara water treatment plant. The sedimentation tube in our system had the fundamental structures of what would be presented in an AguaClara water treatment plant, including the floc weir, floc settler, floc blanket and sludge valve. Further detail about the design of sedimentation tube can be referred to the research of High Rate Sedimentation group in AguaClara. A tube flocculator was used in this research because it could be idealized as a high-Péclet-number reactor much like a baffled hydraulic flocculator, and also because the average velocity gradient in laminar tube flow was well defined [(Weber-Shirk and Lion 2010)](https://www.sciencedirect.com/science/article/pii/S0043135410004136).
+The general apparatus set-up developed from last semester was kept throughout this semester as shown in Figure 4 and 5. The contact chamber was reversed from down-flow to up-flow so that all the air in the system can be pushed out. Due to the limited space on our bench area, we had to make simplifications in our apparatus set-up. Nevertheless, the simplifications reflect the nature of the AguaClara water treatment plant. The sedimentation tube in our system had the fundamental structures of what would be presented in an AguaClara water treatment plant, including the floc weir, floc settler, floc blanket and sludge valve. Further detail about the design of sedimentation tube can be referred to the research of High Rate Sedimentation group in AguaClara. A tube flocculator was used in this research because it could be idealized as a high-Péclet-number reactor much like a baffled hydraulic flocculator, and also because the average velocity gradient in laminar tube flow was well defined [(Weber-Shirk and Lion 2010)](https://www.sciencedirect.com/science/article/pii/S0043135410004136).
 
 <div class="alert alert-block alert-danger">
 Have you spoken with contact chamber to make sure your set-up is currently what they recommend?
@@ -167,9 +168,9 @@ Would the implementation of 2-stage coagulant require plants to have a contact c
 
     Figure 5: Current Apparatus Set-up
 
-ProCoDA can only control a maximum of two pumps due to the limit port. The clay pump must be connected to the computer to achieve closed-loop control, and one of the coagulant pumps had to be controlled by ProCoDA to apply increment function. Humic acid and clay thus cannot be injected into the system under the control of two independent pumps. In the experiment, clay, HA, and water were added, according to the calculated amount, into a 10 L stock tank with a stirrer. This stock tank was connected to the clay pump. The pump speed was controlled by ProCoDA to maintain a relatively fixed influent turbidity. After that, a mixture of humic acid and clay went through the first turbidity meter, and influent turbidity of the raw water was measured. Subsequently, the first stream of coagulant was added right before the fluid entered the first contact chamber. The second stream of coagulant was pumped into the system after the first contact chamber for running a two-stage addition experiment.
+ProCoDA can only control a maximum of two pumps due to the limit port. The clay pump must be connected to the computer to achieve closed-loop control, and one of the coagulant pumps had to be controlled by ProCoDA to apply increment function. Therefore, the  humic acid and clay mixture must be controlled manually. In the experiment, clay, HA, and water were added, according to the calculated amount, into a 10 L stock tank with a stirrer. The calculated amounts can be determined from the Python code later in the report. This stock tank was connected to the clay pump. The clay pump speed was controlled by ProCoDA to maintain a relatively fixed influent turbidity. After that, a mixture of humic acid and clay went through the first turbidimeter, and influent turbidity of the raw water was measured. Subsequently, the first stream of coagulant was added right before the fluid entered the first contact chamber. However for a two stage coagulant addition experiment, the second stream of coagulant was pumped into the system after the first contact chamber.
 
-Table 1: The bench setup. Parameters and resulting values of the current design.
+Table 1: Parameters and resulting values of the current design.
 
 | Parameter | Meaning | Value |
 | ----- | ------------------------ | ----- |
@@ -179,7 +180,7 @@ Table 1: The bench setup. Parameters and resulting values of the current design.
 |D.Floctube|Floctube Inner Diameter| 0.17 in |
 | Gtheta | G*theta | 20,000 |
 
-### Experiment operation
+
 
 <div class="alert alert-block alert-danger">
 Capitalize headers
@@ -188,12 +189,12 @@ Capitalize headers
 
 
 
-### Experiment operation
-Two-stage coagulant addition experiment was based on the data generated in one stage addition experiment, and the total coagulant dosage was the optimal amount found in one stage addition experiments. Two additional dosages of coagulant were added for comparison by varying +/-0.5 mg/L of the optimal dosage based on the first-stage results.
+### Experiment Operation
+The two-stage coagulant addition experiment was heavily based on the data generated in one stage addition experiment. The total coagulant dosage used for two-stage coagulant addition was the optimal amount found in the one-stage addition experiments. Two additional dosages of coagulant were added for comparison by varying +/-0.5 mg/L of the optimal dosage based on the first-stage results.
 
-For one-stage addition experiments, the coagulant dosages usually ranged from 1.0 to 3.0 mg/L in every circulation of the increment function. The dosage was increased several times by increasing the coagulant pump speed under the control of ProCoDA. The target influent turbidity kept at 100 NTU by ProCoDA and the humic acid concentration was constant throughout each trial, it can be varied to study the impact of HA. It was found that the desirable effluent turbidity and floc blanket (Fig. 5) was usually generated around 1.5 mg/L of coagulant concentration. Besides, in the previous experiments, 0.5mg/L and 1mg/L coagulant were insufficient to reduce the turbidity of synthetic water efficiently. By applying different humic acid concentration between separate trials with same coagulant dosage, the effect of both humic acid on flocculation process was tested.
+For one-stage addition experiments, the coagulant dosages usually ranged from 1.0 to 3.0 mg/L in every circulation of the increment function. The dosage was increased several times by increasing the coagulant pump speed under the control of ProCoDA. The target influent turbidity was kept at 100 NTU by ProCoDA and the humic acid concentration was constant throughout each trial, it can be varied to study the impact of HA. It was found that the desirable effluent turbidity and floc blanket (Fig. 6) was usually generated around 1.5 mg/L of coagulant concentration. In the previous semester experiments, 0.5mg/L and 1mg/L coagulant were insufficient to reduce the turbidity of synthetic water efficiently. By applying different humic acid concentration between separate trials with same coagulant dosage, the effect of humic acid on flocculation process was tested.
 
-In the beginning, HA concentration of 0.8mg/L was used, but there was no floc blanket formations in a lot of trials. The humic acid concentration used in the experiment was then decreased to guarantee the formation of floc blanket in every trial. Synthetic water without humic acid was used in research to compare with HA and clay synthetic water, such that the effect of humic acid on the distance between clay particles could be studied. Series of experiments for two-stage addition was conducted to find the most effective ratio of coagulant allocation between the first and second stage. In the future, after generating enough data, the overall particle removal efficiency of one-stage and two-stage addition would be compared.
+In the beginning of the semester, HA concentration of 0.8mg/L was used, but there was no floc blanket formation in a majority of trials. The humic acid concentration used in the experiment was then decreased to guarantee the formation of floc blanket in every trial. Clay synthetic water without humic acid was used in research to compare with HA and clay synthetic water, such that the effect of humic acid on the distance between clay particles could be studied. The decision to reduce the HA concentration was based on the interactions between clay and humic acid, which can be revisited in the literature review. A series of experiments for two-stage addition were conducted to find the most effective ratio of coagulant allocation between the first and second stage. In the future, after generating enough data, the overall particle removal efficiency of one-stage and two-stage addition would be compared.
 
 Furthermore, the coagulant pump in the system performed poorly when operating around its lower bound of speed. According to the past experiments, pump speed lower than 12 RPM was inadequate and should be avoided. The lowest pump speed can be set by adjusting the increment function, as the intercept of the function defined the lowest coagulant pump speed. Therefore, for later experiments, a higher intercept for the increment function was set so that the lowest pump speed was 20 RPM.
 
@@ -202,7 +203,7 @@ Furthermore, the coagulant pump in the system performed poorly when operating ar
 
 Experiment data of one stage addition experiments at the beginning did not align with the expectation. The floc blanket was expected to be found in the sedimentation tank in every trials because the minimum coagulant dosage in experiment was 1.5 mg/L, which was enough to reduce the effluent turbidity to 15 NTU or less according to past research. Experiment data with and without the formation of floc blanket could not be compared with each other. Besides, the goal of the flocculation and sedimentation system was reducing the water turbidity to 5 NTU or less to meet the requirement of AguaClara filtration system, which was unable to treat water with 5 NTU or higher turbidity.
 
-One possible explanation was that due to the limit time of data acquisition state (detailed explanation of ProCoDA set points can be found after the main text), the system did not have enough time to form the floc blanket. Therefore, the duration of data acquisition state was extended, from 3600 seconds to 4800 seconds, and to 8000 seconds. Based on observation, dense floc blanket as shown in figure 6 was formed one hour after the coagulant was added. It was found that if no floc blanket formed within two hours in a trial, the floc would stay the same, and no floc blanket can be observed even at a later time.
+One possible explanation was that due to the limit time of data acquisition state (detailed explanation of ProCoDA set points can be found after the main text), the system did not have enough time to form the floc blanket. Therefore, the duration of data acquisition state was extended, from 3600 seconds to 4800 seconds, and to 8000 seconds. Based on observation, dense floc blanket as shown in Figure 6 was formed one hour after the coagulant was added. It was found that if no floc blanket formed within two hours in a trial, the floc would stay the same, and no floc blanket can be observed even at a later time.
 
 
 ![flocblanket](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/flocblanket.jpeg)
@@ -218,7 +219,7 @@ The experiment data of one stage addition also did not exactly aligned with the 
 ### Impact of surface charge
 Since the clay and humic acid had to be mixed before pumping into the water, this could lead to two possible outcomes. If clay was covered by humic acid when mixed in the stock tank, there might be a suspension that was easier to remove as the amount of humic acid was reduced. However, according to observation, suspension with humic acid was harder to be removed than pure clay suspension. Therefore, a second hypothesis was suggested. As both clay and humic acid are negatively charged, while humic acid has a higher charge density, due the prior mixing, the charge density of clay particles increased after attached by humic acid and the clay particle had become more repulsive to each other. Thus, the clay suspension was more dispersed, and the surface area of clay was increased, which caused the suspension harder to be removed by flocculation. According to observations, suspension with humic acid required more coagulant to be removed than suspension with only clay.
 
-Two different trials with different humic acid concentration were compared in figure 8, and parameters other than HA were all kept the same. As shown in the graph, when there was humic acid in the suspension, the effluent turbidity went down, and reached a steady level at a slower rate. The floc blanket was also formed at a slower rate, and the lowest effluent turbidity was higher than suspension without HA. These observation suggested the premixing of HA and clay led to a decrease in particle removal efficiency.
+Two different trials with different humic acid concentration were compared in Figure 8, and parameters other than HA were all kept the same. As shown in the graph, when there was humic acid in the suspension, the effluent turbidity went down, and reached a steady level at a slower rate. The floc blanket was also formed at a slower rate, and the lowest effluent turbidity was higher than suspension without HA. These observation suggested the premixing of HA and clay led to a decrease in particle removal efficiency.
 
 ![datalog](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/plot2.png)
 
@@ -244,7 +245,7 @@ Regarding the effect of coagulants dosage, determining the optimal amount was cr
     Figure 9: Experiment result with different coagulant dosage
 
 
-Table 3: Experimental Parameter for figure 9
+Table 3: Experimental Parameter for Figure 9
 
 | Parameter | Value |
 | --------- | ----- |
@@ -257,7 +258,7 @@ Table 3: Experimental Parameter for figure 9
 
 
 
-Under the control of increment function, coagulant dosage was increased over time. Figure 9 shows the experiment data of one stage addition trial, which could be used to study the effect of coagulant dosage on floc formation. The influent turbidity was 100NTU, and the effluent turbidity reached the peak during the flush state, when floc blanket was washed out. Then, it was reduced steadily after the system switched back to data acquisition state, the floc blanket formed after coagulant entered the system (detail explanation can be found after the main text). As shown in figure 8, with the stepwise increase of coagulant dosage, the effluent turbidity dropped faster with a steeper slope. This suggested that the floc blanket formed faster with higher coagulant dosage, which aligned with the observation.
+Under the control of increment function, coagulant dosage was increased over time. Figure 9 shows the experiment data of one stage addition trial, which could be used to study the effect of coagulant dosage on floc formation. The influent turbidity was 100NTU, and the effluent turbidity reached the peak during the flush state, when floc blanket was washed out. Then, it was reduced steadily after the system switched back to data acquisition state, the floc blanket formed after coagulant entered the system (detail explanation can be found after the main text). As shown in Figure 8, with the stepwise increase of coagulant dosage, the effluent turbidity dropped faster with a steeper slope. This suggested that the floc blanket formed faster with higher coagulant dosage, which aligned with the observation.
 
 ### Analysis of One Stage Coagulant addition procedure
 
