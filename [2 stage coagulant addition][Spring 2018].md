@@ -221,6 +221,20 @@ Since the clay and humic acid had to be mixed before pumping into the water, thi
 
 Two different trials with different humic acid concentration were compared in Figure 8, and parameters other than HA were all kept the same. As shown in the graph, when there was humic acid in the suspension, the effluent turbidity went down, and reached a steady level at a slower rate. The floc blanket was also formed at a slower rate, and the lowest effluent turbidity was higher than suspension without HA. These observation suggested the premixing of HA and clay led to a decrease in particle removal efficiency.
 
+<div class="alert alert-block alert-danger">
+Watch verb tenses
+
+This paragraph is very difficult to understand. I don't understand the uspension aspect especially
+
+Remove "So here comes the second hypothesis"
+
+Are you saying that humic acid is sticking to clay particles without coagulant?
+</div>
+
+<div class="alert alert-block alert-danger">
+Capitalize headers
+</div>
+
 ![datalog](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/plot2.png)
 
     Figure 8: Experiment outcome with and without humic acid
@@ -238,6 +252,35 @@ Table 2:  Experimental Parameter for Figure 8
 ### Impact of coagulant dosage
 Regarding the effect of coagulants dosage, determining the optimal amount was crucial. Overdosing the coagulant could result in a substantial increase in the amount of generated sludge and a decrease in pH, while a lower dose could be the cause for the residual metal remaining in treated water[(Ibrahim and Aziz, 2014)](http://www.ijsrpub.com/uploads/papers/IJSRES/IJSRES-2014/Mar/IJSRES-13-111.pdf). Increasing the PACl dose had been shown to increase NOM removal up to a certain point. However, NOM removal was not significantly improved with very high alum dosages, which suggested that some components of NOM were recalcitrant to being removed by coagulant.
 
+<div class="alert alert-block alert-danger">
+Revise spelling and grammar.
+
+Is this a result from your experiments? If not move it to the lit review.
+</div>
+
+
+<div class="alert alert-block alert-danger">
+Change "experiment data to experimental data"
+
+Consider revising the second sentence with "It was expected that the floc blanket would form in the sedimentation tank during every trial."
+
+Revise the run-on describing NTU removal.
+
+REmove last sentence. Focus on being concise (Make every word/sentence matter)
+</div>
+
+<div class="alert alert-block alert-danger">
+Revise for technical writing. Why is floc blanket devleopment important?
+</div>
+
+
+<div class="alert alert-block alert-danger">
+What is going on with these datalogs and the code? Is that a remnant of the template? It is unprofessional looking. - unreolved
+</div>
+
+<div class="alert alert-block alert-danger">
+remove "requirement" section before final submission
+</div>
 
 
 ![datalog](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/dosage.png)
@@ -262,22 +305,84 @@ Under the control of increment function, coagulant dosage was increased over tim
 
 ### Analysis of One Stage Coagulant addition procedure
 
+<div class="alert alert-block alert-danger">
+Capitalize header
+</div>
+
+A primary concern was the lack of consistency in the formation of a floc blanket in our Sedtank during 1 Stage coagulant addition. It was concluded that due the limitations of ProCoDA, it constrained our team to mix clay and humic acid before it enters into the system. We hypothesis that due the prior mixing, ~~the humic acid makes the surfaces of the clay more negatively charged.~~ This disperses the clay particles more thus creating more clay particle surface area. This means that there is more clay than there is coagulant available to bind together and create flocs.~~In order to determine whether this hypothesis is true, we have modified our calculations and ratio of humic acid.~~
+
+<div class="alert alert-block alert-danger">
+This section is hard to understand with the cross-outs seems unfinished.
+
+Write out sedimentation tank not Sed tank
+
+Did you determine an optimal coagulant dose? Doy ou have graphs of turbidity results (influent and effluent)
+
+This sections needs much more development and polishing.
+</div>
+
 ## Conclusions
 
 A set of control experiments with fixed turbidity and different coagulant dosage was carried out with the increment function of ProCoDA. An electronic balance had also been implemented, which was connected to the ProCoDA system to track the mass change of coagulant over time. The balance would be able to verify the amount of coagulant entered the system that was actually reflected on data collected by ProCoDA. In general, it was deduced that with the current design of system, when the turbidity of water entering the system was relatively low, more coagulant was needed to reach the target effluent turbidity. The target effluent turbidity of this experiment was no more than 3 NTU, in order to comply with the standard AguaClara system.
 
+<div class="alert alert-block alert-danger">
+The information about the electronic balance should be in methods, but the rest of this info doesn't need to be here.
+</div>
+
+<div class="alert alert-block alert-danger">
+I don't think this point was sufficiently discussed in the results/analysis. Say that the target was 3 NTU but then what you got.
+
+Removal from 100 to 3 is hard to achieve. Make sure that you justify the use of 100 NTU as a starting point in the method section.
+</div>
+
 It was found that two-stage coagulant addition needed more time than one stage addition to form floc blanket. However, in trials with relatively low turbidity, the formation of floc blanket was not seen under the same condition when comparing one-stage and two-stage. No significant difference was observed in terms of the lowest turbidity between one stage and two stage addition experiment under the same parameters.
 
+<div class="alert alert-block alert-danger">
+The aspect of converting mathcad files to python code do not need to be included in conclusions. Conclusions should be about the research/theory
+
+The second half of this paragraph seems linked to the paragraph above. Considering combining.
+</div>
+
+
 In the rest semester, both one stage and two stage experiments would be continued. If the hypothesis of 2-stage hypothesis was validated, a model could be created to guide the amount of coagulant dosage in water treatment plant, and potentially lessen the coagulant used, which could cut down the operational cost.
+
+<div class="alert alert-block alert-danger">
+What are your conclusions about the one-stage experiments that you did?
+
+What is the impact on AguaClara as a whole?
+</div>
 
 ## Future Work
 The current apparatus design is shown deficient by the contact chamber group, because the two up-flow contact chambers applied could not function as what they were designed to be. Experiments demonstrated that the current design of contact chamber could not successfully reduce the wall loss of the coagulant or improve the particle removal efficiency. Although currently the contact chamber only acted as a place for particle collision, and for divinsing the first and second stage addition physically, modifying the design of contact chamber in the furture could potentially increase particle removal efficiency. Currently, AguaClara uses a tube contact chamber, which can be easily fabricated by cutting a PVC tube. Without changing the design, the effect of contact chamber with different length and diameter can be studied.
 
+<div class="alert alert-block alert-danger">
+Revise for technical writing. Incomplete sentences and incorrect verb use.
+
+The first sentence about contact chamber issues was not discussed in the report at all. Add in info in the results/analysis section
+</div>
+
 The effect of pH has not been considered in the current research. However, pH could be the single most crucial factor affecting the effectiveness of metal-based coagulants[(Qin et al., 2006)](https://www.sciencedirect.com/science/article/pii/S1383586605003187?via%3Dihub). In the future, pH can be measured during the experiment by both pH meter and pH test paper. In either water treatment plant or apparatus in the lab, pH can be adjusted by applying different chemical reagent, and varying pH will allow us to see the effect of pH. On the other hand, experimental process can simulate the environment of water treatment plant if the pH value align with the water is kept constant in the plant.
+
+<div class="alert alert-block alert-danger">
+This belongs in the results/analysis and measuring pH should just be mentioned here as an add-on to the apparatus.
+
+Do you think pH has affected your results?
+</div>
 
 The predictive floc model developed by AguaClara is based on the past apparatus set-up and experiment process. Without considering the presence of floc blanket and the use of new tube sedimentation tank, the model cannot simulate the current experiment, and its modeling result deviates significantly from present experimental data. The ultimate goal is to revise the model to well align it with the experiment in the lab, so that the up-to-date research findings provide a guide for AguaClara water treatment plant.
 
 The predictive floc model developed by AguaClara is based on the past apparatus set-up and experiment process. Without considering the presence of floc blanket and the use of new tube sedimentation tank, the model can not simulate the current experiment, and it modeling result deviates a lot from present experimental data. The ultimate goal of our group is to revise the model to make it well aligned with the experiment in the lab so that the up-to-date research findings can guide AguaClara water treatment plant.
+
+<div class="alert alert-block alert-danger">
+Section has sentences that are incomplete.
+
+I am confused between the model and the experiment. Be clear and concise. There needs to be better analysis in the analysis section to understand conclusions and future work.
+
+Future work should really be what the next steps are so: measuring pH, adjusting contact chamber, and modifying the setup are key. It should be action focused. Here is the descrption from the rubric:
+Explain what should be accomplished and which direction this project should be taken next.
+Explain how AguaClara can apply what you discovered for future projects.
+Explain why the research in this area should continue or why it should end.
+</div>
 
 ## Bibliography
 Du, Yingda. 2017. “Observations and a Geometric Explanation of the Effects of Humic Acid on Flocculation.” Cornell University.
