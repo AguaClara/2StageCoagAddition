@@ -195,9 +195,8 @@ Capitalize headers
 
 
 ### Experiment Operation
-The two-stage coagulant addition experiment was heavily based on the data generated in one stage addition experiment. The total coagulant dosage used for two-stage coagulant addition was the optimal amount found in the one-stage addition experiments. Two additional dosages of coagulant were added for comparison by varying +/-0.5 mg/L of the optimal dosage based on the first-stage results.
 
-For one-stage addition experiments, the coagulant dosages usually ranged from 1.0 to 3.0 mg/L in every circulation of the increment function. The dosage was increased several times by increasing the coagulant pump speed under the control of ProCoDA. The target influent turbidity was kept at 100 NTU by ProCoDA and the humic acid concentration was constant throughout each trial, it can be varied to study the impact of HA. It was found that the desirable effluent turbidity and floc blanket (Fig. 6) was usually generated around 1.5 mg/L of coagulant concentration. In the previous semester experiments, 0.5mg/L and 1mg/L coagulant were insufficient to reduce the turbidity of synthetic water efficiently. By applying different humic acid concentration between separate trials with same coagulant dosage, the effect of humic acid on flocculation process was tested.
+For one-stage addition experiments, the coagulant dosages ranged from 2.0 to 4.0 mg/L in our research. The dosage was increased several times by increasing the coagulant pump speed under the control of ProCoDA. The target influent turbidity was kept at 100 NTU by ProCoDA. 100NTU is much higher than the turbidity of natural water, this kind of high turbidity was used to test the performance of apparatus in extreme events. Currently, the humic acid concentration was constant throughout each trial. By applying different humic acid concentration between separate trials with same coagulant dosage, the effect of humic acid on flocculation process was tested. The desirable effluent turbidity and formation of floc blanket (Fig. 6) was usually observed when using 1.5 mg/L of coagulant or more. In the previous semester experiments, coagulant concentrations lower than 1mg/L were proved to be insufficient to reduce the turbidity. The two-stage coagulant addition experiment was based on the data generated in one stage addition experiment. The total coagulant dosage used for two-stage coagulant addition was the optimal amount found in the one-stage addition experiments. Two additional dosages of coagulant were added for comparison by varying +/-0.5 mg/L of the optimal dosage based on the first-stage results.
 
 In the beginning of the semester, HA concentration of 0.8mg/L was used, but there was no floc blanket formation in a majority of trials. The humic acid concentration used in the experiment was then decreased to guarantee the formation of floc blanket in every trial. Clay synthetic water without humic acid was used in research to compare with HA and clay synthetic water, such that the effect of humic acid on the distance between clay particles could be studied. The decision to reduce the HA concentration was based on the interactions between clay and humic acid, which can be revisited in the literature review. A series of experiments for two-stage addition were conducted to find the most effective ratio of coagulant allocation between the first and second stage. In the future, after generating enough data, the overall particle removal efficiency of one-stage and two-stage addition would be compared.
 
@@ -328,22 +327,25 @@ This sections needs much more development and polishing.
 
 ## Conclusions
 
-A set of control experiments with fixed turbidity and different coagulant dosage was carried out with the increment function of ProCoDA. In general, it was deduced that with the current design of system, when the turbidity of water entering the system was relatively low, more coagulant was needed to reach the target effluent turbidity. The target effluent turbidity of this experiment was no more than 3 NTU, in order to comply with the standard AguaClara system.
+A set of control experiments with fixed turbidity and different coagulant dosage was carried out with the increment function of ProCoDA. In general, it was deduced that with the current design of system, when the turbidity of water entering the system was relatively low, more coagulant was needed to reach the target effluent turbidity. The target effluent turbidity of this experiment was no more than 3 NTU, in order to comply with the standard AguaClara system."现在我们的最低浑浊度大约是5-6，但是我们使用的絮凝剂量很低，并且我们制造合成污水的方法与其他研究组不同，预混带来的影响使得我们的浑浊度更难移除"
 
 <div class="alert alert-block alert-danger">
 The information about the electronic balance should be in methods, but the rest of this info doesn't need to be here.
+DU: addressed
 </div>
 
 <div class="alert alert-block alert-danger">
 I don't think this point was sufficiently discussed in the results/analysis. Say that the target was 3 NTU but then what you got.
-
+DU： addressed
 Removal from 100 to 3 is hard to achieve. Make sure that you justify the use of 100 NTU as a starting point in the method section.
+Du: pure clay turbidity is not hard to remove, in fact, clay particle can somehow aid the particle removal process. 100NTU is definitely higher than the turbidity of natural water, we pick this kind of high turbidity to test the performance of apparatus in extreme events
 </div>
 
 It was found that two-stage coagulant addition needed more time than one stage addition to form floc blanket. However, in trials with relatively low turbidity, the formation of floc blanket was not seen under the same condition when comparing one-stage and two-stage. No significant difference was observed in terms of the lowest turbidity between one stage and two stage addition experiment under the same parameters.
 
 <div class="alert alert-block alert-danger">
 The aspect of converting mathcad files to python code do not need to be included in conclusions. Conclusions should be about the research/theory
+Du: addressed
 
 The second half of this paragraph seems linked to the paragraph above. Considering combining.
 </div>
@@ -353,17 +355,24 @@ In the rest semester, both one stage and two stage experiments would be continue
 
 <div class="alert alert-block alert-danger">
 What are your conclusions about the one-stage experiments that you did?
+DU: one stage experiment was conducted to test the effect of humic acid on flocculation and compare with the outcome of two stage addition
 
 What is the impact on AguaClara as a whole?
+DU: you can find it in paragraph above and the intro
+
 </div>
 
 ## Future Work
-The current apparatus design is shown deficient by the contact chamber group because the two up-flow contact chambers applied could not function as what they were designed to be. Experiments demonstrated that the current design of contact chamber could not successfully reduce the wall loss of the coagulant or improve the particle removal efficiency. Although currently the contact chamber only acted as a place for particle collision, and for defining the first and second stage addition physically, modifying the design of contact chamber in the future could potentially increase particle removal efficiency. Currently, AguaClara uses a tube contact chamber, which can be easily fabricated by cutting a PVC tube. Without changing the design, the effect of contact chamber with different length and diameter can be studied.
+The current design of contact chamber is shown deficient by the contact chamber group because the two up-flow contact chambers applied could not function as what they were designed to be. Experiments demonstrated that the current design could not successfully reduce the wall loss of the coagulant or improve the particle removal efficiency. **/Du: I think this part can be kept in current section, it only reports some small findings by other group. It's the incentive of improving the design of CC**
+
+Although currently the contact chamber only acted as a place for particle collision, and for defining the first and second stage addition physically, modifying the design of contact chamber in the future could potentially increase particle removal efficiency. Currently, AguaClara uses a tube contact chamber, which can be easily fabricated by cutting a PVC tube. Without changing the general design, the effect of contact chamber with different length and diameter can be studied.
 
 <div class="alert alert-block alert-danger">
 Revise for technical writing. Incomplete sentences and incorrect verb use.
 
 The first sentence about contact chamber issues was not discussed in the report at all. Add in info in the results/analysis section
+
+Du: you can find the discussion on up/down-flow CC in experiment apparatus section
 
 </div>
 
@@ -374,7 +383,7 @@ This belongs in the results/analysis and measuring pH should just be mentioned h
 
 Do you think pH has affected your results?
 
-Du: PH is not a minor issue in this kind of particle removal research, it can impact the removal efficiency a lot.
+Du: PH is not a minor issue in this kind of particle removal research, it can impact the removal efficiency a lot. we didnt test anything related to ph, so I would like to state this fact here and give rise to the future plan
 </div>
 
 The predictive floc model developed by AguaClara is based on the past apparatus set-up and experiment process. Without considering the presence of floc blanket and the use of new tube sedimentation tank, the model cannot simulate the current experiment, and its modeling result deviates significantly from present experimental data. The ultimate goal is to revise the model to align it with the experiment in the lab well so that the up-to-date research findings provide a guide for AguaClara water treatment plant.
