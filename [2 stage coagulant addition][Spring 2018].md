@@ -413,14 +413,7 @@ Xu, Y., Chen, T., Liu, Z., Zhu, S., Cui, F., Shi, W., 2016. The impact of recycl
 
 
 
-
-
-
-
-
-
-
-, M., Wang, D., Ni, J., Qu, J., Ni, W., Van Leeuwen, J., 2009. Natural organic matter (NOM) removal in a typical North-China water plant by enhanced coagulation: targets and techniques. Sep. Purif. Technol. 68, 320e327.
+Wang, D., Ni, J., Qu, J., Ni, W., Van Leeuwen, J., 2009. Natural organic matter (NOM) removal in a typical North-China water plant by enhanced coagulation: targets and techniques. Sep. Purif. Technol. 68, 320e327.
 
 ## Fabrication Details
 Most of the fabiracation of bench area apparatus was completed in last semester, the connection between different part is described in the experiment apparatus part. The fabrication of contact chamber can refered to the report of contact chamber group.[Contact Chamber]()
@@ -435,47 +428,47 @@ Most of the fabiracation of bench area apparatus was completed in last semester,
 
 
 
-**Step 3.** Check important set points in ProCoDA. Set target influent turbidity, duration of data acqusition state and flushing state.
+**Step 3.** Check important set points in ProCoDA. Set target influent turbidity, duration of data acquisition state and flushing state.
 
-**Step 4.** Open the ProCoDa software and turn the "operation state" from OFF to ON, to turn on the clay pump so the influent turbidimeter will soon reach the target influent turbidity. Once the influent turbidity fluctuate around the target influent turbidity, go back to ProCoDA and switch the state from "ON" to "Data acquisition state", the coagulant pump will be turned on. Then switch the operational mode from "Mannual" to "Auto Switch".
+**Step 4.** Open the ProCoDA software and turn the "operation state" from OFF to ON, to turn on the clay pump so the influent turbidimeter will soon reach the target influent turbidity. Once the influent turbidity fluctuates around the target influent turbidity, go back to ProCoDA and switch the state from "ON" to "Data acquisition state", the coagulant pump will be turned on. Then switch the operational mode from "Manual" to "Auto Switch".
 
-**Step 5.** The data acquisition state will go back and forth with the flush state, which is used to wash out the floc blanket. The data will be recorded on spreadsheet for further use.
+**Step 5.** The data acquisition state will go back and forth with the flush state, which is used to wash out the floc blanket. The data will be recorded on the spreadsheet for further use.
 
 
-**Step 6.** Once the the data collected, check the datalog and turn off ProCoDa. Proceed to the cleaning procedure when experimentation is finished.
+**Step 6.** Once the data collected, check the catalog and turn off ProCoDA. Proceed to the cleaning procedure when experimentation is finished.
 
 ### Cleaning Procedure
  Once the experiment is done, we want to completely wash out the apparatus so it will be ready for the next experiment.
 
-**Step 1.** Turn off the clay and coagulant pump while let the tap water pump run at a relative high speed.
+ **Step 1.** Turn off the clay and coagulant pump while letting the tap water pump run at a relatively high speed.
 
 
 
-**Step 2.** Remove entire apparatus from wall (recirculator \& tube settler) and throughly wash it out, then reattach it back to the wall.
+ **Step 2.** Remove entire apparatus from the wall (recirculator \& tube settler) and thoroughly wash it out, then reattach it back to the wall.
 
-**Step 3.** Wash out the Flocculator by unplugging the connection between the the outflow tube from the influent turbidimeter and the flocculator, and plug in tubing from the nearby sink to wash out the flocculator. Make sure there is a bucket at the end of the flocculator that will collect the water.
+ **Step 3.** Wash out the Flocculator by unplugging the connection between the outflow tube from the influent turbidimeter and the flocculator, and plug-in tubing from the nearby sink to wash out the flocculator. Make sure there is a bucket at the end of the flocculator that will collect the water.
 
-**Step 4.** Clean the influent and effluent turbidimeter. Make sure to turn on the Bypass channel first! First, open the bypass valve. Second, pinch the black outflow tube.
+ **Step 4.** Clean the influent and effluent turbidimeter. Make sure to turn on the Bypass channel first! First, open the bypass valve. Second, pinch the black outflow tube.
 
-**Step 5.** Remove and wash out the vials from both turbidimeters. Refill the vials with clean water, then put back into the turbidimeters. Use Kimtech wipes to clean the glass throughly.
+ **Step 5.** Remove and wash out the vials from both turbidimeters. Refill the vials with clean water, then put back into the turbidimeters. Use Kimtech wipes to clean the glass thoroughly.
 
-**Step 6.** Turn off water to the flocculator and detach the tubing. Hook up the influent turbidimeter back into flocculator then re-open the influent turbidimeter BUT keep the effluent turbidity meter closed. Turn on the water pump to clean out the influent turbidimeter as well as the flocculator.
+ **Step 6.** Turn off water to the flocculator and detach the tubing. Hook up the influent turbidimeter back into flocculator then re-open the influent turbidimeter BUT keep the effluent turbidity meter closed. Turn on the water pump to clean out the influent turbidimeter as well as the flocculator.
 
-**Step 7.** Pour out the coagulant reservoir into a different bucket and rinse reservoir with deionized water to make sure all residue is washed out. Take out the push pin then wash out the coagulant reservoir throughly. Replenish reservoir with 5L (or less) of deionized water. Use MathCAD to determine how much 70.9mg/L PAC coagulant needed to use to get the desired results for the experiment.
+ **Step 7.** Pour out the coagulant reservoir into a different bucket and rinse reservoir with deionized water to make sure all residue is washed out. Take out the push pin then wash out the coagulant reservoir thoroughly. Replenish reservoir with 5L (or less) of deionized water. Use MathCAD to determine how much 70.9mg/L PAC coagulant needed to use to get the desired results of the experiment.
 
 ## Experimental Checklist
 Before running the experiment, we check apparatus following steps below:
 
-**Step 1.** Turn on the influent and effluent turbidity meter and check whether the inside glass container is clean;
+**Step 1.** Turn on the influent and effluent turbidity meter and check whether the inside glass container is clean.
 
-**Step 2.** Before reassemble the turbidity meter again, we turn on only the water pump and let tap water run through the system to see if their is any leak in the system, especially near the turbidity meter, in case water would flow to interior of the meter and cause damage to the apparatus;
+**Step 2.** Before reassembling the turbidity meter again, we let only the tap water run through the system to see if there is any leak, especially near the turbidity meter, in case water would flow to the interior of the meter and cause damage to the apparatus.
 
-**Step 3.** Turn on all pumps and set them with a tiny RPM value, then check if pumps run in the right direction;
+**Step 3.** Turn on all pumps and set them with a tiny RPM value, then check if pumps run in the right direction.
 
-**Step 4.** go to the "edit rules" part of the ProCoDA, check the parameter of increment function, make sure those valve are set according to the calculation;
+**Step 4.** Go to the "edit rules" part of the ProCoDA, check the slope and intercept value  of the increment function, make sure to set those values according to the calculation;
 
 
-**Step 5.** The last step, turn to "operation" part of ProCoDA, start the system with "Data Acquisition States" and make sure states would switch between one another automatically.
+**Step 5.** The last step, turn to "operation" part of ProCoDA, switch the state to "Data Acquisition" and make sure states would switch between one another automatically.
 
 ## ProCoDA Method File
 
@@ -483,12 +476,12 @@ Before running the experiment, we check apparatus following steps below:
 
 **{OFF}** - Resting state of ProCoDA. All sensors, relays, and pumps are turned off.
 
-**{ON}** - ON state of ProCoDa. All sensors, relays, and pumps are turned on.
+**{ON}** - ON state of ProCoDA. All sensors, relays, and pumps are turned on.
 
-**{Data Acquisition}** - State 3 of the experimental process where the coagulant pump is working and the increment function would increase its value each time when we switch to this state. The data acquisition state usually set to be 2 hours, which is enough for the floc blanket to form.
+**{Data Acquisition}** - State where the coagulant pumps work and the increment function would increase its value each time when system switches to this state. The duration of this state usually set to be 2 hours, which is enough for the floc blanket to form.
 
 
-**{Flush}** - State 4 of the experimental process where the coagulant pump stop working, during this stage raw water would run through the system and flush out the floc blanket build in last data acquisition state, so that every data acquisition state would run with same original system condition.
+**{Flush}** - State where the coagulant pumps stop working, during this stage raw water would run through the system and flush out the floc blanket build in last data acquisition state so that every data acquisition state would run with same original system condition.
 
 
 ### Set Points
@@ -515,7 +508,7 @@ Before running the experiment, we check apparatus following steps below:
 
 **{coagulant pump property}** - Flow rate per revolution.
 
-**{balance}** - Variable with value returned by the electrical balance.
+**{balance}** - Variable with the value returned by the electrical balance.
 
  ## Python Code
 
