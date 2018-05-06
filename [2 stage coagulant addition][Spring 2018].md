@@ -37,7 +37,7 @@ Two-stage coagulant addition research was based on the study of bonding mechanis
  Du: already explained
 </div>
 
-![collision](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/collision.png)
+![collision](/image/collision.png)
 
     Figure 1： Collisions between particles during flocculation
 <div class="alert alert-block alert-danger">
@@ -72,7 +72,7 @@ The presence of NOM in water has notable effects in the dispersion of clay parti
 
 Coagulants usually function as neutralizer and destabilizer in the particle removal process. Regarding NOM, the flocculation-based removal process is more efficient when more positively charged aluminum species are generated because NOM is mainly composed of organic compounds with negatively-charged functional groups. As shown in Figure 2, the negatively charged solids particles repel each other initially. However, as positively-charged coagulants are added to the mixture, they adhere to the negatively charged colloids, and neutralize the charge and destabilizing the particles. With the removal of charge, the destabilized colloids can now adhere to each other, forming microflocs.
 
-![coagulant](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/coagulant.png)
+![coagulant](/image/coagulant.png)
 
     Figure 2： Coagulants function as neutralizer and destabilizer
 
@@ -123,43 +123,40 @@ Consider "Doses" rather than "Dosages"
 ##### Dependent Variables
 * **Effluent Turbidity** - the effluent turbidity showed the efficiency of particle removal in the system.
 
-Throughout the semester, a series of one-stage coagulant addition experiments was carried out to find the optimal coagulant dosage that could reduce the effluent turbidity of 3 NTU or less, the required turbidity for the AguaClara's filter system. During one-stage experiments, the second coagulant pump was turned off so that only one stream of coagulant is added.
+Throughout the semester, a series of one-stage coagulant addition experiments were carried out to find the optimal coagulant dosage that could reduce the effluent turbidity of 3 NTU or less, the required turbidity for the AguaClara's filter system. During one-stage experiments, the second coagulant pump was turned off so that only one stream of coagulant is added.
 
-In two-stage coagulant addition experiments, each dosage of coagulant used in one-stage addition experiment was divided into two parts by adding one more stream of coagulant between the first and second contact chamber. The goal of two-stage experiment was to find the optimal distribution between the first and second stream coagulant. The desirable situation was that most of the coagulant from the first addition would offset the effect humic acid in the water, and coagulant from the second addition would be able to attach to clay and nanoaggregate, thus forming big flocs and reducing the effluent turbidity effectively.
+In two-stage coagulant addition experiments, each dosage of coagulant used in one-stage addition experiment was divided into two parts by adding one more stream of coagulant between the first and second contact chamber. The goal of the two-stage experiment was to find the optimal distribution between the first and second stream coagulant. The desirable situation was that most of the coagulant from the first addition would offset the effect humic acid in the water, and coagulant from the second addition would be able to attach to clay and nanoaggregate, thus forming big flocs and reducing the effluent turbidity efficiently.
 
-**A T-connection as shown in Figure 3 was installed between the two coagulant pumps to help manage the amount of coagulant that was input into the system. The first pump controlled the total amount of coagulant being put into the system through the left branch to the right branch. When the second coagulant pump was opened, it controlled how much coagulant is used for the second dosage, draining directly from the left branch to the top branch. The T connection is a fundamental set-up for two stage coagulant addition. Coagulant flowed in through the left branch and was separated into two streams by the top and right branch.**
-
-![connection](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/IMG_2358.JPG)
-
-    Figure 3：T-connection used in two-stage experiment to separate the two streams of coagulant.
+The T connection is an essential set-up for two-stage coagulant addition, as shown in Figure 3, it was installed between the two coagulant pumps to help allocate the coagulant among first and second stage. The first pump controlled the total amount of coagulant drained from the stock tank. Coagulant flowed through the left branch to the right branch after came out of the stock tank. When the second coagulant pump turned on, it controlled the coagulant amount put in the second stage by draining from the main stream, then coagulant flowed in through the left branch and was separated into two streams by the top and right branch.
 
 
 
-
-![connection](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/IMG_2358.JPG)
+![connection](/image/IMG_2358.JPG)
 
     Figure 3：T-connection used in two-stage experiment to separate the two streams of coagulant.
 
 <div class="alert alert-block alert-danger">
 Cannot see figure - recurring issue
+Du: addressed
 </div>
 
-~~ Once ample data of the effluent turbidities of both one-stage and two-stage coagulant addition has accumulated, we will determine which method is more beneficial.~~
 
 **Must give a minimum exact number of runs that would give a sufficient amount of data**
 
 ### Experimental Apparatus Design
-ProCoDA (Process Control and Data Acquisition) software was used to automate data collection and control the experimental apparatus. Two up-flow contact chambers were set before the fluid entered the flocculator, so that the coagulants were allowed more time and space to collide with particles in water. During the first stage of addition, in the first contact chamber, coagulants collided and they were covered by humic acid. In the primary stages of setting up the apparatus, the pump was designed to input the correct coagulant dosage before each contact chamber, allowing for two-stage coagulant addition to take place. However, due to the limitations of ProCoDA, we could only control a maximum of two pumps at the same time. The second coagulant pump had to be controlled manually.
+ProCoDA (Process Control and Data Acquisition) software was used to automate data collection and control the experimental apparatus. Two up-flow contact chambers set before the fluid entered the flocculator, so that the coagulants had more time and space to collide with particles in water. During the first stage, in the first contact chamber, coagulants collided and covered by humic acid. Initially, two pumps were placed before each contact chamber to achieve the two-stage coagulant addition. However, due to the limit port in our system, we could only control two pumps at the same time, and one of them has to be the clay pump.
 
-The general apparatus set-up developed from last semester was kept throughout this semester as shown in Figure 4 and 5. The contact chamber was reversed from down-flow to up-flow so that all the air in the system can be pushed out. Due to the limited space on our bench area, we had to make simplifications in our apparatus set-up. Nevertheless, the simplifications reflect the nature of the AguaClara water treatment plant. The sedimentation tube in our system had the fundamental structures of what would be presented in an AguaClara water treatment plant, including the floc weir, floc settler, floc blanket and sludge valve. Further detail about the design of sedimentation tube can be referred to the research of High Rate Sedimentation group in AguaClara. A tube flocculator was used in this research because it could be idealized as a high-Péclet-number reactor much like a baffled hydraulic flocculator, and also because the average velocity gradient in laminar tube flow was well defined [(Weber-Shirk and Lion 2010)](https://www.sciencedirect.com/science/article/pii/S0043135410004136). An electronic balance had also been implemented, which was connected to the ProCoDA system to track the mass change of coagulant over time. The balance would be able to verify the amount of coagulant entered the system that was actually reflected on data collected by ProCoDA.
+The apparatus set-up developed in last semester as shown in Figure 4 and 5 kept in the research. The contact chamber was reversed from down-flow to up-flow so that all the air in the system can be pushed out. Due to the limited space in the lab, there are simplifications in the apparatus set-up. Nevertheless, the apparatus still reflected the properties of the AguaClara water treatment plant. The sedimentation tube in our system had the fundamental structures of sedimentation tank in AguaClara water treatment plant, including the floc weir, floc settler, floc blanket and sludge valve. Further detail about the design of sedimentation tube can refer to the research of High Rate Sedimentation group in AguaClara. A tube flocculator was used in this research because it could be idealized as a high-Péclet-number reactor much like a baffled hydraulic flocculator, also because the average velocity gradient in laminar tube flow was well defined [(Weber-Shirk and Lion 2010)](https://www.sciencedirect.com/science/article/pii/S0043135410004136). An electronic balance had been implemented to track the quantity change of coagulant. It was connected to ProCoDA to monitor the mass shift in coagulant over time. The balance would be able to verify the amount of coagulant entered the system that was reflected in data collected by ProCoDA.
 
 
 <div class="alert alert-block alert-danger">
 Have you spoken with contact chamber to make sure your set-up is currently what they recommend?
 
+Du: they quit working on CC recently, btw we dont rely on the CC to improve performance, its function in our research was stated in this report
+
 Would the implementation of 2-stage coagulant require plants to have a contact chamber? (They do not right now)
 
-Du:
+Du: in real world water treatment plant, they dont have to use CC because the so called "coag wall loss" is trivial in reality. in my opinion, to apply a two stage addition, operators just need to add coagulant at different points.
 
 </div>
 
@@ -210,13 +207,13 @@ Experiment data of one stage addition experiments at the beginning did not align
 One possible explanation was that due to the limit time of data acquisition state (detailed explanation of ProCoDA set points can be found after the main text), the system did not have enough time to form the floc blanket. Therefore, the duration of data acquisition state was extended, from 3600 seconds to 4800 seconds, and to 8000 seconds. Based on observation, dense floc blanket as shown in Figure 6 was formed one hour after the coagulant was added. It was found that if no floc blanket formed within two hours in a trial, the floc would stay the same, and no floc blanket can be observed even at a later time.
 
 
-![flocblanket](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/flocblanket.jpeg)
+![flocblanket](/image/flocblanket.jpeg)
 
     Figure 6: Floc blanket in the sedimentation tube
 
 The experiment data of one stage addition also did not exactly aligned with the floc model. By using the same HA concentration and coagulant dosage, the effluent turbiditiy was higher than the model result. After studying the experiment settings of past research and other subteams, this research team was found to be the only one premixed the clay and HA to create the synthetic water. Based on this observation, it was possible that the mechanism of particle distance and surface charge had impacted the results.
 
-![datalog](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/100NTU.png)
+![datalog](/image/100NTU.png)
 
     Figure 7: Floc Model result at 100NTU
 
@@ -241,7 +238,7 @@ Du: HA wont attach to clay without coag, and the bonding mechanism between diff 
 Capitalize headers
 </div>
 
-![datalog](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/plot2.png)
+![datalog](/image/plot2.png)
 
     Figure 8: Experiment outcome with and without humic acid
 
