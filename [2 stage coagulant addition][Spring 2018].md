@@ -45,7 +45,7 @@ Can't see the figure.
 </div>
 
 ### Previous Work of Two-Stage Coagulant Addition Subteam
-In Fall 2017 semester, the theoretical basis for future work was built by studying research report of previous particle removal research teams in AguaClara and relevant literature. The subteam built its apparatus based on the design of Contact Chamber subteam. Mechanisms related to the contact chambers can be found in the Contact Chamber subteam report. Compared with the previous group, the set-up includes five pumps to achieve a precise control of fluid flow rate. Two down-flow contact chambers were applied in series before the fluid enters the flocculator. The contact chambers created a space for particle collision to take place. The apparatus set-up of Spring 2018 semester was based on the previous design and the detail will be explained in later sections.
+In Fall 2017 semester, the theoretical basis for future work was built by studying research report of previous particle removal research teams in AguaClara and relevant literature. The subteam made its apparatus based on the design of Contact Chamber subteam. Mechanisms related to the contact chambers can be found in the Contact Chamber subteam report[(Contact Chamber)](). Compared with the previous group, the set-up includes five pumps to achieve a precise control of fluid flow rate. Two down-flow contact chambers were applied in series before the fluid enters the flocculator. The contact chambers created a space for particle collision to take place. In our apparatus design, the main function contact chamber is providing a place for the collision between different particles, and distinguish the first stage from the second stage. The particle removal rate improvement in our research doesn't rely on the coagulant wall loss reduction, which described as the primary function of contact chamber in the Contact Chamber Group's report. The apparatus set-up of Spring 2018 semester was based on the previous design and the detail will be explained in later sections.
 
 <div class="alert alert-block alert-danger">
 
@@ -56,7 +56,7 @@ In Fall 2017 semester, the theoretical basis for future work was built by studyi
 
 
 **move this paragraph to experimental appartus design. repetitive info regarding ProCoDA operations**
-Handling the operation of ProCoDA software was another critical task the subteam accomplished in Fall 2017 semester. ProCoDA is a process control software that allows the user to control many parts of the experimental apparatus and collect data automatically. ProCoDA can control the speed of peristaltic pumps, regulate flow through solenoid valves, and measure water quality parameters such as turbidity by connecting to the turbidity meter. Automated data acquisition can record the speed of pumps, the turbidity of water, the mass of container to an Excel spreadsheet directly. The experiment outcomes are processed with Excel and Python codes. Increment function is a command built in ProCoDA, and it can adjust experimental parameters automatically according to the setting over time. By applying the increment function, the team can conduct series of control experiments without staying in the lab. Python codes were created to calculate coagulant dosage, the composition of clay-HA mixture, and pump speed, the code was attached to the main text.
+Handling the operation of ProCoDA software was another critical task the subteam accomplished in Fall 2017 semester. ProCoDA is a process control software that allows the user to control many parts of the experimental apparatus and collect data automatically. ProCoDA can control the speed of peristaltic pumps, regulate flow through solenoid valves, and measure water quality parameters such as turbidity by connecting to the turbidimeter. Automated data acquisition can record the speed of pumps, the turbidity of water, the mass of container to an Excel spreadsheet directly. The experiment outcomes are processed with Excel and Python codes. Increment function is a command built in ProCoDA, and it can adjust experimental parameters automatically according to the setting over time. By applying the increment function, the team can conduct series of control experiments without staying in the lab. Python codes were created to calculate coagulant dosage, the composition of clay-HA mixture, and pump speed, the code was attached to the main text.
 
 A floc blanket is a fluidized bed of flocs that are maintained in the bottom of an up-flow sedimentation tank. The highly concentrated suspension acts like the second flocculator that intercepts incoming clay particles and thus reduces the turbidity of the settled water.[(Weber-Shirk, 2009)](http://cuaguaclara.blogspot.com/2012/08/the-floc-blanket-quest.html) Floc blanket can improve the particle removal performance dramatically, one of AguaClara's goal was to add floc blanket in the plant. So the purpose of the research was to observe the floc blanket formation in every trial.
 
@@ -151,11 +151,16 @@ Cannot see figure - recurring issue
 ### Experimental Apparatus Design
 ProCoDA (Process Control and Data Acquisition) software was used to automate data collection and control the experimental apparatus. Two up-flow contact chambers were set before the fluid entered the flocculator, so that the coagulants were allowed more time and space to collide with particles in water. During the first stage of addition, in the first contact chamber, coagulants collided and they were covered by humic acid. In the primary stages of setting up the apparatus, the pump was designed to input the correct coagulant dosage before each contact chamber, allowing for two-stage coagulant addition to take place. However, due to the limitations of ProCoDA, we could only control a maximum of two pumps at the same time. The second coagulant pump had to be controlled manually.
 
-The general apparatus set-up developed from last semester was kept throughout this semester as shown in Figure 4 and 5. The contact chamber was reversed from down-flow to up-flow so that all the air in the system can be pushed out. Due to the limited space on our bench area, we had to make simplifications in our apparatus set-up. Nevertheless, the simplifications reflect the nature of the AguaClara water treatment plant. The sedimentation tube in our system had the fundamental structures of what would be presented in an AguaClara water treatment plant, including the floc weir, floc settler, floc blanket and sludge valve. Further detail about the design of sedimentation tube can be referred to the research of High Rate Sedimentation group in AguaClara. A tube flocculator was used in this research because it could be idealized as a high-Péclet-number reactor much like a baffled hydraulic flocculator, and also because the average velocity gradient in laminar tube flow was well defined [(Weber-Shirk and Lion 2010)](https://www.sciencedirect.com/science/article/pii/S0043135410004136).
+The general apparatus set-up developed from last semester was kept throughout this semester as shown in Figure 4 and 5. The contact chamber was reversed from down-flow to up-flow so that all the air in the system can be pushed out. Due to the limited space on our bench area, we had to make simplifications in our apparatus set-up. Nevertheless, the simplifications reflect the nature of the AguaClara water treatment plant. The sedimentation tube in our system had the fundamental structures of what would be presented in an AguaClara water treatment plant, including the floc weir, floc settler, floc blanket and sludge valve. Further detail about the design of sedimentation tube can be referred to the research of High Rate Sedimentation group in AguaClara. A tube flocculator was used in this research because it could be idealized as a high-Péclet-number reactor much like a baffled hydraulic flocculator, and also because the average velocity gradient in laminar tube flow was well defined [(Weber-Shirk and Lion 2010)](https://www.sciencedirect.com/science/article/pii/S0043135410004136). An electronic balance had also been implemented, which was connected to the ProCoDA system to track the mass change of coagulant over time. The balance would be able to verify the amount of coagulant entered the system that was actually reflected on data collected by ProCoDA.
+
 
 <div class="alert alert-block alert-danger">
 Have you spoken with contact chamber to make sure your set-up is currently what they recommend?
+
 Would the implementation of 2-stage coagulant require plants to have a contact chamber? (They do not right now)
+
+Du:
+
 </div>
 
 
@@ -323,7 +328,7 @@ This sections needs much more development and polishing.
 
 ## Conclusions
 
-A set of control experiments with fixed turbidity and different coagulant dosage was carried out with the increment function of ProCoDA. An electronic balance had also been implemented, which was connected to the ProCoDA system to track the mass change of coagulant over time. The balance would be able to verify the amount of coagulant entered the system that was actually reflected on data collected by ProCoDA. In general, it was deduced that with the current design of system, when the turbidity of water entering the system was relatively low, more coagulant was needed to reach the target effluent turbidity. The target effluent turbidity of this experiment was no more than 3 NTU, in order to comply with the standard AguaClara system.
+A set of control experiments with fixed turbidity and different coagulant dosage was carried out with the increment function of ProCoDA. In general, it was deduced that with the current design of system, when the turbidity of water entering the system was relatively low, more coagulant was needed to reach the target effluent turbidity. The target effluent turbidity of this experiment was no more than 3 NTU, in order to comply with the standard AguaClara system.
 
 <div class="alert alert-block alert-danger">
 The information about the electronic balance should be in methods, but the rest of this info doesn't need to be here.
@@ -353,12 +358,13 @@ What is the impact on AguaClara as a whole?
 </div>
 
 ## Future Work
-The current apparatus design is shown deficient by the contact chamber group, because the two up-flow contact chambers applied could not function as what they were designed to be. Experiments demonstrated that the current design of contact chamber could not successfully reduce the wall loss of the coagulant or improve the particle removal efficiency. Although currently the contact chamber only acted as a place for particle collision, and for divinsing the first and second stage addition physically, modifying the design of contact chamber in the furture could potentially increase particle removal efficiency. Currently, AguaClara uses a tube contact chamber, which can be easily fabricated by cutting a PVC tube. Without changing the design, the effect of contact chamber with different length and diameter can be studied.
+The current apparatus design is shown deficient by the contact chamber group because the two up-flow contact chambers applied could not function as what they were designed to be. Experiments demonstrated that the current design of contact chamber could not successfully reduce the wall loss of the coagulant or improve the particle removal efficiency. Although currently the contact chamber only acted as a place for particle collision, and for defining the first and second stage addition physically, modifying the design of contact chamber in the future could potentially increase particle removal efficiency. Currently, AguaClara uses a tube contact chamber, which can be easily fabricated by cutting a PVC tube. Without changing the design, the effect of contact chamber with different length and diameter can be studied.
 
 <div class="alert alert-block alert-danger">
 Revise for technical writing. Incomplete sentences and incorrect verb use.
 
 The first sentence about contact chamber issues was not discussed in the report at all. Add in info in the results/analysis section
+
 </div>
 
 The effect of pH has not been considered in the current research. However, pH could be the single most crucial factor affecting the effectiveness of metal-based coagulants[(Qin et al., 2006)](https://www.sciencedirect.com/science/article/pii/S1383586605003187?via%3Dihub). In the future, pH can be measured during the experiment by both pH meter and pH test paper. In either water treatment plant or apparatus in the lab, pH can be adjusted by applying different chemical reagent, and varying pH will allow us to see the effect of pH. On the other hand, experimental process can simulate the environment of water treatment plant if the pH value align with the water is kept constant in the plant.
@@ -367,11 +373,17 @@ The effect of pH has not been considered in the current research. However, pH co
 This belongs in the results/analysis and measuring pH should just be mentioned here as an add-on to the apparatus.
 
 Do you think pH has affected your results?
+
+Du: PH is not a minor issue in this kind of particle removal research, it can impact the removal efficiency a lot.
 </div>
 
-The predictive floc model developed by AguaClara is based on the past apparatus set-up and experiment process. Without considering the presence of floc blanket and the use of new tube sedimentation tank, the model cannot simulate the current experiment, and its modeling result deviates significantly from present experimental data. The ultimate goal is to revise the model to well align it with the experiment in the lab, so that the up-to-date research findings provide a guide for AguaClara water treatment plant.
+The predictive floc model developed by AguaClara is based on the past apparatus set-up and experiment process. Without considering the presence of floc blanket and the use of new tube sedimentation tank, the model cannot simulate the current experiment, and its modeling result deviates significantly from present experimental data. The ultimate goal is to revise the model to align it with the experiment in the lab well so that the up-to-date research findings provide a guide for AguaClara water treatment plant.
 
 The predictive floc model developed by AguaClara is based on the past apparatus set-up and experiment process. Without considering the presence of floc blanket and the use of new tube sedimentation tank, the model can not simulate the current experiment, and it modeling result deviates a lot from present experimental data. The ultimate goal of our group is to revise the model to make it well aligned with the experiment in the lab so that the up-to-date research findings can guide AguaClara water treatment plant.
+
+
+
+The research on two-stage coagulant addition should continue in the future. According to our study, the two-stage addition was proved to perform better than one-stage addition in some circumstance. Two-stage addition can achieve higher particle removal rate than one-stage while using the same amount of coagulant. Future research group should test the performance of two-stage addition in a condition closer to the real world to guide the application of this technology in AguaClara water treatment plants.
 
 <div class="alert alert-block alert-danger">
 Section has sentences that are incomplete.
@@ -380,8 +392,8 @@ I am confused between the model and the experiment. Be clear and concise. There 
 
 Future work should really be what the next steps are so: measuring pH, adjusting contact chamber, and modifying the setup are key. It should be action focused. Here is the descrption from the rubric:
 Explain what should be accomplished and which direction this project should be taken next.
-Explain how AguaClara can apply what you discovered for future projects.
-Explain why the research in this area should continue or why it should end.
+Explain how AguaClara can apply what you discovered for future projects. - Du: addressed
+Explain why the research in this area should continue or why it should end. - Du: addressed
 </div>
 
 ## Bibliography
@@ -415,6 +427,8 @@ Xu, Y., Chen, T., Liu, Z., Zhu, S., Cui, F., Shi, W., 2016. The impact of recycl
 
 Wang, D., Ni, J., Qu, J., Ni, W., Van Leeuwen, J., 2009. Natural organic matter (NOM) removal in a typical North-China water plant by enhanced coagulation: targets and techniques. Sep. Purif. Technol. 68, 320e327.
 
+# Experiment Manual
+
 ## Fabrication Details
 Most of the fabiracation of bench area apparatus was completed in last semester, the connection between different part is described in the experiment apparatus part. The fabrication of contact chamber can refered to the report of contact chamber group.[Contact Chamber]()
 
@@ -424,7 +438,7 @@ Most of the fabiracation of bench area apparatus was completed in last semester,
 ### Experiment
 **Step 1.** Fill stock tanks. One stock tank should be filled with a diluted solution of PAC coagulant, and the other should have a mixture of water, clay, and humic acid. The concentration of solution depends on experiment objectives and can be calculated by using the chemical dosage calculation code below.
 
-**Step 2.** Once the solution is prepared, open the water and wastewater valves, turn on turbidity meters, and let the apparatus completely filled with water, the experiment is now ready to run. Be sure to turn on the sludge pump, a 1L/s pump next to the effluent turbidimeter, to ensure that sludge is drained to the wastewater line.
+**Step 2.** Once the solution is prepared, open the water and wastewater valves, turn on turbidimeters, and let the apparatus completely filled with water, the experiment is now ready to run. Be sure to turn on the sludge pump, a 1L/s pump next to the effluent turbidimeter, to ensure that sludge is drained to the wastewater line.
 
 
 
@@ -432,7 +446,7 @@ Most of the fabiracation of bench area apparatus was completed in last semester,
 
 **Step 4.** Open the ProCoDA software and turn the "operation state" from OFF to ON, to turn on the clay pump so the influent turbidimeter will soon reach the target influent turbidity. Once the influent turbidity fluctuates around the target influent turbidity, go back to ProCoDA and switch the state from "ON" to "Data acquisition state", the coagulant pump will be turned on. Then switch the operational mode from "Manual" to "Auto Switch".
 
-**Step 5.** The data acquisition state will go back and forth with the flush state, which is used to wash out the floc blanket. The data will be recorded on the spreadsheet for further use.
+**Step 5.** The data acquisition state will go back and forth with the flush state, which is used to wash out the floc blanket. The data will be recorded on a spreadsheet for further use.
 
 
 **Step 6.** Once the data collected, check the catalog and turn off ProCoDA. Proceed to the cleaning procedure when experimentation is finished.
@@ -440,32 +454,32 @@ Most of the fabiracation of bench area apparatus was completed in last semester,
 ### Cleaning Procedure
  Once the experiment is done, we want to completely wash out the apparatus so it will be ready for the next experiment.
 
- **Step 1.** Turn off the clay and coagulant pump while letting the tap water pump run at a relatively high speed.
+ **Step 1.** Turn off the clay and coagulant pumps while running the water pump with a relatively high speed, normally over 120rpm.
 
 
 
  **Step 2.** Remove entire apparatus from the wall (recirculator \& tube settler) and thoroughly wash it out, then reattach it back to the wall.
 
- **Step 3.** Wash out the Flocculator by unplugging the connection between the outflow tube from the influent turbidimeter and the flocculator, and plug-in tubing from the nearby sink to wash out the flocculator. Make sure there is a bucket at the end of the flocculator that will collect the water.
+ **Step 3.** Wash out the flocculator by unplugging the connection between the outflow tube from the influent turbidimeter and the flocculator, and plug-in tubing from the nearby sink to wash out the flocculator. Make sure there is a bucket at the end of the flocculator that will collect the water.
 
  **Step 4.** Clean the influent and effluent turbidimeter. Make sure to turn on the Bypass channel first! First, open the bypass valve. Second, pinch the black outflow tube.
 
  **Step 5.** Remove and wash out the vials from both turbidimeters. Refill the vials with clean water, then put back into the turbidimeters. Use Kimtech wipes to clean the glass thoroughly.
 
- **Step 6.** Turn off water to the flocculator and detach the tubing. Hook up the influent turbidimeter back into flocculator then re-open the influent turbidimeter BUT keep the effluent turbidity meter closed. Turn on the water pump to clean out the influent turbidimeter as well as the flocculator.
+ **Step 6.** Turn off water to the flocculator and detach the tubing. Hook up the influent turbidimeter back into flocculator then re-open the influent turbidimeter but keep the effluent turbidimeter closed. Turn on the water pump to clean out the influent turbidimeter as well as the flocculator.
 
- **Step 7.** Pour out the coagulant reservoir into a different bucket and rinse reservoir with deionized water to make sure all residue is washed out. Take out the push pin then wash out the coagulant reservoir thoroughly. Replenish reservoir with 5L (or less) of deionized water. Use MathCAD to determine how much 70.9mg/L PAC coagulant needed to use to get the desired results of the experiment.
+ **Step 7.** Pour out the coagulant reservoir into a different bucket and rinse reservoir with deionized water to make sure all residue is washed out. Take out the push pin then wash out the coagulant reservoir thoroughly. Replenish reservoir with 5L (or less) of deionized water. Use Python calculation codes to determine how much 70.9mg/L PACl coagulant needed to use to get the desired results of the experiment.
 
 ## Experimental Checklist
-Before running the experiment, we check apparatus following steps below:
+Before running the experiment, check apparatus with following steps:
 
-**Step 1.** Turn on the influent and effluent turbidity meter and check whether the inside glass container is clean.
+**Step 1.** Turn on the influent and effluent turbidimeter and check whether the inside glass container is clean.
 
-**Step 2.** Before reassembling the turbidity meter again, we let only the tap water run through the system to see if there is any leak, especially near the turbidity meter, in case water would flow to the interior of the meter and cause damage to the apparatus.
+**Step 2.** Before reassembling the turbidimeter again, we let only the tap water run through the system to see if there is any leak, especially near the turbidimeter, in case water would flow to the interior of the meter and cause damage to the apparatus.
 
 **Step 3.** Turn on all pumps and set them with a tiny RPM value, then check if pumps run in the right direction.
 
-**Step 4.** Go to the "edit rules" part of the ProCoDA, check the slope and intercept value  of the increment function, make sure to set those values according to the calculation;
+**Step 4.** Go to the "edit rules" part of the ProCoDA, check the slope and intercept value of the increment function, make sure to set those values according to the calculation.
 
 
 **Step 5.** The last step, turn to "operation" part of ProCoDA, switch the state to "Data Acquisition" and make sure states would switch between one another automatically.
