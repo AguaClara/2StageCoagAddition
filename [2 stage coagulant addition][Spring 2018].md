@@ -76,14 +76,14 @@ Coagulants usually function as neutralizer and destabilizer in the particle remo
 
     Figure 2： Coagulants function as neutralizer and destabilizer
 
-Polyaluminum Chloride (PAC) was chosen to be the coagulants of the research, because of its compatibility with a majority of NOMs, low sensitivity to temperature and low residual metal-ion concentration. The effect of PAC in removing humic acid was significantly efficient comparing to other chemicals. [(Sudoh et. al., 2015)](https://www.sciencedirect.com/science/article/pii/S2213343715000871) Projects prefer using PAC also because of the economic factor(i.e. low cost and high availability in both solid and liquid form). [(Bratby,2006)](https://www.sciencedirect.com/science/refhub/S0045-6535(17)31538-2/sref15)
+Polyaluminum Chloride (PACl) was chosen to be the coagulants of the research, because of its compatibility with a majority of NOMs, low sensitivity to temperature and low residual metal-ion concentration. The effect of PAC in removing humic acid was significantly efficient comparing to other chemicals. [(Sudoh et. al., 2015)](https://www.sciencedirect.com/science/article/pii/S2213343715000871) Projects prefer using PAC also because of the economic factor(i.e. low cost and high availability in both solid and liquid form). [(Bratby,2006)](https://www.sciencedirect.com/science/refhub/S0045-6535(17)31538-2/sref15)
 
 
 <div class="alert alert-block alert-danger">
 
 
 +So this information is pre-coagulant?
- Du: what is pre-coagulant?
+ Du: In AguaClara's theoretical knowledge, precoagulation is likely to be part of flocculation.
 
 -Consider " Polyaluminum Chloride (PACl) is a coagulant that reduces DBPs..." rather than being associated with Coagulation
 
@@ -114,6 +114,8 @@ Du: search for this sentence
 
 <div class="alert alert-block alert-danger">
 Consider "Doses" rather than "Dosages"
+
+Du: difference between them can be found here(https://www.verywell.com/drug-dose-definition-and-examples-1123989)
 </div>
 
 ##### Independent Variables
@@ -234,9 +236,6 @@ Are you saying that humic acid is sticking to clay particles without coagulant?
 Du: HA wont attach to clay without coag, and the bonding mechanism between diff particle can be found in review section
 </div>
 
-<div class="alert alert-block alert-danger">
-Capitalize headers
-</div>
 
 ![datalog](/image/plot2.png)
 
@@ -253,7 +252,7 @@ Table 2:  Experimental Parameter for Figure 8
 | Up Flow Velocity| 2mm/s|
 
 ### Impact of coagulant dosage
-Regarding the effect of coagulants dosage, determining the optimal amount was crucial. Overdosing the coagulant could result in a substantial increase in the amount of generated sludge and a decrease in pH, while a lower dose could be the cause for the residual metal remaining in treated water[(Ibrahim and Aziz, 2014)](http://www.ijsrpub.com/uploads/papers/IJSRES/IJSRES-2014/Mar/IJSRES-13-111.pdf). Increasing the PACl dose had been shown to increase NOM removal up to a certain point. However, NOM removal was not significantly improved with very high alum dosages, which suggested that some components of NOM were recalcitrant to being removed by coagulant.
+Regarding the effect of coagulants dosage, determining the optimal amount was crucial because overdosing the coagulant could result in a substantial increase in the amount of generated sludge and a decrease in pH, while a lower dose could be the cause for the residual metal remaining in treated water[(Ibrahim and Aziz, 2014)](http://www.ijsrpub.com/uploads/papers/IJSRES/IJSRES-2014/Mar/IJSRES-13-111.pdf). Increasing the PACl dose had been shown to increase NOM removal up to a certain point. However, NOM removal was not significantly improved with very high alum dosages, which suggested that some components of NOM were recalcitrant to being removed by coagulant.
 
 <div class="alert alert-block alert-danger">
 Revise spelling and grammar.
@@ -272,19 +271,12 @@ Revise the run-on describing NTU removal.
 REmove last sentence. Focus on being concise (Make every word/sentence matter)
 </div>
 
-<div class="alert alert-block alert-danger">
-Revise for technical writing. Why is floc blanket devleopment important?
-</div>
-
 
 <div class="alert alert-block alert-danger">
 What is going on with these datalogs and the code? Is that a remnant of the template? It is unprofessional looking. - unreolved
 </div>
 
-<div class="alert alert-block alert-danger">
-remove "requirement" section before final submission
-</div>
-
+Under the control of increment function, coagulant dosage was increased over time. Figure 9 shows the experimental data of one stage addition trial, which could be used to study the effect of coagulant dosage on floc formation. The influent turbidity was 100NTU, and the effluent turbidity reached the peak during the flush state, when floc blanket was washed out. Then, it was reduced steadily after the system switched back to data acquisition state, the floc blanket formed after coagulant entered the system (detail explanation can be found after the main text). As shown in Figure 9, with the stepwise increase of coagulant dosage, the effluent turbidity dropped faster with a steeper slope. This suggested that the floc blanket formed faster with higher coagulant dosage, which aligned with the observation.
 
 ![datalog](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/dosage.png)
 
@@ -304,29 +296,12 @@ Table 3: Experimental Parameter for Figure 9
 
 
 
-Under the control of increment function, coagulant dosage was increased over time. Figure 9 shows the experiment data of one stage addition trial, which could be used to study the effect of coagulant dosage on floc formation. The influent turbidity was 100NTU, and the effluent turbidity reached the peak during the flush state, when floc blanket was washed out. Then, it was reduced steadily after the system switched back to data acquisition state, the floc blanket formed after coagulant entered the system (detail explanation can be found after the main text). As shown in Figure 8, with the stepwise increase of coagulant dosage, the effluent turbidity dropped faster with a steeper slope. This suggested that the floc blanket formed faster with higher coagulant dosage, which aligned with the observation.
 
-### Analysis of One Stage Coagulant addition procedure
 
-<div class="alert alert-block alert-danger">
-Capitalize header
-</div>
-
-A primary concern was the lack of consistency in the formation of a floc blanket in our Sedtank during 1 Stage coagulant addition. It was concluded that due the limitations of ProCoDA, it constrained our team to mix clay and humic acid before it enters into the system. We hypothesis that due the prior mixing, ~~the humic acid makes the surfaces of the clay more negatively charged.~~ This disperses the clay particles more thus creating more clay particle surface area. This means that there is more clay than there is coagulant available to bind together and create flocs.~~In order to determine whether this hypothesis is true, we have modified our calculations and ratio of humic acid.~~
-
-<div class="alert alert-block alert-danger">
-This section is hard to understand with the cross-outs seems unfinished.
-
-Write out sedimentation tank not Sed tank
-
-Did you determine an optimal coagulant dose? Doy ou have graphs of turbidity results (influent and effluent)
-
-This sections needs much more development and polishing.
-</div>
 
 ## Conclusions
 
-A set of control experiments with fixed turbidity and different coagulant dosage was carried out with the increment function of ProCoDA. In general, it was deduced that with the current design of system, when the turbidity of water entering the system was relatively low, more coagulant was needed to reach the target effluent turbidity. The target effluent turbidity of this experiment was no more than 3 NTU, in order to comply with the standard AguaClara system."现在我们的最低浑浊度大约是5-6，但是我们使用的絮凝剂量很低，并且我们制造合成污水的方法与其他研究组不同，预混带来的影响使得我们的浑浊度更难移除"
+A set of control experiments with fixed turbidity and different coagulant dosage was carried out with the increment function of ProCoDA. In general, with the current design of system, when the turbidity was relatively low, the particle removal efficiency . The target effluent turbidity of this experiment was no more than 3 NTU, in order to comply with the standard AguaClara system. Our minimum turbidity is now around 6 NTU, as we used a low coagulant dose and our method of manufacturing synthetic wastewater is different from other research groups. The effect of premixing makes our turbidity more difficult to remove."
 
 <div class="alert alert-block alert-danger">
 The information about the electronic balance should be in methods, but the rest of this info doesn't need to be here.
