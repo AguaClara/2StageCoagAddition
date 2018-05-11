@@ -67,9 +67,7 @@ Consider revising second to last sentence because it is long and missing a few "
 Revise "As the floc blanket is formed, the flocs are connected together to form a larger and more irregular structure..." - A common error throughout the report is missing words like "a" and "the"
 
 Du: addressed and revised
-</div>
 
-<div class="alert alert-block alert-danger">
 I think you can delete this last paragraph.
 
 Du: yep, i agree, outline is unnecessary in a research report
@@ -85,10 +83,12 @@ Put space between words and paratheses
 
 Move in-text citation to the end of the paragraph.
 
-Du: addressed. about the in-text citation, i saw lots of pulication did it in the middle of sentences.
+*about the in-text citation*
+
+Du: addressed. , I saw lots of publication did it in the middle of sentences. I think it is just fine to cite literature whenever needed
 </div>
 
-Two-stage coagulant addition research was based on the study of bonding mechanism between different particles in water. There are three different kinds of particles in the research model: clay, humic acid, and coagulant nanoparticle. As it was shown in Figure 1, there are six kinds of the possible collision. However, only collisions with coagulant involved can occur in reality, because clay and humic acid are both negatively chargeed, they cannot attach to each other or themselves when a collision occurs.
+Two-stage coagulant addition research was based on the study of bonding mechanisms between different particles in water. There are three different kinds of particles in the research model: clay, humic acid, and coagulant nanoparticle. As shown in Figure 1, there are six kinds of the possible collisions. However, only collisions with coagulant involved can occur in reality, because clay and humic acid are both negatively charged so they will not attach to each other or themselves.
 
 <div class="alert alert-block alert-danger">
 Make "mechanism" plural in the first sentence.
@@ -98,6 +98,8 @@ Refer to Figure 1 in present tense like "As shown in Figure 1"
 Make "collision" plural in sentence three
 
 Revise the last sentence for grammatical errors. Consider "because clay and humic are both negatively charged so they will not attach to each other or themselves." (delete the last phrase "when a collision occurs")
+
+DU: addresed
 </div>
 
 ![collision](/image/collision.png)
@@ -105,7 +107,7 @@ Revise the last sentence for grammatical errors. Consider "because clay and humi
     Figure 1： Collisions between particles during flocculation
 
 ### Previous Work of Two-Stage Coagulant Addition Subteam
-In Fall 2017 semester, the theoretical basis for future work was built by studying research report of previous particle removal research teams in AguaClara and relevant literature. The subteam made its apparatus based on the design of Contact Chamber subteam. Mechanisms related to the contact chambers can be found in the Contact Chamber subteam report[(Contact Chamber)](). Compared with the previous group, the set-up includes five pumps to achieve a precise control of fluid flow rate. Two down-flow contact chambers were applied in series before the fluid enters the flocculator. The contact chambers created a space for particle collision to take place. In our apparatus design, the main function contact chamber is providing a place for the collision between different particles, and distinguish the first stage from the second stage. The particle removal rate improvement in our research doesn't rely on the coagulant wall loss reduction, which described as the primary function of contact chamber in the Contact Chamber Group's report. The apparatus set-up of Spring 2018 semester was based on the previous design and the detail will be explained in later sections.
+In the Fall 2017 semester, the theoretical basis for future work was built by studying research report of previous particle removal research teams in AguaClara and relevant literature. The 2017 two-stage coagulant addition (2SCA) subteam made the apparatus based on the design of Contact Chamber subteam. Mechanisms related to the contact chambers can be found in the Contact Chamber subteam report[(Contact Chamber)](). The set-up included five pumps to achieve a precise control of fluid flow rate. Two down-flow contact chambers were applied in series before the fluid entered the flocculator. The contact chambers created a space for particle collision to take place. In the apparatus design of 2SCA subteam, the main function contact chambers are providing a place for the collision between different particles, and distinguishing the first stage of coagulant addition from the second. The particle removal rate improvement in the research didn't rely on the coagulant wall loss reduction, which described as the primary function of contact chamber in the Contact Chamber Group's report.
 
 <div class="alert alert-block alert-danger">
 Missing "the"s in first sentences
@@ -117,21 +119,23 @@ When using the word "and" the part before the "and" should mirror the grammar of
 Revise this paragraph for incomplete/choppy sentences. Additionally revise the second the last sentence for clarity and understanding. State more explicitly that the contact chamber can also be use for reducing coagulant loss on the walls of the flocculator, but that this is not their main purpose here.
 
 Remove last sentence.
-</div>
 
 
-**move this paragraph to experimental appartus design. repetitive info regarding ProCoDA operations**
-Handling the operation of ProCoDA software was another critical task the subteam accomplished in Fall 2017 semester. ProCoDA is a process control software that allows the user to control many parts of the experimental apparatus and collect data automatically. ProCoDA can control the speed of peristaltic pumps, regulate flow through solenoid valves, and measure water quality parameters such as turbidity by connecting to the turbidimeter. Automated data acquisition can record the speed of pumps, the turbidity of water, the mass of container to an Excel spreadsheet directly. The experiment outcomes are processed with Excel and Python codes. Increment function is a command built in ProCoDA, and it can adjust experimental parameters automatically according to the setting over time. By applying the increment function, the team can conduct series of control experiments without staying in the lab. Python codes were created to calculate coagulant dosage, the composition of clay-HA mixture, and pump speed, the code was attached to the main text.
-
-<div class="alert alert-block alert-danger">
 Address the bolded statement at the top and remember to delete it before the final submission.
 - I recommend moving this info down to be with the aparatus info in Methods.
+
+Du: all addressed
 </div>
 
-A floc blanket is a fluidized bed of flocs that are maintained in the bottom of an up-flow sedimentation tank. The highly concentrated suspension acts like the second flocculator that intercepts incoming clay particles and thus reduces the turbidity of the settled water.[(Weber-Shirk, 2009)](http://cuaguaclara.blogspot.com/2012/08/the-floc-blanket-quest.html) Floc blanket can improve the particle removal performance dramatically, one of AguaClara's goal was to add floc blanket in the plant. So the purpose of the research was to observe the floc blanket formation in every trial.
+**ADD some background for floc blanket**
+
+A floc blanket is a fluidized bed of flocs that are maintained in the bottom of an up-flow sedimentation tank. The highly concentrated suspension acts like the second flocculator that intercepts incoming clay particles. [(Weber-Shirk, 2009)](http://cuaguaclara.blogspot.com/2012/08/the-floc-blanket-quest.html) Floc blanket can help reduce the turbidity of the settled water, and improve the particle removal performance dramatically. One of AguaClara's goal was to add floc blanket in the plant. The purpose of the research was to observe the floc blanket formation in every trial.
 
 <div class="alert alert-block alert-danger">
-Revise this for floor and complete sentences. Also this does not have a great lead in or connection to the previous paragraphs.
+Revise this for floor and complete sentences.
+Du: addressed
+Also this does not have a great lead in or connection to the previous paragraphs.
+Du: in processing
 </div>
 
 ### Literature Review
@@ -144,17 +148,21 @@ This is very jargon filled and would be difficult for a new member of AguaClara 
 Remember to address and remove bolded words before final submission.
 </div>
 
-The optimum operating conditions to remove turbidity by flocculation, such as pH and coagulant dosages, are not necessarily the same for NOM removal.[(Yan et al., 2008)](https://www.sciencedirect.com/science/article/pii/S1383586609002342?via%3Dihub) Thus the treatment processes for water contains the different concentration of NOM are varied.**(processing)**  Considering the high variability of NOM's organic components in different water sources, the removal mechanisms will substantially differ from one water source to the other or within the same source due to seasonal variations. The result will be a variable removal efficiency of coagulation and the formation of flocs with different sizes and structures, which urges the development of various water treatment strategies in different contexts[(Jarvis et al., 2006)](https://www.sciencedirect.com/science/article/pii/S0043135406002405?via%3Dihub).
+The optimum operating conditions to remove turbidity by flocculation, such as pH and coagulant dosages, are not necessarily the same for NOM removal.[(Yan et al., 2008)](https://www.sciencedirect.com/science/article/pii/S1383586609002342?via%3Dihub) The treatment process for water containing different concentrations of NOM vary. Considering the high variability of NOM's organic components in different water sources, the removal mechanisms will substantially differ from one water source to the other or within the same source due to seasonal variations. The result will be a variable removal efficiency of coagulation and the formation of flocs with different sizes and structures[(Jarvis et al., 2006)](https://www.sciencedirect.com/science/article/pii/S0043135406002405?via%3Dihub).
 
 <div class="alert alert-block alert-danger">
 Revise "Thus the treatment processes for water contains the different concentration of NOM are varied." Consider "The treatment process for water containing different concentrations of NOM vary."
 
 Intext citations should go before the period at the end of a sentence. Fix this throughout the report.
 
+Du: The explaination about intext citation can be found in earlier comment
+
 Consider removing or rephrasing "Which urges the development of various water treatment strategies in different contexts" because it is vague and doesn't add substantial value to the sentence.
+
+Du: addressed
 </div>
 
-The presence of NOM in water has notable effects in the dispersion of clay particles. The effect can be seen when using the particle-size distribution calculations on water with NOM present. [(PSD calculation)](https://www.innopharmalabs.com/tech/applications-and-processes/particle-size-distribution) A frequency increase in the nanoaggregate in comparison to a mixture with clay alone can be seen, because both humic acid and clay have negatively charged surfaces. However, the surface of humic acid is significantly more negative, thus creates repulsive forces between the particles, and increases the number of dispersed particles.[(Kretzschmar et. al)](https://dl.sciencesocieties.org/publications/sssaj/abstracts/61/1/SS0610010101) A direct relationship also exists between the decrease in pH and increase in sorption of humic acid.
+**in process** The presence of NOM in water has notable effects in the dispersion of clay particles. The effect can be seen when using the particle-size distribution calculations on water with NOM present. [(PSD calculation)](https://www.innopharmalabs.com/tech/applications-and-processes/particle-size-distribution) A frequency increase in the nanoaggregate in comparison to a mixture with clay alone can be seen. However, the surface of humic acid is significantly more negative, thus creates repulsive forces between the particles, and increases the number of dispersed particles.[(Kretzschmar et. al)](https://dl.sciencesocieties.org/publications/sssaj/abstracts/61/1/SS0610010101) A direct relationship also exists between the decrease in pH and increase in sorption of humic acid.
 
 <div class="alert alert-block alert-danger">
 This section seems to be repeating Yinga Du's conclusions. It may be better to trim this section down since it has already been partially discussed before.
@@ -168,13 +176,15 @@ Coagulants usually function as neutralizer and destabilizer in the particle remo
 
 <div class="alert alert-block alert-danger">
 Very clear paragraph here. I previous sections, the charged of the particles are discussed so I recommend minimizing the discussion in those sections because this paragraph does a good job explaining the main ideas.
+
+DU: removed one previous sentence discussing particle charge, remained ones were kept cuz I think they were helpful in completing the logic
 </div>
 
 ![coagulant](/image/coagulant.png)
 
     Figure 2： Coagulants function as neutralizer and destabilizer
 
-Polyaluminum Chloride (PACl) was chosen to be the coagulants of the research, because of its compatibility with a majority of NOMs, low sensitivity to temperature and low residual metal-ion concentration. The effect of PAC in removing humic acid was significantly efficient comparing to other chemicals. [(Sudoh et. al., 2015)](https://www.sciencedirect.com/science/article/pii/S2213343715000871) Projects prefer using PAC also because of the economic factor(i.e. low cost and high availability in both solid and liquid form). [(Bratby,2006)](https://www.sciencedirect.com/science/refhub/S0045-6535(17)31538-2/sref15)
+PACl is used commonly in research because of its compatibility  with a majority of NOMs, low sensitivity to temperature and low residual metal-ion concentration. PACl is significantly more efficient than other chemicals in HA removal. [(Sudoh et. al., 2015)](https://www.sciencedirect.com/science/article/pii/S2213343715000871) Projects prefer using PAC also because of its low cost and high availability in both solid and liquid form. [(Bratby,2006)](https://www.sciencedirect.com/science/refhub/S0045-6535(17)31538-2/sref15)
 
 
 <div class="alert alert-block alert-danger">
@@ -185,6 +195,8 @@ Remember to use PACl not PAC.
 Consider "PACl is significantly more efficient than other chemicals" - the current sentence is wordy and indirect
 
 Revise the last sentence: "PACl is also less expensive than other chemicals and more widely available."
+
+DU: i kept the last half of the sentence because high availability in solid and liquid form is a useful fact about PACl
 </div>
 
 
@@ -203,7 +215,8 @@ Revise the last sentence: "PACl is also less expensive than other chemicals and 
 #### Variables
 
 ##### Control Variables
-* **Influent Turbidity** - the influent turbidity value TSCA team evaluated was 100 NTU.
+**in process**
+* **Influent Turbidity** - the influent turbidity value 2SCA team evaluated was 100 NTU.
 * **Coagulant Dosages** - the increment function used in ProCoDA increased the coagulant dosages stepwise. When the run time of current state reaches the duration set in ProCoDA, the function will be activated and increase the coagulant pump speed according to the setting. Details about ProCoDA set-up can be found after the main text.
 
 <div class="alert alert-block alert-danger">
@@ -221,36 +234,41 @@ Incorrect verb use in description of Coagulant Dosages and lacking "the"s
 ##### Dependent Variables
 * **Effluent Turbidity** - the effluent turbidity showed the efficiency of particle removal in the system.
 
-Throughout the semester, a series of one-stage coagulant addition experiments were carried out to find the optimal coagulant dosage that could reduce the effluent turbidity of 3 NTU or less, the required turbidity for the AguaClara's filter system. During one-stage experiments, the second coagulant pump was turned off so that only one stream of coagulant is added.
+Throughout the semester, a series of one-stage coagulant addition experiments were carried out to find the optimal coagulant dosage that could reduce the effluent turbidity to 3 NTU or less which is the desired turbidity for filtration. During one-stage experiments, the second coagulant pump was turned off so that only one stream of coagulant added.
 
 <div class="alert alert-block alert-danger">
 Change "effluent turbidity of 3 NTU or less, the required turbidity" to "effluent turbidity to 3 NTU or less which is the desired turbidity for filtration"
+
+Du: addressed
 </div>
 
-In two-stage coagulant addition experiments, total coagulant dosgae used in one-stage addition experiments were divided into two parts by adding one more stream of coagulant between the first and second contact chamber. The goal of the two-stage experiment was to find the optimal distribution between the first and second stream coagulant. The desirable situation was that most of the coagulant from the first addition would offset the effect humic acid in the water, and coagulant from the second addition would be able to attach to clay and nanoaggregate, thus forming big flocs and reducing the effluent turbidity efficiently.
+In two-stage coagulant addition experiments, total coagulant dosgae used in one-stage addition experiments were divided into two parts by adding one more stream of coagulant between the first and second contact chamber. The goal of the two-stage experiments were finding the optimal distribution between the first and second stream coagulant. The desirable situation was that most of the coagulant from the first addition would offset the effect humic acid in the water, and coagulant from the second addition would be able to attach to clay and nanoaggregate, thus forming big flocs and reducing the effluent turbidity efficiently.
 
-The T connection is an essential set-up for two-stage coagulant addition, as shown in Figure 3, it was installed between the two coagulant pumps to help allocate the coagulant among first and second stage. The first pump controlled the total amount of coagulant drained from the stock tank. Coagulant flowed through the left branch to the right branch after came out of the stock tank. When the second coagulant pump turned on, it controlled the coagulant amount put in the second stage by draining from the main stream, then coagulant flowed in through the left branch and was separated into two streams by the top and right branch.
+The T connection is an essential part for two-stage coagulant addition. As shown in Figure 3, it was installed between the two coagulant pumps to help allocate the coagulant among first and second stage. The first pump controlled the total amount of coagulant drained from the stock tank. Coagulant flowed through the left branch to the right branch after came out of the stock tank. When the second coagulant pump turned on, it controlled the coagulant amount put in the second stage by draining from the main stream, then coagulant flowed in through the left branch and was separated into two streams by the top and right branch.
 
 <div class="alert alert-block alert-danger">
 Consider describing the T connection as an essential part rather than set-up
 
 Divide the first sentence into two (run-on)
+
+Du: addressed
 </div>
 
 ![connection](/image/IMG_2358.JPG)
 
     Figure 3：T-connection used in two-stage experiment to separate the two streams of coagulant.
 
-**Must give a minimum exact number of runs that would give a sufficient amount of data**
 
 ### Experimental Apparatus Design
-ProCoDA (Process Control and Data Acquisition) software was used to automate data collection and control the experimental apparatus. Two up-flow contact chambers set before the fluid entered the flocculator, so that the coagulants had more time and space to collide with particles in water. During the first stage, in the first contact chamber, coagulants collided and covered by humic acid. Initially, two pumps were placed before each contact chamber to achieve the two-stage coagulant addition. However, due to the limit port in our system, we could only control two pumps at the same time, and one of them has to be the clay pump.
+**in process**
+
+ProCoDA (Process Control and Data Acquisition) software was used to automate data collection and control the experimental apparatus. Two up-flow contact chambers set before the fluid entered the flocculator, so that the coagulants had more time and space to collide with the particles in water. During the first stage, in the first contact chamber, coagulants collided and covered by humic acid. Initially, two pumps were placed before each contact chamber to achieve the two-stage coagulant addition. However, due to the limit port numbers in the system, we could only control two pumps at the same time, and one of them has to be the clay pump.
 
 <div class="alert alert-block alert-danger">
 Revise paragraph looking for places where words like "by", "the", and "a" are either missing or used incorrectly. Also look for incorrect verb tenses. Make sure that every sentence is a full complete sentence. Pay particular attention to sentences 2, 3, and 5
 </div>
 
-The apparatus set-up developed in last semester as shown in Figure 4 and 5 kept in the research. The contact chamber was reversed from down-flow to up-flow so that all the air in the system can be pushed out. Due to the limited space in the lab, there are simplifications in the apparatus set-up. Nevertheless, the apparatus still reflected the properties of the AguaClara water treatment plant. The sedimentation tube in our system had the fundamental structures of sedimentation tank in AguaClara water treatment plant, including the floc weir, floc settler, floc blanket and sludge valve. Further detail about the design of sedimentation tube can refer to the research of High Rate Sedimentation group in AguaClara. A tube flocculator was used in this research because it could be idealized as a high-Péclet-number reactor much like a baffled hydraulic flocculator, also because the average velocity gradient in laminar tube flow was well defined [(Weber-Shirk and Lion 2010)](https://www.sciencedirect.com/science/article/pii/S0043135410004136). An electronic balance had been implemented to track the quantity change of coagulant. It was connected to ProCoDA to monitor the mass shift in coagulant over time. The balance would be able to verify the amount of coagulant entered the system that was reflected in data collected by ProCoDA.
+The apparatus developed last semester was used this semester and can be seen in Figure 4 and 5. The contact chamber was reversed from down-flow to up-flow so that all the air stucked in the system can be ejected. Our apparatus set-up reflected the properties of the AguaClara water treatment plant. The sedimentation tube in our system had the fundamental structures of sedimentation tank in the AguaClara water treatment plant, including the floc weir, floc settler, floc blanket and sludge valve. Further detail about the design of sedimentation tube can refer to the research of High Rate Sedimentation group in AguaClara[(HRS report)]( ). A tube flocculator was used in this research because it was idealized as a high-Péclet-number reactor, much like a baffled hydraulic flocculator, also because the average velocity gradient in laminar tube flow was well defined [(Weber-Shirk and Lion 2010)](https://www.sciencedirect.com/science/article/pii/S0043135410004136). An electronic balance connected to ProCoDA had been implemented to track the mass change in the coagulant stock tank. The balance can verify the amount of coagulant entered the system and send data collected by ProCoDA.
 
 
 <div class="alert alert-block alert-danger">
@@ -268,6 +286,8 @@ Focus on refining the middle section for conciseness.
 ![apparatus](image/Labeleddiagram.jpg)
 
     Figure 5: Current Apparatus Set-up
+
+Handling the operation of ProCoDA software was another critical task the subteam accomplished in Fall 2017 semester. ProCoDA is a process control software that allows the user to control many parts of the experimental apparatus and collect data automatically. ProCoDA can control the speed of peristaltic pumps, regulate flow through solenoid valves, and measure water quality parameters such as turbidity by connecting to the turbidimeter. Automated data acquisition can record the speed of pumps, the turbidity of water, the mass of container to an Excel spreadsheet directly. The experiment outcomes are processed with Excel and Python codes. Increment function is a command built in ProCoDA, and it can adjust experimental parameters automatically according to the setting over time. By applying the increment function, the team can conduct series of control experiments without staying in the lab. Python codes were created to calculate coagulant dosage, the composition of clay-HA mixture, and pump speed, the code was attached to the main text.
 
 ProCoDA can only control a maximum of two pumps due to the limit port. The clay pump must be connected to the computer to achieve closed-loop control, and one of the coagulant pumps had to be controlled by ProCoDA to apply increment function. Therefore, the  humic acid and clay mixture must be controlled manually. In the experiment, clay, HA, and water were added, according to the calculated amount, into a 10 L stock tank with a stirrer. The calculated amounts can be determined from the Python code later in the report. This stock tank was connected to the clay pump. The clay pump speed was controlled by ProCoDA to maintain a relatively fixed influent turbidity. After that, a mixture of humic acid and clay went through the first turbidimeter, and influent turbidity of the raw water was measured. Subsequently, the first stream of coagulant was added right before the fluid entered the first contact chamber. However for a two stage coagulant addition experiment, the second stream of coagulant was pumped into the system after the first contact chamber.
 
