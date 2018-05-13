@@ -262,7 +262,7 @@ Du: addressed
 ### Experimental Apparatus Design
 **in process**
 
-ProCoDA (Process Control and Data Acquisition) software was used to automate data collection and control the experimental apparatus. Two up-flow contact chambers set before the fluid entered the flocculator, so that the coagulants had more time and space to collide with the particles in water. During the first stage, in the first contact chamber, coagulants collided and covered by humic acid. Initially, two pumps were placed before each contact chamber to achieve the two-stage coagulant addition. However, due to the limit port numbers in the system, we could only control two pumps at the same time, and one of them has to be the clay pump.
+ProCoDA (Process Control and Data Acquisition) software was used to automate data collection and control the experimental apparatus. Two up-flow contact chambers set before the fluid entered the flocculator, so that the coagulants had more time and space to collide with the particles in water. During the first stage, in the first contact chamber, coagulants collided and covered by humic acid. Ideally, two pumps s placed before each contact chamber to achieve the two-stage coagulant addition. However, due to the limit port numbers in the system, we could only control two pumps at the same time, and one of them has to be the clay pump.
 
 <div class="alert alert-block alert-danger">
 Revise paragraph looking for places where words like "by", "the", and "a" are either missing or used incorrectly. Also look for incorrect verb tenses. Make sure that every sentence is a full complete sentence. Pay particular attention to sentences 2, 3, and 5
