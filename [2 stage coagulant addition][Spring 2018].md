@@ -435,22 +435,14 @@ Table 4: Experimental Parameters for Figure 10
 By conducting series of control experiments, we tested the impact of humic acid, coagulant dosage and suspension type on flocculation process, we also directly compared the one-stage and two-stage coagulant addition method by carrying out one- and two-stage trials alternately.
 
 
-At this point, the lowest effluent turbidity we got for one-stage and the two-stage addition was 1.90 and 2.53 NTU respectively, both values can meet the requirement of AguaClara filtration system. Two-stage coagulant addition performed better than one-stage when dealing with high turbidity raw water with HA, it can form floc blanket in a shorter period and has lower effluent turbidity. Compared with other research teams, our method of manufacturing synthetic wastewater was different. The effect of premixing made our turbidity more difficult to remove, but we still achieve the 3 NTU goal with a relatively low coagulant dosage.
+At this point, the lowest effluent turbidity for one-stage and the two-stage addition was 1.90 and 2.53 NTU respectively, both values meet the requirement of AguaClara filtration system. Two-stage coagulant addition performed better than one-stage when in cases with high turbidity raw water with HA, as it formed floc blanket in a shorter period and had a lower effluent turbidity. Compared with other research teams, our method of manufacturing synthetic wastewater was differentc since we premixed the clay and humic acid before entering the system. The effect of premixing made the turbidity harder to remove, but we still achieved the 3 NTU goal with a relatively low coagulant dosage.
 
-In some of the trials, it was found that two-stage coagulant addition needed more time than one stage addition to forming floc blanket. However, in trials with relatively low turbidity, the formation of floc blanket was not seen when using one-stage addition while there was one when using two-stage addition. More experiments are needed to validate the existence of such trade-off.
+In some of the trials, it was found that two-stage coagulant addition needed more time than one stage addition to forming floc blanket. However, in trials with relatively low turbidity, the formation of floc blanket was not seen in one-stage addition but in two-stage addition. More experiments are needed to validate the existence of such trade-off.
 
-In general, two-stage coagulant addition transformed from a hypothesis to a valid research idea in the past academic year, it has the potential to improve the particle removal efficiency of the traditional water treatment process, and it's a research task that worth more study.
-
-<div class="alert alert-block alert-danger">
-Revise the second sentence because I don't understand what it is trying to say.
-
-Update this last paragraph at the end of research this semester.
-
--DU: the conclusion part was redid
-</div>
+In general, two-stage coagulant addition transformed from a hypothesis to a valid research in the past academic year. It not only has the potential to improve the particle removal efficiency of the traditional water treatment process, but also is a research task that worth more study.
 
 ## Future Work
-The research on two-stage coagulant addition should continue in the future. According to our study, the two-stage addition was proved to perform better than one-stage addition in some circumstance. Two-stage addition can achieve higher particle removal rate than one-stage while using the same amount of coagulant. Due to the limited time in this semester, the impact of coagulant allocation between the first and second stage has not been studied in depth. Future research group should test the performance of two-stage addition with different coagulant allocation ratio between the first and second stage, under a condition closer to the real world to guide the application of this technology in AguaClara water treatment plants.
+Further research on the effect of two-stage coagulant addition was needed to validate its advantage on efficiency. According to our study, the two-stage addition was proved to perform better than one-stage addition in some circumstance. Two-stage addition can achieve higher particle removal rate than one-stage while using the same amount of coagulant. Due to the limited time in this semester, the impact of coagulant allocation between the first and second stage has not been studied in depth. Future research group should test the performance of two-stage addition with different coagulant allocation ratio between the first and second stage, under a condition closer to the real world to guide the application of this technology in AguaClara water treatment plants.
 
 Currently the contact chamber only acted as a place for particle collision, and for defining the first and second stage addition physically, but modifying the design of contact chamber in the future could potentially increase particle removal efficiency as the current design of contact chamber is shown deficient by the contact chamber group. The up-flow contact chamber could not function as what it designed to be, experiments demonstrated that the contact chamber could not successfully reduce the wall loss of the coagulant or improve the particle removal efficiency. AguaClara uses a tube contact chamber, which can be easily fabricated by cutting a PVC tube. Without changing the general design, future groups can vary the length and diameter and study the impact.
 
@@ -516,8 +508,6 @@ Most of the fabiracation of bench area apparatus was completed in last semester,
 
 **Step 2.** Once the solution is prepared, open the water and wastewater valves, turn on turbidimeters, and let the apparatus completely filled with water, the experiment is now ready to run. Be sure to turn on the sludge pump, a 1L/s pump next to the effluent turbidimeter, to ensure that sludge is drained to the wastewater line.
 
-
-
 **Step 3.** Check important set points in ProCoDA. Set target influent turbidity, duration of data acquisition state and flushing state.
 
 **Step 4.** Open the ProCoDA software and turn the "operation state" from OFF to ON, to turn on the clay pump so the influent turbidimeter will soon reach the target influent turbidity. Once the influent turbidity fluctuates around the target influent turbidity, go back to ProCoDA and switch the state from "ON" to "Data acquisition state", the coagulant pump will be turned on. Then switch the operational mode from "Manual" to "Auto Switch".
@@ -531,8 +521,6 @@ Most of the fabiracation of bench area apparatus was completed in last semester,
 Once the experiment is done, we want to completely wash out the apparatus so it will be ready for the next experiment.
 
 **Step 1.** Turn off the clay and coagulant pumps while running the water pump with a relatively high speed, normally over 120rpm.
-
-
 
 **Step 2.** Remove entire apparatus from the wall (recirculator \& tube settler) and thoroughly wash it out, then reattach it back to the wall.
 
