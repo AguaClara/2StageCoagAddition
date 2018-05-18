@@ -332,16 +332,16 @@ The pumps ran with higher actual RPM than the value displayed on its screen when
 Consider a different heading that described the undesirable research outcome
 </div>
 
-Experiment data of one stage addition experiments did not align with the expectation initially. We expected to find the floc blanket in the sedimentation tank because the minimum coagulant dosage in the experiments was 1.5 mg/L, enough to reduce the effluent turbidity to 15 NTU or less according to past research. The formation of floc blanket was critical to the data analysis as experiment data with and without the formation of floc blanket can not compare with each other.
+Experimental data of one stage addition experiments did not align with our expectation initially. We expected to find a floc blanket in the sedimentation tank because the minimum coagulant dosage in the experiments for past research was 1.5 mg/L, enough to reduce the effluent turbidity to 15 NTU or less. The formation of a floc blanket was critical to the data analysis as experiment data with and without the formation of floc blanket can not be compared with each other.
 
-One possible explanation for the absence of floc blanket was due to the limit time of data acquisition state (detailed explanation of ProCoDA set points can be found after the main text), the system did not have enough time to form the floc blanket. Therefore, the duration of data acquisition state was extended, from 3600 seconds to 4800 seconds, and to 6000 seconds finally. Based on our observation, dense floc blanket as shown in Figure 6 was formed one hour after the coagulant was added. We found that if no floc blanket formed within two hours, it would not form later.
+One possible explanation for the absence of floc blanket was due to the limit time of data acquisition state (detailed explanation of ProCoDA set points can be found after the main text). The system did not have enough time to form a floc blanket. Therefore, the duration of data acquisition state was extended, from 3600 seconds to 4800 seconds, and to 6000 seconds finally. Based on our observation, a dense floc blanket as shown in Figure 6 was formed one hour after the coagulant was added. We concluded that if a floc blanket did not form within two hours, it would not form later.
 
 
 ![flocblanket](/image/flocblanket.jpeg)
 
     Figure 6: Floc blanket in the sedimentation tube
 
-The experiment data of one stage addition also did not exactly aligned with the floc model. By using the same HA concentration and coagulant dosage, the effluent turbiditiy was higher than the model result. After studying the experiment settings of past research and other subteams, our research was found to be the only one premixed the clay and HA to create the synthetic water, it was possible that the mechanism of particle distance and surface charge had impacted the results.
+The experiment data of one stage addition also did not exactly align with the floc model. By using the same HA concentration and coagulant dosage, the effluent turbidity was higher than the model result. After studying the experiment settings of past research and other subteams, our team realised that we were the only sub-team that premixed the clay and HA to create the synthetic water. This observation showed that it was possible that the mechanisms of particle dispersion and surface charge between humic acid and clay had impacted the results.
 
 ![datalog](/image/100NTU.png)
 
@@ -349,6 +349,8 @@ The experiment data of one stage addition also did not exactly aligned with the 
 
 <div class="alert alert-block alert-danger">
 The content and logical progression and organization of the report has gotten significantly better and much easier to follow. I have made many notes up to this point on common writing errors that propogate throughout, so from this comment forward, I will only point on limited, significant grammatical errors but encourage you to revise the rest of the report similarly to the first portion that I commented extensively.
+
+Barbara: addressed
 </div>
 
 ### Impact of surface charge
@@ -383,7 +385,7 @@ Is this a result from your experiments? If not move it to the lit review.
 
 Under the control of increment function, coagulant dosage was increased over time. Figure 9 shows the experimental data of one stage addition trial, which could be used to study the effect of coagulant dosage on floc formation. The influent turbidity was 100NTU, and the effluent turbidity reached the peak during the flush state, when floc blanket was washed out. Then, it was reduced steadily after the system switched back to data acquisition state, the floc blanket formed after coagulant entered the system (detail explanation can be found after the main text). As shown in Figure 9, with the stepwise increase of coagulant dosage, the effluent turbidity dropped faster with a steeper slope. This suggested that the floc blanket formed faster with higher coagulant dosage, which aligned with the observation.
 
-![datalog](https://github.com/AguaClara/2_stage_coag_addition/blob/master/image/dosage.png)
+![datalog](/image/dosage.png)
 
     Figure 9: Experiment result with different coagulant dosage
 
@@ -421,27 +423,26 @@ Update this last paragraph at the end of research this semester.
 </div>
 
 ## Future Work
-The current design of contact chamber is shown deficient by the contact chamber group because the two up-flow contact chambers applied could not function as what they were designed to be. Experiments demonstrated that the current design could not successfully reduce the wall loss of the coagulant or improve the particle removal efficiency. **/Du: I think this part can be kept in current section, it only reports some small findings by other group. It's the incentive of improving the design of CC**
+The research on two-stage coagulant addition should continue in the future. According to our study, the two-stage addition was proved to perform better than one-stage addition in some circumstance. Two-stage addition can achieve higher particle removal rate than one-stage while using the same amount of coagulant. Due to the limited time in this semester, the impact of coagulant allocation between the first and second stage has not been studied in depth. Future research group should test the performance of two-stage addition with different coagulant allocation ratio between the first and second stage, under a condition closer to the real world to guide the application of this technology in AguaClara water treatment plants.
 
-Although currently the contact chamber only acted as a place for particle collision, and for defining the first and second stage addition physically, modifying the design of contact chamber in the future could potentially increase particle removal efficiency. Currently, AguaClara uses a tube contact chamber, which can be easily fabricated by cutting a PVC tube. Without changing the general design, the effect of contact chamber with different length and diameter can be studied.
-
-<div class="alert alert-block alert-danger">
-Revise discussion about contact chamber to be concise and direct. I understand now it's purpose and agree it should stay, but try to streamline it. Also do you think the inversion of the contact chamber affected your results this semester?
-</div>
+Currently the contact chamber only acted as a place for particle collision, and for defining the first and second stage addition physically, but modifying the design of contact chamber in the future could potentially increase particle removal efficiency as the current design of contact chamber is shown deficient by the contact chamber group. The up-flow contact chamber could not function as what it designed to be, experiments demonstrated that the contact chamber could not successfully reduce the wall loss of the coagulant or improve the particle removal efficiency. AguaClara uses a tube contact chamber, which can be easily fabricated by cutting a PVC tube. Without changing the general design, future groups can vary the length and diameter and study the impact.
 
 The effect of pH has not been considered in the current research. However, pH could be the single most crucial factor affecting the effectiveness of metal-based coagulants[(Qin et al., 2006)](https://www.sciencedirect.com/science/article/pii/S1383586605003187?via%3Dihub). In the future, pH can be measured during the experiment by both pH meter and pH test paper. In either water treatment plant or apparatus in the lab, pH can be adjusted by applying different chemical reagent, and varying pH will allow us to see the effect of pH. On the other hand, experimental process can simulate the environment of water treatment plant if the pH value align with the water is kept constant in the plant.
 
-
-The predictive floc model developed by AguaClara is based on the past apparatus set-up and experiment process. Without considering the presence of floc blanket and the use of new tube sedimentation tank, the model cannot simulate the current experiment, and its modeling result deviates significantly from present experimental data. The ultimate goal is to revise the model to align it with the experiment in the lab well so that the up-to-date research findings provide a guide for AguaClara water treatment plant.
-
 The predictive floc model developed by AguaClara is based on the past apparatus set-up and experiment process. Without considering the presence of floc blanket and the use of new tube sedimentation tank, the model can not simulate the current experiment, and it modeling result deviates a lot from present experimental data. The ultimate goal of our group is to revise the model to make it well aligned with the experiment in the lab so that the up-to-date research findings can guide AguaClara water treatment plant.
 
+<div class="alert alert-block alert-danger">
+Revise discussion about contact chamber to be concise and direct. I understand now it's purpose and agree it should stay, but try to streamline it. Also do you think the inversion of the contact chamber affected your results this semester?
 
+addressed
 
-The research on two-stage coagulant addition should continue in the future. According to our study, the two-stage addition was proved to perform better than one-stage addition in some circumstance. Two-stage addition can achieve higher particle removal rate than one-stage while using the same amount of coagulant. Future research group should test the performance of two-stage addition in a condition closer to the real world to guide the application of this technology in AguaClara water treatment plants.
+DU: the reason for inversion was explained in the experiment part, regardless of the contact chamber's performance, the inversion did help us
+</div>
 
 <div class="alert alert-block alert-danger">
 Which of these future task do you think is the priority for next semester? Try to discuss the three ideas in order from most important to work on to least important for right now!
+
+Du: 2stage experiment should be put at the first place, I put the improvement of model at last because it is so hard, might need the cooperation between different groups, but it is a task need to be considered.
 </div>
 
 ## Bibliography
