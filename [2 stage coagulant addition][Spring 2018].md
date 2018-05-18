@@ -124,7 +124,7 @@ Remove last sentence.
 
 
 Address the bolded statement at the top and remember to delete it before the final submission.
-- I recommend moving this info down to be with the aparatus info in Methods.
+- I recommend moving this info down to be with the apparatus info in Methods.
 
 Du: all addressed
 </div>
@@ -188,6 +188,7 @@ DU: removed one previous sentence discussing particle charge, remained ones were
     Figure 2： Coagulants function as neutralizer and destabilizer
 
 PACl is used commonly in research because of its compatibility  with a majority of NOMs, low sensitivity to temperature and low residual metal-ion concentration. PACl is significantly more efficient than other chemicals in HA removal. [(Sudoh et. al., 2015)](https://www.sciencedirect.com/science/article/pii/S2213343715000871) Projects prefer using PAC also because of its low cost and high availability in both solid and liquid form. [(Bratby,2006)](https://www.sciencedirect.com/science/refhub/S0045-6535(17)31538-2/sref15)
+
 
 
 <div class="alert alert-block alert-danger">
@@ -354,13 +355,15 @@ Barbara: addressed
 </div>
 
 ### Impact of surface charge
-Due to the limited number of ProCoDA box ports, our group had to premix the clay and humic acid before pumping them into the contact chamber. The premix could lead to two possible outcomes. First, if clay particles covered by humic acid when stirred in the stock tank, the suspension should be easier to remove than usual, because some of the HA attached to clay and the number of HA particles decreased. However, according to our observation, suspension made with clay and humic acid was harder to remove than pure clay suspension. Therefore, a second hypothesis was raised. As both clay and humic acid are negatively charged, due the prior mixing, the charge density of clay particles increased after attached by humic acid, the clay particles then became more repulsive to each other. Thus, the clay particles were more dispersed, and the surface area of clay was increased, the suspension became harder to be removed by flocculation. In reality, suspension with humic acid did require more coagulant than a suspension with only clay.
+Due to the limited number of ProCoDA box ports, our group had to premix the clay and humic acid before pumping them into the contact chamber. The premix had the potential to have the following effects on our results. First, if clay particles were covered by humic acid when stirred in the stock tank, then the suspended particles should be easier to remove than usual, because more of the HA would attach to clay and the  decrease the number of HA particles. However, according to our observation, a premixed suspension of clay and humic acid was harder to remove than a pure clay suspension. Therefore, a second hypothesis was raised. As both clay and HA are negatively charged, due the prior mixing, the charge density of clay particles increased after being attached to humic acid. This meant that the clay particles became more repulsive to each other. Thus, the clay particles were more dispersed and the surface area of clay particles was increased, the suspension became harder to be removed by flocculation. In consequence, this suggested that the premixed suspension with humic acid did require more coagulant than a suspension with only clay.
 
 <div class="alert alert-block alert-danger">
 Avoid the term "limit port", describe the limitation, as the limited number of ProCoDA box ports.
+
+Barbara: addressed
 </div>
 
-Data generated with different humic acid concentration was compared in Figure 8. As shown, when there was humic acid in the suspension, the effluent turbidity decreased with a slower rate than normal, meaning the floc blanket formed more slowly. The lowest effluent turbidity was higher than suspension without HA. These observations suggested that the premixing of HA and clay made the suspension harder to remove.
+Following this notable observation, we generated data with different humic acid concentration was compared in Figure 8. As shown, when there was humic acid in the suspension, the effluent turbidity decreased with a slower rate than normal, meaning that the floc blanket formed more slowly. In addition, the lowest effluent turbidity was higher than the suspension without HA. These observations supported hypothesis that the premixing of HA and clay made the suspension harder to remove.
 
 ![datalog](/image/plot2.png)
 
@@ -389,6 +392,7 @@ Under the control of increment function, coagulant dosage was increased over tim
 
     Figure 9: Experiment result with different coagulant dosage
 
+
 <div class="alert alert-block alert-danger">
 Can't see figure 9
 </div>
@@ -397,6 +401,8 @@ Table 3: Experimental Parameter for Figure 9
 
 <div class="alert alert-block alert-danger">
 Change to "Experimetal Parameters"
+
+Barbara: in process
 </div>
 
 | Parameter | Value |
@@ -408,15 +414,20 @@ Change to "Experimetal Parameters"
 
 ## Conclusions
 
-A set of control experiments with fixed turbidity and different coagulant dosage was carried out with the increment function of ProCoDA. In general, with the current design of system, when the turbidity was relatively low, the particle removal efficiency . The target effluent turbidity of this experiment was no more than 3 NTU, in order to comply with the standard AguaClara system. Our minimum turbidity is now around 6 NTU, as we used a low coagulant dose and our method of manufacturing synthetic wastewater is different from other research groups. The effect of premixing makes our turbidity more difficult to remove."
+By conducting series of control experiments, we tested the impact of humic acid, coagulant dosage and suspension type on flocculation process, we also directly compared the one-stage and two-stage coagulant addition method by carrying out one- and two-stage trials alternately.
+
+Humic acid was proved to have a negative impact on the flocculation process, which was aligned with the existing research outcomes, the way
+
+At this point, the lowest effluent turbidity we got for one-stage and the two-stage addition was 1.90 and 2.53 respectively, both values can meet the requirement of AguaClara filtration system. Two-stage coagulant addition performed better than one-stage when dealing with high turbidity raw water with HA, it can form floc blanket in a shorter period and has lower effluent turbidity. Compared with other research teams, our method of manufacturing synthetic wastewater was different. The effect of premixing made our turbidity more difficult to remove, but we still achieve the 3 NTU goal with a relatively low coagulant dosage.
+
+In some of the trials, it was found that two-stage coagulant addition needed more time than one stage addition to forming floc blanket. However, in trials with relatively low turbidity, the formation of floc blanket was not seen when using one-stage addition while there was one when using two-stage addition. More experiments are needed to validate the existence of such trade-off.
+
+In general, two-stage coagulant addition transformed from a hypothesis to a valid research idea in the past academic year, it has the potential to improve the particle removal efficiency of the traditional water treatment process, and it's a research task that worth more study.
 
 <div class="alert alert-block alert-danger">
 Revise the second sentence because I don't understand what it is trying to say.
 </div>
 
-It was found that two-stage coagulant addition needed more time than one stage addition to form floc blanket. However, in trials with relatively low turbidity, the formation of floc blanket was not seen under the same condition when comparing one-stage and two-stage. No significant difference was observed in terms of the lowest turbidity between one stage and two stage addition experiment under the same parameters.
-
-In the rest semester, both one stage and two stage experiments would be continued. If the hypothesis of 2-stage hypothesis was validated, a model could be created to guide the amount of coagulant dosage in water treatment plant, and potentially lessen the coagulant used, which could cut down the operational cost.
 
 <div class="alert alert-block alert-danger">
 Update this last paragraph at the end of research this semester.
