@@ -83,7 +83,9 @@ Put space between words and paratheses
 
 Move in-text citation to the end of the paragraph.
 
+
 *about the in-text citation*
+
 
 Du: addressed. , I saw lots of publication did it in the middle of sentences. I think it is just fine to cite literature whenever needed
 </div>
@@ -127,9 +129,8 @@ Address the bolded statement at the top and remember to delete it before the fin
 Du: all addressed
 </div>
 
-**ADD some background for floc blanket**
 
-A floc blanket is a fluidized bed of flocs that are maintained in the bottom of an up-flow sedimentation tank. The highly concentrated suspension acts like the second flocculator that intercepts incoming clay particles. [(Weber-Shirk, 2009)](http://cuaguaclara.blogspot.com/2012/08/the-floc-blanket-quest.html) Floc blanket can help reduce the turbidity of the settled water, and improve the particle removal performance dramatically. One of AguaClara's goal was to add floc blanket in the plant. The purpose of the research was to observe the floc blanket formation in every trial.
+In AguaClara water treatment plant, it was found that at appropriate upflow velocities, solids concentrations can build in the sedimentation basin while remaining suspended. These suspensions are called floc blankets, which is a fluidized bed of flocs that are maintained in the bottom of an up-flow sedimentation tank. The highly concentrated suspension acts like the second flocculator that intercepts incoming clay particles. [(Weber-Shirk, 2009)](http://cuaguaclara.blogspot.com/2012/08/the-floc-blanket-quest.html) Floc blanket can help reduce the turbidity of the settled water, and improve the particle removal performance dramatically. One of AguaClara's goal was to add floc blanket in the plant. The research of 2SCA subteam in the Fall 2017 semester introduced floc blanket to the experiment, which was a improvement compared to the past research teams. In the 2SCA research, one of the critical experiment condition was the formation of floc blanket in the sedimentation tank.
 
 <div class="alert alert-block alert-danger">
 Revise this for floor and complete sentences.
@@ -140,12 +141,14 @@ Du: in processing
 
 ### Literature Review
 
-Flocculation reduces the repulsive potential of electrical double layer of colloid by using coagulants. As a result, colloidal microparticles develop and then agglomerate into larger flocs. **(The mechanisms of agglomeration phenomenon are various, including the coagulant's metal ions into insoluble aggregates)**[(Henderson et al., 2006)](https://www.scopus.com/record/display.uri?eid=2-s2.0-33744489650&origin=inward&txGid=aaab348399699d2ac6549079332441da).
+Flocculation reduces the repulsive potential of electrical double layer of colloid by using coagulants. As a result, colloidal microparticles develop and then agglomerate into larger flocs.[(Henderson et al., 2006)](https://www.scopus.com/record/display.uri?eid=2-s2.0-33744489650&origin=inward&txGid=aaab348399699d2ac6549079332441da).
 
 <div class="alert alert-block alert-danger">
 This is very jargon filled and would be difficult for a new member of AguaClara to understand.
 
 Remember to address and remove bolded words before final submission.
+
+-Du: right now there is only the basic definition of flocculation left.
 </div>
 
 The optimum operating conditions to remove turbidity by flocculation, such as pH and coagulant dosages, are not necessarily the same for NOM removal.[(Yan et al., 2008)](https://www.sciencedirect.com/science/article/pii/S1383586609002342?via%3Dihub) The treatment process for water containing different concentrations of NOM vary. Considering the high variability of NOM's organic components in different water sources, the removal mechanisms will substantially differ from one water source to the other or within the same source due to seasonal variations. The result will be a variable removal efficiency of coagulation and the formation of flocs with different sizes and structures[(Jarvis et al., 2006)](https://www.sciencedirect.com/science/article/pii/S0043135406002405?via%3Dihub).
@@ -162,7 +165,7 @@ Consider removing or rephrasing "Which urges the development of various water tr
 Du: addressed
 </div>
 
-**in process** The presence of NOM in water has notable effects in the dispersion of clay particles. The effect can be seen when using the particle-size distribution calculations on water with NOM present. [(PSD calculation)](https://www.innopharmalabs.com/tech/applications-and-processes/particle-size-distribution) A frequency increase in the nanoaggregate in comparison to a mixture with clay alone can be seen. However, the surface of humic acid is significantly more negative, thus creates repulsive forces between the particles, and increases the number of dispersed particles.[(Kretzschmar et. al)](https://dl.sciencesocieties.org/publications/sssaj/abstracts/61/1/SS0610010101) A direct relationship also exists between the decrease in pH and increase in sorption of humic acid.
+The presence of NOM in water has notable effects in the dispersion of clay particles. The effect can be seen when using the particle-size distribution calculations on water with NOM present. [(PSD calculation)](https://www.innopharmalabs.com/tech/applications-and-processes/particle-size-distribution) A frequency increase in the nanoaggregate in comparison to a mixture with clay alone can be seen. However, the surface of humic acid is significantly more negative, thus creates repulsive forces between the particles, and increases the number of dispersed particles.[(Kretzschmar et. al)](https://dl.sciencesocieties.org/publications/sssaj/abstracts/61/1/SS0610010101) A direct relationship also exists between the decrease in pH and increase in sorption of humic acid.
 
 <div class="alert alert-block alert-danger">
 This section seems to be repeating Yinga Du's conclusions. It may be better to trim this section down since it has already been partially discussed before.
@@ -210,13 +213,13 @@ DU: i kept the last half of the sentence because high availability in solid and 
 
 * **Humic acid** -  the representative NOM. It is the most commonly found  NOM in the natural system.
 * **Kaolin clay** - represents the colloidal solids.
-* **Polyaluminium chloride (PAC)** - the coagulant.
+* **Polyaluminium chloride (PACl)** - the coagulant.
 
 #### Variables
 
 ##### Control Variables
 **in process**
-* **Influent Turbidity** - the influent turbidity value 2SCA team evaluated was 100 NTU.
+* **Influent Turbidity** - the influent turbidity value we used was 100 NTU.
 * **Coagulant Dosages** - the increment function used in ProCoDA increased the coagulant dosages stepwise. When the run time of current state reaches the duration set in ProCoDA, the function will be activated and increase the coagulant pump speed according to the setting. Details about ProCoDA set-up can be found after the main text.
 
 <div class="alert alert-block alert-danger">
@@ -260,7 +263,7 @@ Du: addressed
 
 
 ### Experimental Apparatus Design
-**in process**
+
 
 ProCoDA (Process Control and Data Acquisition) software was used to automate data collection and control the experimental apparatus. Two up-flow contact chambers set before the fluid entered the flocculator, so that the coagulants had more time and space to collide with the particles in water. During the first stage, in the first contact chamber, coagulants collided and covered by humic acid. Ideally, two pumps s placed before each contact chamber to achieve the two-stage coagulant addition. However, due to the limit port numbers in the system, we could only control two pumps at the same time, and one of them has to be the clay pump.
 
@@ -268,13 +271,15 @@ ProCoDA (Process Control and Data Acquisition) software was used to automate dat
 Revise paragraph looking for places where words like "by", "the", and "a" are either missing or used incorrectly. Also look for incorrect verb tenses. Make sure that every sentence is a full complete sentence. Pay particular attention to sentences 2, 3, and 5
 </div>
 
-The apparatus developed last semester was used this semester and can be seen in Figure 4 and 5. The contact chamber was reversed from down-flow to up-flow so that all the air stucked in the system can be ejected. Our apparatus set-up reflected the properties of the AguaClara water treatment plant. The sedimentation tube in our system had the fundamental structures of sedimentation tank in the AguaClara water treatment plant, including the floc weir, floc settler, floc blanket and sludge valve. Further detail about the design of sedimentation tube can refer to the research of High Rate Sedimentation group in AguaClara[(HRS report)]( ). A tube flocculator was used in this research because it was idealized as a high-Péclet-number reactor, much like a baffled hydraulic flocculator, also because the average velocity gradient in laminar tube flow was well defined [(Weber-Shirk and Lion 2010)](https://www.sciencedirect.com/science/article/pii/S0043135410004136). An electronic balance connected to ProCoDA had been implemented to track the mass change in the coagulant stock tank. The balance can verify the amount of coagulant entered the system and send data collected by ProCoDA.
+As shown in Figure 5,the apparatus developed last semester was used this semester. The contact chamber was reversed from down-flow to up-flow so that air stucked in the contact chamber can be ejected. The apparatus set-up reflected the properties of the AguaClara water treatment plant. The sedimentation tube in our system had the fundamental structures of sedimentation tank in the AguaClara water treatment plant, including the floc weir, floc settler, floc blanket and sludge valve. Further detail about the design of sedimentation tube can refer to the research of High Rate Sedimentation group in AguaClara[(HRS report)]( ). A tube flocculator was used in this research because it was idealized as a high-Péclet-number reactor, much like a baffled hydraulic flocculator, also because the average velocity gradient in laminar tube flow was well defined [(Weber-Shirk and Lion 2010)](https://www.sciencedirect.com/science/article/pii/S0043135410004136). An electronic balance was set under the coagulant stock tank to track the mass change of coagulant. The balance can verify the amount of coagulant entered the system and sent data collected to ProCoDA.
 
 
 <div class="alert alert-block alert-danger">
 Revise first sentence - Consider "The apparatus developed last semester was used this semester and can be seen in Figure 4 and 5."
 
 Focus on refining the middle section for conciseness.
+
+-Du: addressed
 </div>
 
 
@@ -353,7 +358,7 @@ Due to the limited number of ProCoDA box ports, our group had to premix the clay
 Avoid the term "limit port", describe the limitation, as the limited number of ProCoDA box ports.
 </div>
 
-Data generated with different humic acid concentration was compared in Figure 8. As shown, when there was humic acid in the suspension, the effluent turbidity decreased with a slower rate than normal, meaning the floc blanket formed more slowly. The lowest effluent turbidity was higher than suspension without HA. These observations suggested that the premixing of HA and clay made the suspension harder to remove. 
+Data generated with different humic acid concentration was compared in Figure 8. As shown, when there was humic acid in the suspension, the effluent turbidity decreased with a slower rate than normal, meaning the floc blanket formed more slowly. The lowest effluent turbidity was higher than suspension without HA. These observations suggested that the premixing of HA and clay made the suspension harder to remove.
 
 ![datalog](/image/plot2.png)
 
