@@ -337,8 +337,9 @@ Experimental data of one stage addition experiments did not align with our expec
 
 One possible explanation for the absence of floc blanket was due to the limit time of data acquisition state (detailed explanation of ProCoDA set points can be found after the main text). The system did not have enough time to form a floc blanket. Therefore, the duration of data acquisition state was extended, from 3600 seconds to 4800 seconds, and to 6000 seconds finally. Based on our observation, a dense floc blanket as shown in Figure 6 was formed one hour after the coagulant was added. We concluded that if a floc blanket did not form within two hours, it would not form later.
 
+<img style="middle;transform: rotate(90deg); width:180px" src="/image/flocblanket.jpeg" />
 
-![flocblanket](/image/flocblanket.jpeg)
+
 
     Figure 6: Floc blanket in the sedimentation tube
 
@@ -393,9 +394,6 @@ Under the control of increment function, coagulant dosage was increased over tim
     Figure 9: Experiment result with different coagulant dosage
 
 
-<div class="alert alert-block alert-danger">
-Can't see figure 9
-</div>
 
 Table 3: Experimental Parameters for Figure 9
 
@@ -416,7 +414,11 @@ To compare the particle removal efficiency of one- and two-stage coagulant addit
 
 When adding 4.5mg/l coagulant into the system, both one- and two-stage addition method can keep the effluent turbidity below 3 NTU constantly. The coagulant dosage was varied around 4.5ml/l by changing the coagulant pump speed while kept the concentration of PACl in the stock tank. In those trials, two-stage addition method always performed better than one-stage, the floc size is bigger and the effluent turbidity is around 20% lower.  
 
-![datalog](/image/flocblanket.png)
+
+
+<img style="left;transform: rotate(90deg); width:150px" src="/image/flocblanket.jpg" />
+
+
 
     Figure 10: Floc Blanket Formed by Large-size Flocs
 
