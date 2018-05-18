@@ -136,7 +136,7 @@ In AguaClara water treatment plant, it was found that at appropriate upflow velo
 Revise this for floor and complete sentences.
 Du: addressed
 Also this does not have a great lead in or connection to the previous paragraphs.
-Du: in processing
+Du: addressed
 </div>
 
 ### Literature Review
@@ -370,7 +370,7 @@ Following this notable observation, we generated data with different humic acid 
     Figure 8: Experiment outcome with and without humic acid
 
 
-Table 2:  Experimental Parameter for Figure 8
+Table 2:  Experimental Parameters for Figure 8
 
 | Parameter | Value |
 | --------- | ----- |
@@ -397,12 +397,11 @@ Under the control of increment function, coagulant dosage was increased over tim
 Can't see figure 9
 </div>
 
-Table 3: Experimental Parameter for Figure 9
+Table 3: Experimental Parameters for Figure 9
 
 <div class="alert alert-block alert-danger">
 Change to "Experimetal Parameters"
 
-Barbara: in process
 </div>
 
 | Parameter | Value |
@@ -412,13 +411,16 @@ Barbara: in process
 | Target Influent Turbidity|  100NTU  |
 | Up Flow Velocity| 2mm/s|
 
+### Comparison Between One-stage and Two-stage
+To compare the particle removal efficiency of one- and two-stage coagulant addition directly, later in this semester, we manual conducted one-stage and two-stage experiment alternately, and had team members stay in the lab to monitor the variation of floc blanket and effluent turbidity.
+
+When adding 4.5mg/l coagulant into the system, both one- and two-stage addition method can keep the effluent turbidity below 3 NTU constantly. The coagulant dosage was varied around 4.5ml/l by changing the coagulant pump speed while kept the concentration of PACl in the stock tank. In those trials, two-stage addition method always performed better than one-stage. 
 ## Conclusions
 
 By conducting series of control experiments, we tested the impact of humic acid, coagulant dosage and suspension type on flocculation process, we also directly compared the one-stage and two-stage coagulant addition method by carrying out one- and two-stage trials alternately.
 
-Humic acid was proved to have a negative impact on the flocculation process, which was aligned with the existing research outcomes, the way
 
-At this point, the lowest effluent turbidity we got for one-stage and the two-stage addition was 1.90 and 2.53 respectively, both values can meet the requirement of AguaClara filtration system. Two-stage coagulant addition performed better than one-stage when dealing with high turbidity raw water with HA, it can form floc blanket in a shorter period and has lower effluent turbidity. Compared with other research teams, our method of manufacturing synthetic wastewater was different. The effect of premixing made our turbidity more difficult to remove, but we still achieve the 3 NTU goal with a relatively low coagulant dosage.
+At this point, the lowest effluent turbidity we got for one-stage and the two-stage addition was 1.90 and 2.53 NTU respectively, both values can meet the requirement of AguaClara filtration system. Two-stage coagulant addition performed better than one-stage when dealing with high turbidity raw water with HA, it can form floc blanket in a shorter period and has lower effluent turbidity. Compared with other research teams, our method of manufacturing synthetic wastewater was different. The effect of premixing made our turbidity more difficult to remove, but we still achieve the 3 NTU goal with a relatively low coagulant dosage.
 
 In some of the trials, it was found that two-stage coagulant addition needed more time than one stage addition to forming floc blanket. However, in trials with relatively low turbidity, the formation of floc blanket was not seen when using one-stage addition while there was one when using two-stage addition. More experiments are needed to validate the existence of such trade-off.
 
@@ -426,11 +428,10 @@ In general, two-stage coagulant addition transformed from a hypothesis to a vali
 
 <div class="alert alert-block alert-danger">
 Revise the second sentence because I don't understand what it is trying to say.
-</div>
 
-
-<div class="alert alert-block alert-danger">
 Update this last paragraph at the end of research this semester.
+
+-DU: the conclusion part was redid
 </div>
 
 ## Future Work
@@ -512,15 +513,15 @@ Most of the fabiracation of bench area apparatus was completed in last semester,
 **Step 6.** Once the data collected, check the catalog and turn off ProCoDA. Proceed to the cleaning procedure when experimentation is finished.
 
 ### Cleaning Procedure
- Once the experiment is done, we want to completely wash out the apparatus so it will be ready for the next experiment.
+Once the experiment is done, we want to completely wash out the apparatus so it will be ready for the next experiment.
 
- **Step 1.** Turn off the clay and coagulant pumps while running the water pump with a relatively high speed, normally over 120rpm.
+**Step 1.** Turn off the clay and coagulant pumps while running the water pump with a relatively high speed, normally over 120rpm.
 
 
 
- **Step 2.** Remove entire apparatus from the wall (recirculator \& tube settler) and thoroughly wash it out, then reattach it back to the wall.
+**Step 2.** Remove entire apparatus from the wall (recirculator \& tube settler) and thoroughly wash it out, then reattach it back to the wall.
 
- **Step 3.** Wash out the flocculator by unplugging the connection between the outflow tube from the influent turbidimeter and the flocculator, and plug-in tubing from the nearby sink to wash out the flocculator. Make sure there is a bucket at the end of the flocculator that will collect the water.
+**Step 3.** Wash out the flocculator by unplugging the connection between the outflow tube from the influent turbidimeter and the flocculator, and plug-in tubing from the nearby sink to wash out the flocculator. Make sure there is a bucket at the end of the flocculator that will collect the water.
 
  **Step 4.** Clean the influent and effluent turbidimeter. Make sure to turn on the Bypass channel first! First, open the bypass valve. Second, pinch the black outflow tube.
 
