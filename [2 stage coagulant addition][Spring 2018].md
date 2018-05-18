@@ -4,74 +4,18 @@
 
 ## Abstract
 
-Based on the modeling result and bonding mechanism of humic acid, clay and PACl coagulant, we hypothesized that two-stage coagulant addition, namely a separate coagulant addition, would increase the particle removal efficiency. The first addition of coagulant offset the effect of humic acid in water while the second stream of coagulant aggregated clay. Using the same apparatus fabricated from last semester, we conducted experiments for both one- and two-stage coagulant addition. By comparing the particle removal efficiency of different coagulant addition methods, we aim to close the debate of one stage versus two stage.
-
-<div class="alert alert-block alert-danger">
-modeling not modelling
-PACl not PAC
-make "experiment" plural
-Good last sentence
-Du- addressed
-
-Consider adding in the negative effect of humic acid (that it covers the coagulant, which inhibits clay and other particles from aggregating, which decreases efficiency of flocculation and sedimentaion)
-</div>
+Based on the modeling result and bonding mechanism of humic acid, clay and PACl coagulant, we hypothesized that two-stage coagulant addition, namely a separate coagulant addition, would increase the particle removal efficiency, which could lower operational cost for the plant. The first addition of coagulant offsets the effect of humic acid in water while the second stream of coagulant aggregates clay. Using apparatus fabricated from last semester, we conducted experiments for both one- and two-stage coagulant addition. By comparing the particle removal efficiency of different coagulant addition methods, we aim to close the debate of one stage versus two stage.
 
 ## Introduction
 
 Flocculation is among the most applied processes for water and wastewater treatment. Therefore, a thorough understanding of the physical and chemical process in flocculation is critical to the optimization of the water treatment process, and so a predictive model to describe the flocculation process is needed. However, the model built by AguaClara only considered the presence of clay and coagulant in water and failed to take natural organic matters (NOM) into consideration. NOMs compose of organic compounds from the remains and waste products of organisms such as plants and animals and are ubiquitous in the natural water system. NOMs can be generated within the water source through biological activities, or introduced to the water body via drainage within watersheds[(Hudson et al., 2007)](https://onlinelibrary.wiley.com/doi/abs/10.1002/rra.1005). The application of flocculation to remove NOM from drinking water supplies is not only efficient, but also helps to avoid the formation of disinfection by products (DBPs).[(Mika et al.,2018)](https://www.sciencedirect.com/science/article/pii/B9780128015032000033) For processes based on the use of chemicals (e.g. coagulation and oxidation), the increasing concentrations of NOM require the use of more chemicals or materials [(Xu et al. , 2016a)](https://www.sciencedirect.com/science/article/pii/S1385894715013406?via%3Dihub). This ultimately leads to the generation of more sludge or spent chemical reagents. Studying the effect of NOM on flocculation is crucial in developing flocculation processes. It can optimize the operating conditions, including coagulant dosage.
 
-<div class="alert alert-block alert-danger">
-Revise second sentence - Missing "the" before "water treatment process"
-Revise for conciceness i.e. delete "in the past" from sentence three
-Remove "are matters" after NOMS
-Consider revising the sentence "NOMS can be generated within the water source...breakdown of terrestrial organisms" - Lots of jargon and a different style than most of report
-Remove "Hence" from second to last sentence.
-Consider "It can optimize operating conditions, including coagulant dosage"
+The original floc model built by AguaCLara project team only took coagulant and clay into account, and it has been extended in this research by including the effect of NOM on flocculation in calculation by applying the revised floc model, created by Du in 2017[(Du,2017)]( ). According to the bonding mechanism between clay, humic acid (HA), and coagulant, we found that smaller particles (e.g. humic acid) move faster than larger particles (e.g. clay) in the fluid. In synthetic water composed by clay, HA and coagulant, HA collides and attaches to coagulant faster than clay. Once the coagulant surface is occupied by HA, its agglomerate performance decreases because the occupied surface cannot attach to clay or nano-aggregate anymore.
 
-Du: addressed
-</div>
+With two-stage addition method, coagulants are added to synthetic water stepwise before the fluid enters flocculator. It was assumed that after the first stage of addition was completed, all coagulant would be coated by humic acid and offset the effect of humic acid in water. Coagulant added in the second stage functions merely as the agglomerant that aggregate clay and nano-aggregate formed in the first stage to create big flocs. Therefore, two-stage coagulant addition is expected to achieve the same particle removal rate with less coagulant when compared with one-stage addition.
 
-The original floc model built by AguaCLara project team only took coagulant and clay into account, it has been extended in this research by including the effect of NOM on flocculation in calculation by applying the revise floc model, created by Du in 2017[(Du,2017)]( ). According to the bonding mechanism between clay, humic acid (HA), and coagulant, we found that smaller particles (e.g. humic acid) move faster than larger particles (e.g. clay) in the fluid. In synthetic water composed by clay, HA and coagulant, HA collides and attaches to coagulant faster than clay. Once the coagulant surface is occupied by HA, its agglomerate performance decreases because the occupied surface cannot attach to clay or nano-aggregate anymore.
-
-<div class="alert alert-block alert-danger">
-Revise first sentence for clarity - Also as a point of clarification, when you say that the effect of NOM on flocculation has been taken into account, do you meant that there is already a mathematical relationship about this phenomena done by an outside source? The first sentence implies this.
-
-Put space between words and paratheses i.e. particles (e.g. HA)
-
-Du: addressed
-</div>
-
-When using this addition method, coagulants are added to synthetic water stepwise before the fluid enters flocculator. It was assumed that after the first stage of addition completed, all coagulant would be coated by humic acid and offset the effect of humic acid in water. Coagulant added in the second stage function merely as the agglomerant that aggregate clay and nano-aggregate formed in the first stage to create big flocs. Therefore, two-stage coagulant addition is expected to achieve the same particle removal rate with less coagulant when compared with one-stage addition.
-
-<div class="alert alert-block alert-danger">
-Consider moving first sentence to the end of the paragraph because the use of "Therefore" means that you have already explained the reasoning prior to that sentence, not after as in this case.
-
-Third and fourth sentences are repetitive.
-
-Keep tenses consistent throughout paragraph
-
-Du: addressed
-</div>
 
 If the coagulant dosage can be guided by a predictive model, operating conditions of flocculation process can be optimized, and coagulant can be used more efficiently. AguaClara is an engineering project team focusing on sustainable drinking water supply in communities with limited financial capacbilities, cost is always a main concern. Using less amount of total coagulants by applying a two-stage settings is beneficial as it reduces the operational cost of water treatment plants. [(Liu et. al., 2011)](https://ieeexplore.ieee.org/document/6847925/) With the same total coagulant, when the partial amount added half-way, we found that two-stage coagulant addition can produce flocs 1.5 times the floc size comparing with one-stage. Larger flocs are easier to remove in the sedimentation process. As the floc blanket formed, the flocs were connected to form a larger and more irregular structure, making two-stage addition more time and cost efficient than one-stage.
-
-<div class="alert alert-block alert-danger">
-"Since AguaClara is an engineering project team fouses on sustainable drinking water" is a good example of improper verb use. It should be "Since AguaClara is an engineering project team that focuses on sustainable drinking water" or "Since AguaClara is an engineering project team focusing on sustainable drinking water"
-
-Try to avoid phrases like "developing regions" because the Global Health Fellows have told us that those terms are outdated. Consider "communities with limited financial capacbilities"
-
-Du: great suggestion!
-
-Consider revising second to last sentence because it is long and missing a few "the"s i.e. "With the same total coagulant, when THE partial amount was added halfway..."
-
-Revise "As the floc blanket is formed, the flocs are connected together to form a larger and more irregular structure..." - A common error throughout the report is missing words like "a" and "the"
-
-Du: addressed and revised
-
-I think you can delete this last paragraph.
-
-Du: yep, i agree, outline is unnecessary in a research report
-</div>
 
 ## Literature Review and Previous Work
 
