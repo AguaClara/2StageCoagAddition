@@ -414,7 +414,20 @@ Change to "Experimetal Parameters"
 ### Comparison Between One-stage and Two-stage
 To compare the particle removal efficiency of one- and two-stage coagulant addition directly, later in this semester, we manual conducted one-stage and two-stage experiment alternately, and had team members stay in the lab to monitor the variation of floc blanket and effluent turbidity.
 
-When adding 4.5mg/l coagulant into the system, both one- and two-stage addition method can keep the effluent turbidity below 3 NTU constantly. The coagulant dosage was varied around 4.5ml/l by changing the coagulant pump speed while kept the concentration of PACl in the stock tank. In those trials, two-stage addition method always performed better than one-stage. 
+When adding 4.5mg/l coagulant into the system, both one- and two-stage addition method can keep the effluent turbidity below 3 NTU constantly. The coagulant dosage was varied around 4.5ml/l by changing the coagulant pump speed while kept the concentration of PACl in the stock tank. In those trials, two-stage addition method always performed better than one-stage, the floc size is bigger and the effluent turbidity is around 20% lower.  
+
+![datalog](/image/flocblanket.png)
+
+    Figure 10: Floc Blanket Formed by Large-size Flocs
+
+Table 4: Experimental Parameters for Figure 10
+
+| Parameter | Value |
+| --------- | ----- |
+| Coagulant Dosage|4.0mg/L-5.0mg/L |
+| Humic Acid Concentration | 2mg/L |
+| Target Influent Turbidity|  100NTU  |
+| Up Flow Velocity| 2mm/s|
 ## Conclusions
 
 By conducting series of control experiments, we tested the impact of humic acid, coagulant dosage and suspension type on flocculation process, we also directly compared the one-stage and two-stage coagulant addition method by carrying out one- and two-stage trials alternately.
